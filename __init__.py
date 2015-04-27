@@ -14,18 +14,19 @@ sqlCon.execute("""CREATE TABLE Bruger (
                 navn TEXT,
                 telefon INT )""")
 
-sqlCon.execute("""CREATE TABLE Computer  (
-                computerid INTEGER PRIMARY KEY AUTOINCREMENT,
+sqlCon.execute("""CREATE TABLE Device  (
+                deviceid INTEGER PRIMARY KEY AUTOINCREMENT,
+                type TEXT,
                 navn TEXT,
                 tyverid INT )""")
 
 sqlCon.execute("""CREATE TABLE Loan (
                 bid INT,
-                cid INT,
+                did INT,
                 loan datetime,
                 delivered datetime,
                 FOREIGN KEY(bid) REFERENCES Bruger(brugerid),
-                FOREIGN KEY(cid) REFERENCES Computer(computerid) )""")'''
+                FOREIGN KEY(did) REFERENCES Device(deviceid) )""")'''
 try:
     sqlCon.execute("INSERT INTO Bruger(mail, navn, telefon) VALUES ('blahblah@blah.blah' , 'Casper' , '11223344')")
     conn.commit()
