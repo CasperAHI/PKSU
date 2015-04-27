@@ -2,15 +2,14 @@
 
 import sqlite3
 
-db = sqlite3.connect('/Users/Soren/Desktop/Udlånssystem/KEAbib.db')
+db = sqlite3.connect('KEAbib.db')
 c = db.cursor()
-
 def ledige():
-    l = c.execute('SELECT deviceid FROM Device WHERE (SELECT did FROM Loan WHERE delivered != null').fetchall()
+    l = c.execute('SELECT * FROM Device WHERE deviceid = (SELECT did FROM Loan WHERE delivered != null)').fetchall()
     return l
 
 def udlaant():
-    u = c.execute('SELECT deviceid FROM Device WHERE (SELECT did FROM Loan WHERE delivered = null').fetchall()
+    u = c.execute('SELECT * FROM Device WHERE deviceid = (SELECT did FROM Loan WHERE delivered = null)').fetchall()
     return u
     
 def udlaan(computerNavn, brugerNavn):
@@ -28,4 +27,4 @@ def computerHistorik(deviceNavn):
     return h
 
 print(3)
-print (udlaant())
+print (ledige())
