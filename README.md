@@ -1,3 +1,0 @@
-# PKSU
-Projekt
-Trololol
