@@ -40,16 +40,16 @@ ProjDat2015}
 \newpage
 
 \section{Abstract}
-Københavns Erhvervs Akademi has requested a better solution to loan computers and IT-equipment to their employees and students. Their current system is based on paper and is very time consuming. They are having trouble archiving them, and at the same time some of the papers have disappeared using this system. Our customer has therefore requested an IT-solution to store the information of the loaner computers. We are making a library lending system for their computers and IT-equipment, which will be used by their employees in their IT-department. We will create a database, which will store all the information. The information is, but not limited to: their users, their computers and if a computer is available or not. Our backend will be made in Python. We are still unsure if the front-end should be a website or a program, as the customer hasn’t evaluated on this request yet. \\
-
+Københavns Erhvervs Akademi has requested a better solution to loan computers and IT-equipment to their employees and students. Their current system is based on paper and is very time consuming. They are having trouble archiving them, and at the same time some of the papers have disappeared using this system. Our customer has therefore requested an IT-solution to store the information of the loaner computers. We are making a library lending system for their computers and IT-equipment, which will be used by their employees in their IT-department. We will create a database, which will store all the information. The information is: Their users, their computers and if a computer is available or not. Our backend will be made in Python. We are still unsure if the front-end should be a website or a program, as the customer hasn’t evaluated on this request yet. \\
 \section{Formål og rammer}
 Formålet ved projektet er, at vi skal lave et program eller \\ website opsat udlånssystem. Dette system skal have til formål at holde opsyn med hvilke computere der er udlånt til hvilke personer og hvilke computere der er til rådighed til at blive udlånt til ansatte eller studerende i deres database.\\
+Formålet ved projektet er, at vi skal lave et program eller website opsat udlåns-system. Dette system skal have til formål at holde opsyn med hvilke computere der er udlånt til hvilke personer og hvilke computere der er til rådighed til at blive udlånt til ansatte eller studerende i deres database.\\
 Måden vi vil gøre dette på er at lave en database der skal stå for opmagasineringen af informationerne om både computerne men også hvem der har dem eller om de er klar til at blive udlånt.\\
 Udover dette skal lave vi et program til at administrere data’en fra databasen og formidle den på en fornuftig måde overfor brugeren.\\
 Vi skal til slut lave et program eller website der så fremviser dette på en nem forståelig måde til brugeren så de kan indtaste hvilke computere der er udlånt til hvem og hvilke computere der er klar til udlåning eller hvilke computere der bliver afleveret.\\ \\
 Vi har indtryk af, at Python er en af de mest brugte sprog til databaser. Der ingen af os, som har kendskab til sproget og vi ville derfor være nød til at lære det. Dette vil gøre det svære for os at få et program som virker.\\ \\
 C++ opfører sig på nogle punkter ligesom java, da det er objekt orienteret, hvilket vil sige, at det vil gøre lærings prosessen nemmere for os. Ud fra det overblik vi har dannet, da er det meget nemt at finde information om. Her er det primært information implimentation af databaser, men også stortset alt hvad vi kan have brug for. Dog er ulempen, at ingen kender dette sprog eller har erfaringer med det, og vi har samme problematik som med Python.\\ \\
-vi er kommet frem til at programmet vil blive skrevet i python, vi besluttede dette da vi følte vi havde mest kendskab til python og vil kunne bruge det på bedre vis end de andre sprog.\pagebreak \\
+vi er kommet frem til at programmet vil blive skrevet i python, vi besluttede dette da vi følte vi havde mest kendskab til python og vil kunne bruge det på bedre vis end de andre sprog. \\
 \textbf{Functionality:} Programmet administrere udlåninger af computere i form af hvem har en computer, er en computer udlånt, og om en computer er klar til udlåning samt om hvor længe en person har haft en given computer.\\
 \textbf{Application domain:} For at løse problem doamin som er at få et bedre system end at skulle skrive manuelt ned på papir hver gang en computer skal udlånes, så skal programmet håndtere en bruger der skal låne computere ud til lånere. Dette vil programmet gøre ved hjælp af en database som har information om låneren og hvilke computere der er klar til at blive udlånt.\\
 Systemet skal udover dette også håndtere at sende en rykker ud til alle de personer som der har haft computerne i for lang tid, derfor har databasen også et timestamp der viser hvornår computeren blev udlånt og hvornår den bliver afleveret.\\
@@ -91,7 +91,9 @@ Da vi på dette tidpunkt i planlægningen kun har et udkast til hvordan vi har t
     \includegraphics[width=0.8\textwidth]{UseCaseModel}
 \end{figure} 
 
-Figur 1 illusterer brugerens råderum. Brugerne af systemet skal have adgang til de samme ting, som en eventuel administrator. Det er altså derfor ikke nødvendigt, at have en administrator. På figuren ses det, at brugeren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. På baggrund af, at vi stadig er i startfasen af kodningen af programmet, så vil det være muligt for kunden at få det ændret til, at der både skal være en 'standardbruger' og en administrator. Det kan betyde, at det kun administratoren, som kan få lov til at tilføje, redigere og slette  computere. ‘Standard' brugeren vil altså kun have mulighed for at lave et udlån, og registrere at en computer er blevet afleveret.
+Figur 1 illusterer brugerens råderum. Brugerne af systemet skal have adgang til de samme ting, som en eventuel administrator. Det er altså derfor ikke nødvendigt, at have en administrator. På figuren ses det, at brugeren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. På baggrund af, at vi stadig er i startfasen af kodningen af programmet, så vil det være muligt for kunden at få det ændret til, at der både skal være en 'standardbruger' og en administrator. Det kan betyde, at det kun administratoren, som kan få lov til at tilføje, redigere og slette  computere. ‘Standard' brugeren vil altså kun have mulighed for at lave et udlån, og registrere at en computer er blevet afleveret.\\
+\centerline{\includegraphics[scale=0.5]{BCE.png}}\\
+BCE-model
 \newpage
 \begin{table}[h]
 \caption{Use-case 1}
@@ -144,20 +146,41 @@ Figur3\\
 På ovenstående sekvensdiagram vises hvordan det nye udlånssystem kommer til at fungere ved aflevering af computer. Som det ses er processerne for denne og udlån af computer meget ens.
 \newpage
 \section{Systemdesign}
-Indtil videre er det kun databasens struktur som er blevet udviklet. Kravene til databasen er, at det skal opbevare data for brugerne, computerne, udlån og historikken for de udlånte computer. Vi lavede først de fire ovennævnte tables. Vi kom frem til den konklusion, at det ikke nemt kunne besvare de simple spørgsmål om hvilke computere var ledige uden, at man skulle slette i tablen for lån. Strukturen er blevet ændret til kun at indholde brugere, computere og lån, hvor historikken findes i lån. Det nuværende design kan også nemt udbygges, hvis kunden har flere krav.
+Systemet er bygget op om en database. Databasens struktur er blevet udviklet, så den kan besvare de spørgsmål vi har til databasen, og så det er nemt for os at udvinde den information vi eller kunden ønsker. Kravene til databasen er, at den skal opbevare data for brugerne, computerne, udlån og historikken for de udlånte computere. Vi lavede først de fire ovennævnte tables. Vi kom frem til den konklusion, at det ikke nemt kunne besvare de simple spørgsmål om hvilke computere var ledige uden, at man skulle slette i tablen for lån. Strukturen er blevet ændret til kun at indholde brugere, computere og lån, hvor historikken findes i lån. Det nuværende design kan også nemt udbygges, hvis kunden har flere krav. \\
+Vi har lavet vores backend i Python, hvor vi har lavet et program, som kan hente det data vi har brug for fra databasen. Vores Python program anvender sqlite3 biblioteket. \\
+Vi har ikke lavet brugerfladen endnu. Dette vil blive gjort i enten python som et program eller blive en hjemmeside lavet i Django.\\ Grunden til hjemmesiden vil være i Django, er fordi det kan bruge python. Det vil altså være muligt for os at anvende vores python program som backend. Vi har været i kontakt med kunden omkring det skulle være et program eller en hjemmeside. Til dette havde kunden ingen krav, og lader det være op til os. Vi er stadig i processen, hvor vi diskuterer de forskellige fordele og ulemper. En af fordelene ved at lave et python program er, at vi ikke har behov for at lære et nyt sprog, men brugerfladen vil ikke nødvendigvis bliver ligeså køn som hvis det er en hjemmeside. En Fordel ved at lave en hjemmeside er, at der kan laves en pænere brugerflade, men det er et helt nyt som vi skal lære. \\
+Vores kunde her derudover os stilt os det krav, at vi skal sikre os at der kan indsættes en underskrift i systemet. Vi har endnu ikke bestemt os for hvordan dette skal gøres. Vi skal enten få underskriften fra en touchpad/mus på en computer, eller koble en tablet til computeren og få brugeren til at skrive sin underskrift på denne. Vi har da tænkt os at opbevare billedet med underskriften i en mappe på et fællesdrev, hvor vi tilknytte de enkelte underskrifter til de der tilhørende udlån. \\
+Udestående opgaver, som mangler at bliver lavet: \\
+$\bullet$ Front-end. \\
+$\bullet$ Implementation af underskrift. \\
+$\bullet$ Program som udskriver kvittering, når en computer afleveres.
 \section{Program- og systemtest}
-Ikke implementeret endnu.
+Vi har tænkt os at dele program- og systemtest op i to. Vi vil her teste brugervenligheden og om systemet virker som det skal. Vores plan for at teste brugervenligheden er, at vi vil lave Think-Aloud test med vores kunde. Vi vil her observere, hvordan vores kunde færdes i vores system og give vores kunde flere forskellige opgaver som skal løses ved brug af vores system. Vi vil her undervejs notere de gode og dårlige ting ved systemet. Når testen med kunden er færdig, vil vi evaluere testen med kunden, og høre hvad kunden synes om systemet, eller om noget er uhensigtsmæssigt. Think Aloud testen vil blive lavet i forhold til artiklen "Thinking Aloud - User Testing by Molich". \\ \\
+Vi vil teste vores system, for at se om det virker som det er tiltænkt. Vi vil altså lave test cases for vores funktioner i python. Vi vil her f.eks. teste, om det er muligt at låne den samme computer ud til to personer på samme tid, om det er muligt at udlåne en fri computer som har været udlånt, men er blevet afleveret. Vi vil altså teste alle de essentielle funktioner, som får systemet til at fungere. Vi vil her teste systemet i forhold til de metoder, som er nævnt i artiklen "Sestoft "Systematic Software Testing" 2008".
 \section{Brugergrænseflade og interaktionsdesign}
-Ikke implementeret endnu.
-\includegraphics[scale=0.1]{1.jpg}\\
-\includegraphics[scale=0.1]{2.jpg}\\
-\includegraphics[scale=0.1]{3.jpg}\\
-\includegraphics[scale=0.1]{4.jpg}\\
-\includegraphics[scale=0.1]{5.jpg}\\ \includegraphics[scale=0.1]{6.jpg}\\ \includegraphics[scale=0.1]{7.jpg}\\ \includegraphics[scale=0.1]{8.jpg}\\
+Ikke implementeret endnu.\\
+\includegraphics[scale=0.07]{1.jpg}\\
+GUI 1\\
+\includegraphics[scale=0.07]{4.jpg}\\
+GUI 2\\
+\includegraphics[scale=0.07]{5.jpg}\\
+GUI 3\\
+\includegraphics[scale=0.07]{6.jpg}\\
+GUI 4\\
+\includegraphics[scale=0.07]{7.jpg}\\
+GUI 5\\
+\includegraphics[scale=0.07]{8.jpg}\\
+GUI 6\\\\
+På de overnstående billeder GUI 1-6 ses de ideer vi har til hvordan det kunne komme til at se ud.\\
+Dette er dog stadig kun ide face af hvordan det muligtvis kunne komme til at se ud, derfor har vi en masse forskellige GUI ideer som vi kan se forskellige gode aspekter ved.\\
+Disse billeder er en sammensætning for at se et samlet GUI således at GUI 1 og 5 udgøre vores første GUI med en drop down menu som skal give et bedre overblik over de forskellige handlinger.\\
+GUI 2,3,4,6 udgøre vores andet GUI design som fremstår på en mulig hjemmeside version hvor vi har menuerne i siden og kan komme ind på de forskellige sektioner som vist på billederne.
 \section{Projektsamarbejdet}
-Når der ses på samarbejdet mellem gruppen og kunden, ser vi det som værende ikke fyldstgørende. Dette er i den forstand, at der har været nogle uklarheder, som vi først har fået besvaret relativt sent. Det har endnu ikke været muligt for os at etablere et møde, men vi har modtaget en mail som har gjort op for nogle af uklarhederne omkring projektet. Mailen er vores umiddelbare udgangspunkt for projektet.\\
-Arbejdet internt i gruppen skrider still og roligt frem. Vi har indtil videre været ramt af eksamener og re-eksamener hvilket har sat tempoet lidt ned.\\
-For at effektivisere vores arbejde med projektet, har vi indført to faste dage hver uge, hvor vi vil sidde og udvikle IT-systemet. Dette er for at sikre, at vi kan leve op til vores egne deadlines, og nå at få den krævende viden for at få et virkende program. Vi ønsker her at lave et startmøde i gruppen, når vi mødes, hvor vi uddelegerer arbejde og sikrer os, at vi alle arbejder på relevante felter. Vi vil efter gruppearbejdet opdatere hinanden på hvad og hvor meget der er blevet lavet.\\
+Når vi ser på sammarbejdet mellem gruppen og kunden har vi haft en del problemer i forstanden at vi ikke har haft mulighed for at få et møde i før for få dage siden. Dette har vi da fået løst da vi formåede at presse på og få et møde og få langt støre klarhed omkring projektet. Før dette havde vi blot en email at arbejde ud fra dog gav den også godt udgangspunkt for hvad vi kunne starte med at arbejde med.\\
+Vi har efter dette haft bedre håndtering af arbejdet da vi har fået langt større klarhed omkring projektet. Dog har kunden til dette møde kommet med et meget pludseligt krav til projektet som vil tilføre en større mængde arbejde til projektet end forventet. Kravet var at vi skulle tilføje et underskrift system af en art til hvad vi allerede havde fået information om at lave. Dette har vi haft forskellige forslag til hvordan vi skulle løse som f.eks. Have en tablet hvor personen skriver underskrift på og gemme billedet på samme drev og med navngivning med et sagsnummer så det kan findes via databasen.\\
+Anden forslag ville kunne være at lave det hele over en hjemmeside og kode noget javascribt ind og sætte et viatuelt underskrift ind under også gemme den som et billede og arkivere på samme måde som nævnt i forslaget ovenover.\\
+For at effektivisere vores arbejde med projektet, har vi indført to faste dage hver uge, hvor vi vil sidde og udvikle IT-systemet. Dette er for at sikre, at vi kan leve op til vores egne deadlines som vi (dog kun har sat som et personligt mål da kunden ikke har en fast deadline), og nå at få den krævende viden for at få et virkende program.\\
+Vi er begyndt her at lave et startmøde i gruppen, når vi mødes, hvor vi uddelegerer arbejde og sikrer os, at vi alle arbejder på relevante felter. Vi vil efter gruppearbejdet opdatere hinanden på hvad og hvor meget der er blevet lavet.\\
 Vi mener indtil videre ikke, at vores arbejdsindsats har været god nok, og det er derfor, at vi har valgt at ændre i vores egen møde struktur og indføre to faste dage.
 \newpage
 \section{Bilag 3 - Timeline}

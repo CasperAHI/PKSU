@@ -87,50 +87,51 @@ Da vi på dette tidpunkt i planlægningen kun har et udkast til hvordan vi har t
 
 Figur 1 illusterer brugerens råderum. Brugerne af systemet skal have adgang til de samme ting, som en eventuel administrator. Det er altså derfor ikke nødvendigt, at have en administrator. På figuren ses det, at brugeren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. På baggrund af, at vi stadig er i startfasen af kodningen af programmet, så vil det være muligt for kunden at få det ændret til, at der både skal være en 'standardbruger' og en administrator. Det kan betyde, at det kun administratoren, som kan få lov til at tilføje, redigere og slette  computere. ‘Standard' brugeren vil altså kun have mulighed for at lave et udlån, og registrere at en computer er blevet afleveret.\\
 \centerline{\includegraphics[scale=0.5]{BCE.png}}\\
-BCE-model
-\newpage
+BCE-model\\
+I BCE-modellen ses det hvordan udlåneren kan interagere med interfacet. Gennem dette får han/hun dagang til funktioner, såsom udlånComputer, afleverComputer, historik, og tilføj computer. Alle disse funktioner har tildelt en metode, der udfører udlånerens hensigter.\\
+\textbf{Use-case}\\
+Følgende use-cases er udarbejdet for at beskrive det nye, og det gamle system. Deres mening er at kaste lys over fordelene ved det nye system, såvel som bagdelene ved det gamle system. \\
 \begin{table}[h]
 \caption{Use-case 1}
 \begin{tabular}{ll}
 Scenario name                 & \underline{GammeltUdåningssystem} \\ \hline
-Participating actor           & \underline{bob:Låner} \\
-instances                     & \underline{alice:Udlåner} \\ \hline
-Flow of evnets                & 1. Bob mangler en computer, da hans egen er gået \\& ned. Han henvender sig derfor til Alice for at låne en.
-\\& 2. Alice tjekker i arkivet, om der er en ledig \\& computer. Hun finder en.
-\\& 3. Alice giver Bob en seddel, som bob skal udfylde: \\& Computer Mærke og model, S/N Tyveri-ID, \\& Låner, Navn, KEA login, Afdeling, Telefon/mobil, \\& Bemærkninger Underskrift, Låners underskrift \\& KEA Servicedesk Sagsnr, Udlånt af, Dato.
-\\& 4 Alice henter computeren til Bob og arkiverer
+Participating actor           & \underline{Låner} \\
+instances                     & \underline{Udlåner} \\ \hline
+Flow of evnets                & 1. Låneren mangler en computer, da hans egen er gået \\& ned. Han henvender sig derfor til udlåneren for at låne en.
+\\& 2. Udlåneren tjekker i arkivet, om der er en ledig \\& computer. Hun finder en.
+\\& 3. Udlåneren giver låneren en seddel, som låneren skal udfylde: \\& Computer Mærke og model, S/N Tyveri-ID, \\& Låner, Navn, KEA login, Afdeling, Telefon/mobil, \\& Bemærkninger Underskrift, Låners underskrift \\& KEA Servicedesk Sagsnr, Udlånt af, Dato.
+\\& 4 Udlåneren henter computeren til låneren og arkiverer
 \\& seddelen.
 \end{tabular}
-\end{table}
-Det ses her hvordan det gamle udlånssystem var forældet, og krævede meget unødvendigt arbejde.\\ \\
+\end{table} \\
+Det ses her hvordan det gamle udlånssystem var forældet, og krævede meget unødvendigt arbejde. \\
 \begin{table}[h]
 \caption{Use-case 2}
 \begin{tabular}{ll}
 Scenario name                 & \underline{NytUdlåningssystem-Udlån} \\ \hline
-Participating actor           & \underline{bob:Låner} \\
-instances                     & \underline{alice:Udlåner}\\ \hline
-Flow of evnets                & 1. Bob mangler en computer, da hans egen er gået              	\\& ned. Han henvender sig derfor til Alice for at låne en.
-\\& 2. Alice tjekker i arkivet, om der er en ledig \\& computer. Hun finder en.
-\\& 3. Alice indtaster Bobs ID og skanner computeren.
-\\& 4 Alice henter computeren til Bob.
+Participating actor           & \underline{Låner} \\
+instances                     & \underline{Udlåner}\\ \hline
+Flow of evnets                & 1. Låneren mangler en computer, da hans egen er gået              	\\& ned. Han henvender sig derfor til udlåneren for at låne en.
+\\& 2. udlåneren tjekker i arkivet, om der er en ledig \\& computer. Hun finder en.
+\\& 3. udlåneren indtaster lånerens ID og skanner computeren.
+\\& 4 Udlåneren henter computeren til låneren.
 \end{tabular}
-\end{table}
-
-Her er samme process beskrevet, blot med brug af det nye udlånssystem. Her er det tydeligt at processen er meget hurtigere og nemmere.
+\end{table}\\
+Her er samme process beskrevet, blot med brug af det nye udlånssystem. Her er det tydeligt at processen er meget hurtigere og nemmere, da punkter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. udfyldes automatisk. Derudover er det ikke nødvendigt at arkivere fysiske kvitteringer, der har risiko for at gå tabt.
+\newpage
 \begin{table}[h]
 \caption{Use-case 3}
 \begin{tabular}{ll}
 Scenario name                 & \underline{NytUdlåningssystem-Aflevering} \\ \hline
-Participating actor           & \underline{bob:Låner} \\
-instances                     & \underline{alice:Udlåner}\\ \hline
-Flow of evnets                & 1. Bob skal aflevere en computer, som han har lånt 
-\\& ned. Han henvender sig derfor til Alice for at aflevere den.
-\\& 2. Alice indtaster Bobs brugerID og skanner computeren.
-\\& Alice arkiverer computeren
+Participating actor           & \underline{Låner} \\
+instances                     & \underline{Udlåner}\\ \hline
+Flow of evnets                & 1. Låneren skal aflevere en computer, som han har lånt.
+\\& Han henvender sig derfor til udlåneren for at aflevere den.
+\\& 2. Udlåneren indtaster lånerens brugerID og skanner computeren.
+\\& Udlåneren arkiverer computeren.
 \end{tabular}
 \end{table}
-
-Til sidst er afleveringen af Bobs computer beskrevet. Som det ses er dette også hurtigt og let.
+Til sidst er afleveringen af lånerens computer beskrevet. Som det ses er dette også hurtigt og let, da den nye afleveringsmetode, ligesom udlåningsmetoden, ikke producerer fysiske værdipapirer, der kan gå tabt. Derudover udfyldes felter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. igen automatisk.
 \newpage
 Figur2\\
 \centerline{\includegraphics[scale=0.5]{Sekvensdiagram2.png}}
@@ -166,12 +167,18 @@ GUI 5\\
 \includegraphics[scale=0.07]{8.jpg}\\
 GUI 6\\\\
 På de overnstående billeder GUI 1-6 ses de ideer vi har til hvordan det kunne komme til at se ud.\\
-Dette er dog stadig kun ide face af hvordan det muligtvis kunne komme til at se ud, derfor har vi en masse forskellige GUI ideer som vi kan se forskellige gode aspekter ved.
+Dette er dog stadig kun ide face af hvordan det muligtvis kunne komme til at se ud, derfor har vi en masse forskellige GUI ideer som vi kan se forskellige gode aspekter ved.\\
+Disse billeder er en sammensætning for at se et samlet GUI således at GUI 1 og 5 udgøre vores første GUI med en drop down menu som skal give et bedre overblik over de forskellige handlinger.\\
+GUI 2,3,4,6 udgøre vores andet GUI design som fremstår på en mulig hjemmeside version hvor vi har menuerne i siden og kan komme ind på de forskellige sektioner som vist på billederne.
+\pagebreak
 \section{Projektsamarbejdet}
-Når der ses på samarbejdet mellem gruppen og kunden, ser vi det som værende ikke fyldstgørende. Dette er i den forstand, at der har været nogle uklarheder, som vi først har fået besvaret relativt sent. Det har endnu ikke været muligt for os at etablere et møde, men vi har modtaget en mail som har gjort op for nogle af uklarhederne omkring projektet. Mailen er vores umiddelbare udgangspunkt for projektet.\\
-Arbejdet internt i gruppen skrider still og roligt frem. Vi har indtil videre været ramt af eksamener og re-eksamener hvilket har sat tempoet lidt ned.\\
-For at effektivisere vores arbejde med projektet, har vi indført to faste dage hver uge, hvor vi vil sidde og udvikle IT-systemet. Dette er for at sikre, at vi kan leve op til vores egne deadlines, og nå at få den krævende viden for at få et virkende program. Vi ønsker her at lave et startmøde i gruppen, når vi mødes, hvor vi uddelegerer arbejde og sikrer os, at vi alle arbejder på relevante felter. Vi vil efter gruppearbejdet opdatere hinanden på hvad og hvor meget der er blevet lavet.\\
-Vi mener indtil videre ikke, at vores arbejdsindsats har været god nok, og det er derfor, at vi har valgt at ændre i vores egen møde struktur og indføre to faste dage.
+Når vi ser på sammarbejdet mellem gruppen og kunden har vi haft en del problemer i forstanden at vi ikke har haft mulighed for at få et møde i før for få dage siden. Dette har vi da fået løst da vi formåede at presse på og få et møde og få langt støre klarhed omkring projektet. Før dette havde vi blot en email at arbejde ud fra dog gav den også godt udgangspunkt for hvad vi kunne starte med at arbejde med.\\
+Vi har efter dette haft bedre håndtering af arbejdet da vi har fået langt større klarhed omkring projektet. Dog har kunden til dette møde kommet med et meget pludseligt krav til projektet som vil tilføre en større mængde arbejde til projektet end forventet. Kravet var at vi skulle tilføje et underskrift system af en art til hvad vi allerede havde fået information om at lave. Dette har vi haft forskellige forslag til hvordan vi skulle løse som f.eks. Have en tablet hvor personen skriver underskrift på og gemme billedet på samme drev og med navngivning med et sagsnummer så det kan findes via databasen.\\
+Anden forslag ville kunne være at lave det hele over en hjemmeside og kode noget javascribt ind og sætte et viatuelt underskrift ind under også gemme den som et billede og arkivere på samme måde som nævnt i forslaget ovenover.\\
+For at effektivisere vores arbejde med projektet, har vi indført to faste dage hver uge, hvor vi vil sidde og udvikle IT-systemet. Dette er for at sikre, at vi kan leve op til vores egne deadlines som vi (dog kun har sat som et personligt mål da kunden ikke har en fast deadline), og nå at få den krævende viden for at få et virkende program.\\
+Vi er begyndt her at lave et startmøde i gruppen, når vi mødes, hvor vi uddelegerer arbejde og sikrer os, at vi alle arbejder på relevante felter.\\
+Vi vil efter gruppearbejdet opdatere hinanden på hvad og hvor meget der er blevet lavet. Vi vil gøre det i form af forklaring af hver persons individuelle arbejde både i form af kode eller i form af hvilken strukturering af arbejdet vi hver har lavet.\\
+Vi mener indtil videre ikke, at vores arbejdsindsats har været god nok, da vi har haft en del eksamener og reeksamener og derfor været nød til at udsætte arbejdet på projektet. det er derfor at vi har valgt, at ændre i vores egen møde struktur og indføre to faste dage om ugen.
 \newpage
 \section{Bilag 3 - Timeline}
 På nuværende tidspunkt har vores arbejde ikke været på selve programmet endnu men snarere på ideen bag den, så vi vil have en bedre forståelse af hvilket produkt vi skal ende med. Dog er vores egne deadlines sat således:\\
@@ -181,8 +188,9 @@ Vores timeline således ud:\\
 $\bullet$ Mail modtaget fra kunde 25-03-2015:\\
 Den 25. marts modtog vi mail fra kunden om hvad de ønskede sig af programmet. Kunden ønsker at få mere styr på deres proces og få elimineret deres nuværende papirseddel løsning. De ønsker, at systemet automatisk sender rykkere, men samtidig, at de også manuelt kan dette. Kunden vil gerne have, at systemet kan betjenes ved brug af en håndskanner.\\
 $\bullet$ Afholdt gruppemøde 21-04-2015:\\
-Den 21. april har vi aftalt, at vi ønsker at have den første prototype klar inden den 3. maj. Vi har endvidere aftalt at have to faste dage om ugen, hvor vi vil arbejde på projektet. Dette valg er truffet for at sikre os, at vores egen deadline vil kunne blive overholdt.
+Den 21. april har vi aftalt, at vi ønsker at have den første prototype klar inden den 3. maj. Vi har endvidere aftalt at have to faste dage om ugen, hvor vi vil arbejde på projektet. Dette valg er truffet for at sikre os, at vores egen deadline vil kunne blive overholdt.\\
 \pagebreak
+\includegraphics[scale=1]{Referat.png} 
 \section{Reviews}
 \subsection{A Rational Design Process: How and Why to Fake It}
 \textbf{Hovedpunkter}\\
