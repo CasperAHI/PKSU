@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.21)  5 MAY 2015 19:19
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.3)  5 MAY 2015 18:52
->>>>>>> origin/master
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.21)  5 MAY 2015 19:31
 entering extended mode
 **Skabelon.tex
-<<<<<<< HEAD
 (C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
@@ -21,14 +16,6 @@ ishmax, welsh, loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
-=======
-(./Skabelon.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
->>>>>>> origin/master
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -43,32 +30,19 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/utf8.def
->>>>>>> origin/master
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.dfu
->>>>>>> origin/master
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -218,11 +192,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ot1enc.dfu
->>>>>>> origin/master
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -253,11 +223,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omsenc.dfu
->>>>>>> origin/master
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -281,7 +247,6 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
@@ -296,22 +261,11 @@ Language: danish 2009/09/19 v1.3r Danish support from the babel system
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/03/24 3.9k The Babel package
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-danish/danish.ldf
-Language: danish 2009/09/19 v1.3r Danish support from the babel system
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/03/24 3.9k Babel common definitions
->>>>>>> origin/master
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
 Package babel Info: Making " an active character on input line 82.
 ))
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -322,18 +276,6 @@ Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
->>>>>>> origin/master
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -372,7 +314,6 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
@@ -384,41 +325,20 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-)
-(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
->>>>>>> origin/master
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen104
 \Hy@linkcounter=\count88
 \Hy@pagecounter=\count89
 
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
->>>>>>> origin/master
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count90
 
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
->>>>>>> origin/master
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -430,11 +350,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count91
 
-<<<<<<< HEAD
 (C:\Users\Akuma\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
->>>>>>> origin/master
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -459,63 +375,36 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
->>>>>>> origin/master
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count96
 \c@bookmark@seq@number=\count97
 
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
->>>>>>> origin/master
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
 )
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
->>>>>>> origin/master
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
->>>>>>> origin/master
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen108
 ))
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen109
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen109
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
->>>>>>> origin/master
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count98
@@ -556,18 +445,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
->>>>>>> origin/master
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
@@ -586,37 +470,13 @@ File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
->>>>>>> origin/master
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count110
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-<<<<<<< HEAD
 (C:\Users\Akuma\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
->>>>>>> origin/master
 \fancy@headwidth=\skip47
 \f@ncyO@elh=\skip48
 \f@ncyO@erh=\skip49
@@ -627,17 +487,10 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \f@ncyO@olf=\skip54
 \f@ncyO@orf=\skip55
 )
-<<<<<<< HEAD
 (C:\Users\Akuma\AppData\Roaming\MiKTeX\2.9\tex\latex\moreverb\moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/moreverb/moreverb.sty
-Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
->>>>>>> origin/master
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks22
 \verbatim@line=\toks23
@@ -647,13 +500,7 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \tab@size=\count112
 \listing@line=\count113
 )
-<<<<<<< HEAD
 (C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.aux)
-=======
-(./Skabelon.aux)
-\openout1 = `Skabelon.aux'.
-
->>>>>>> origin/master
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
@@ -671,17 +518,10 @@ LaTeX Font Info:    ... okay on input line 32.
 \AtBeginShipoutBox=\box28
 Package hyperref Info: Link coloring OFF on input line 32.
 
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
->>>>>>> origin/master
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count114
@@ -694,12 +534,7 @@ LaTeX Info: Redefining \nameref on input line 32.
 (C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.out)
 \@outlinefile=\write3
 
-<<<<<<< HEAD
 (C:\Users\Akuma\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
-=======
-
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
->>>>>>> origin/master
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen119
@@ -712,35 +547,13 @@ LaTeX Info: Redefining \nameref on input line 32.
 \MPnumerator=\count119
 \makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks25
-<<<<<<< HEAD
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 35.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-=======
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-LaTeX Font Info:    Try loading font information for U+msa on input line 35.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
->>>>>>> origin/master
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -749,419 +562,171 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.toc)
 \tf@toc=\write4
  [2]
-=======
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 37.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 37.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 37.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 37.
- [1
-
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Skab
-elon.toc)
-\tf@toc=\write4
-\openout4 = `Skabelon.toc'.
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 40.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 40.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 40.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 40.
-
-[2]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 42.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 42.
-
->>>>>>> origin/master
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-<<<<<<< HEAD
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--62
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--62
+Underfull \hbox (badness 10000) in paragraph at lines 45--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--62
+Underfull \hbox (badness 10000) in paragraph at lines 45--65
 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--65
 
  []
 
-[4] <UseCaseModel.png, id=82, 382.42876pt x 293.095pt>
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 66--71
+
+ []
+
+[5] <UseCaseModel.png, id=86, 382.42876pt x 293.095pt>
 File: UseCaseModel.png Graphic file (type png)
  <use UseCaseModel.png>
-Package pdftex.def Info: UseCaseModel.png used on input line 91.
+Package pdftex.def Info: UseCaseModel.png used on input line 94.
 (pdftex.def)             Requested size: 276.00105pt x 211.53806pt.
 
-[5 <C:/Users/Akuma/Documents/GitHub/PKSU/UseCaseModel.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 109--122
-=======
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 44.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 44.
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--56
-
- []
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 56.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 56.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 56.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 56.
-[3]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 56.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 56.
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--62
-
- []
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 79.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 79.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 79.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 79.
-[4] <UseCaseModel.png, id=83, 382.42876pt x 293.095pt>
-File: UseCaseModel.png Graphic file (type png)
- <use UseCaseModel.png>
-Package pdftex.def Info: UseCaseModel.png used on input line 85.
-(pdftex.def)             Requested size: 276.00105pt x 211.53806pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 89.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 89.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 89.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 89.
-
-[5 <./UseCaseModel.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--116
->>>>>>> origin/master
+[6 <C:/Users/Akuma/Documents/GitHub/PKSU/UseCaseModel.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 112--125
 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (16.61172pt too wide) in paragraph at lines 126--135
+Overfull \hbox (16.61172pt too wide) in paragraph at lines 129--138
 [][] 
  []
 
-[6] <Sekvensdiagram2.png, id=97, 625.33624pt x 421.575pt>
+[7] <Sekvensdiagram2.png, id=102, 625.33624pt x 421.575pt>
 File: Sekvensdiagram2.png Graphic file (type png)
 
 <use Sekvensdiagram2.png>
-Package pdftex.def Info: Sekvensdiagram2.png used on input line 140.
-=======
-Overfull \hbox (16.61172pt too wide) in paragraph at lines 120--129
-[][] 
- []
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 132.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 132.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 132.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 132.
-[6] <Sekvensdiagram2.png, id=98, 625.33624pt x 421.575pt>
-File: Sekvensdiagram2.png Graphic file (type png)
-
-<use Sekvensdiagram2.png>
-Package pdftex.def Info: Sekvensdiagram2.png used on input line 134.
->>>>>>> origin/master
+Package pdftex.def Info: Sekvensdiagram2.png used on input line 143.
 (pdftex.def)             Requested size: 312.66736pt x 210.78697pt.
- <Sekvensdiagram3.png, id=98, 622.325pt x 415.5525pt>
+
+<Sekvensdiagram3.png, id=103, 622.325pt x 415.5525pt>
 File: Sekvensdiagram3.png Graphic file (type png)
 
 <use Sekvensdiagram3.png>
-<<<<<<< HEAD
-Package pdftex.def Info: Sekvensdiagram3.png used on input line 143.
+Package pdftex.def Info: Sekvensdiagram3.png used on input line 146.
 (pdftex.def)             Requested size: 311.16173pt x 207.77574pt.
- [7 <C:/Users/Akuma/Documents/GitHub/PKSU/Sekvensdiagram2.png> <C:/Users/Akuma/
+ [8 <C:/Users/Akuma/Documents/GitHub/PKSU/Sekvensdiagram2.png> <C:/Users/Akuma/
 Documents/GitHub/PKSU/Sekvensdiagram3.png>]
-<1.jpg, id=106, 2249.40375pt x 3998.94pt>
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
+
+ []
+
+[9] <1.jpg, id=114, 2249.40375pt x 3998.94pt>
 File: 1.jpg Graphic file (type jpg)
  <use 1.jpg>
-Package pdftex.def Info: 1.jpg used on input line 152.
+Package pdftex.def Info: 1.jpg used on input line 163.
 (pdftex.def)             Requested size: 157.47435pt x 279.9544pt.
 
-<4.jpg, id=107, 5331.92pt x 2999.205pt>
+<4.jpg, id=115, 5331.92pt x 2999.205pt>
 File: 4.jpg Graphic file (type jpg)
  <use 4.jpg>
-Package pdftex.def Info: 4.jpg used on input line 154.
+Package pdftex.def Info: 4.jpg used on input line 165.
 (pdftex.def)             Requested size: 373.27254pt x 209.9658pt.
 
-<5.jpg, id=108, 5331.92pt x 2999.205pt>
+<5.jpg, id=116, 5331.92pt x 2999.205pt>
 File: 5.jpg Graphic file (type jpg)
  <use 5.jpg>
-Package pdftex.def Info: 5.jpg used on input line 156.
+Package pdftex.def Info: 5.jpg used on input line 167.
 (pdftex.def)             Requested size: 373.27254pt x 209.9658pt.
 
-<6.jpg, id=109, 5331.92pt x 2999.205pt>
+<6.jpg, id=117, 5331.92pt x 2999.205pt>
 File: 6.jpg Graphic file (type jpg)
  <use 6.jpg>
-Package pdftex.def Info: 6.jpg used on input line 158.
+Package pdftex.def Info: 6.jpg used on input line 169.
 (pdftex.def)             Requested size: 373.27254pt x 209.9658pt.
 
-<7.jpg, id=110, 5331.92pt x 2999.205pt>
+<7.jpg, id=118, 5331.92pt x 2999.205pt>
 File: 7.jpg Graphic file (type jpg)
  <use 7.jpg>
-Package pdftex.def Info: 7.jpg used on input line 160.
+Package pdftex.def Info: 7.jpg used on input line 171.
 (pdftex.def)             Requested size: 373.27254pt x 209.9658pt.
 
-<8.jpg, id=111, 5331.92pt x 2999.205pt>
+<8.jpg, id=119, 5331.92pt x 2999.205pt>
 File: 8.jpg Graphic file (type jpg)
  <use 8.jpg>
-Package pdftex.def Info: 8.jpg used on input line 162.
+Package pdftex.def Info: 8.jpg used on input line 173.
 (pdftex.def)             Requested size: 373.27254pt x 209.9658pt.
 
-Overfull \hbox (28.27254pt too wide) in paragraph at lines 151--166
+Overfull \hbox (28.27254pt too wide) in paragraph at lines 162--177
 [] 
  []
 
 
-Overfull \hbox (28.27254pt too wide) in paragraph at lines 151--166
+Overfull \hbox (28.27254pt too wide) in paragraph at lines 162--177
 [] 
  []
 
 
-Overfull \hbox (28.27254pt too wide) in paragraph at lines 151--166
+Overfull \hbox (28.27254pt too wide) in paragraph at lines 162--177
 [] 
  []
 
 
-Overfull \hbox (28.27254pt too wide) in paragraph at lines 151--166
+Overfull \hbox (28.27254pt too wide) in paragraph at lines 162--177
 [] 
  []
 
 
-Overfull \hbox (28.27254pt too wide) in paragraph at lines 151--166
+Overfull \hbox (28.27254pt too wide) in paragraph at lines 162--177
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--166
+Underfull \hbox (badness 10000) in paragraph at lines 162--177
 
  []
 
-[8 <C:/Users/Akuma/Documents/GitHub/PKSU/1.jpg>] [9 <C:/Users/Akuma/Documents/G
-itHub/PKSU/4.jpg> <C:/Users/Akuma/Documents/GitHub/PKSU/5.jpg>] [10 <C:/Users/A
-kuma/Documents/GitHub/PKSU/6.jpg> <C:/Users/Akuma/Documents/GitHub/PKSU/7.jpg>]
-[11 <C:/Users/Akuma/Documents/GitHub/PKSU/8.jpg>] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 184--195
+[10 <C:/Users/Akuma/Documents/GitHub/PKSU/1.jpg>] [11 <C:/Users/Akuma/Documents
+/GitHub/PKSU/4.jpg> <C:/Users/Akuma/Documents/GitHub/PKSU/5.jpg>] [12 <C:/Users
+/Akuma/Documents/GitHub/PKSU/6.jpg> <C:/Users/Akuma/Documents/GitHub/PKSU/7.jpg
+>] [13 <C:/Users/Akuma/Documents/GitHub/PKSU/8.jpg>] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 195--206
 
  []
 
-[13] (C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 196--1
+[15] (C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 207--1
 
  []
 
-[14])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
+[16])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
+ [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
  (C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 209.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
 Package rerunfilecheck Info: File `Skabelon.out' has not changed.
 (rerunfilecheck)             Checksum: 175E5A5014A64603571FF706F3BCF1D1;704.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
  ) 
 Here is how much of TeX's memory you used:
- 6655 strings out of 493921
- 93208 string characters out of 3144875
- 178119 words of memory out of 3000000
- 9822 multiletter control sequences out of 15000+200000
+ 6660 strings out of 493921
+ 93264 string characters out of 3144875
+ 179119 words of memory out of 3000000
+ 9825 multiletter control sequences out of 15000+200000
  11503 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,12n,43p,925b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,12n,43p,905b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Skabelon.pdf (15 pages, 21011785 bytes).
+Output written on Skabelon.pdf (17 pages, 21016139 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
  134 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-Package pdftex.def Info: Sekvensdiagram3.png used on input line 137.
-(pdftex.def)             Requested size: 311.16173pt x 207.77574pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 139.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 139.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 139.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 139.
- [7 <./Sekvensdiagram2.png> <./Sekvensdiagram3.png>]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 140.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 140.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 149.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 149.
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--152
-
- []
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 152.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 152.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 152.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 152.
-[8]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 152.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 152.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 154.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 154.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 159.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 159.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 159.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 159.
- [9]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 160.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 160.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 170.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 170.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 170.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 170.
- [10]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 170.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 170.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 171.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 171.
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--183
-
- []
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 183.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 183.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 183.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 183.
-[11]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 183.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 183.
- (./Skabelon.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 184--1
-
- []
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 1.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 1.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 1.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 1.
-[12])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 197.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 197.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 197.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 197.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
- (./Skabelon.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
-Package rerunfilecheck Info: File `Skabelon.out' has not changed.
-(rerunfilecheck)             Checksum: D5316F1E862D376A1962296C9716165B;693.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
- ) 
-Here is how much of TeX's memory you used:
- 6835 strings out of 493117
- 96035 string characters out of 6135434
- 188732 words of memory out of 5000000
- 10171 multiletter control sequences out of 15000+600000
- 11503 words of font info for 45 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 29i,12n,43p,905b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Skabelon.pdf (13 pages, 217032 bytes).
-PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> origin/master
 
