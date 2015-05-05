@@ -43,17 +43,22 @@ ProjDat2015}
 Københavns Erhvervs Akademi has requested a better solution to loan computers and IT-equipment to their employees and students. Their current system is based on paper and is very time consuming. They are having trouble archiving them, and at the same time some of the papers have disappeared using this system. Our customer has therefore requested an IT-solution to store the information of the loaner computers. We are making a library lending system for their computers and IT-equipment, which will be used by their employees in their IT-department. We will create a database, which will store all the information. The information is, but not limited to: their users, their computers and if a computer is available or not. Our backend will be made in Python. We are still unsure if the front-end should be a website or a program, as the customer hasn’t evaluated on this request yet. \\
 
 \section{Formål og rammer}
-Formålet ved projektet er, at vi skal lave et program eller website opsat udlånssystem. Dette system skal have til formål at holde opsyn med hvilke computere der er udlånt til hvilke personer og hvilke computere der er til rådighed til at blive udlånt til ansatte eller studerende i deres database.\\
+Formålet ved projektet er, at vi skal lave et program eller \\ website opsat udlånssystem. Dette system skal have til formål at holde opsyn med hvilke computere der er udlånt til hvilke personer og hvilke computere der er til rådighed til at blive udlånt til ansatte eller studerende i deres database.\\
 Måden vi vil gøre dette på er at lave en database der skal stå for opmagasineringen af informationerne om både computerne men også hvem der har dem eller om de er klar til at blive udlånt.\\
 Udover dette skal lave vi et program til at administrere data’en fra databasen og formidle den på en fornuftig måde overfor brugeren.\\
-Vi skal til slut lave et program eller website der så fremviser dette på en nem forståelig måde til brugeren så de kan indtaste hvilke computere der er udlånt til hvem og hvilke computere der er klar til udlåning eller hvilke computere der bliver afleveret.\\
-Vi har før nævnt overvejelser i programmeringssprog og vi er kommet frem til at programmet vil blive skrevet i python, vi besluttede dette da vi følte vi havde mest kendskab til python og vil kunne bruge det på bedre vis end de andre sprog.\\\\
+Vi skal til slut lave et program eller website der så fremviser dette på en nem forståelig måde til brugeren så de kan indtaste hvilke computere der er udlånt til hvem og hvilke computere der er klar til udlåning eller hvilke computere der bliver afleveret.\\ \\
+Vi har indtryk af, at Python er en af de mest brugte sprog til databaser. Der ingen af os, som har kendskab til sproget og vi ville derfor være nød til at lære det. Dette vil gøre det svære for os at få et program som virker.\\ \\
+C++ opfører sig på nogle punkter ligesom java, da det er objekt orienteret, hvilket vil sige, at det vil gøre lærings prosessen nemmere for os. Ud fra det overblik vi har dannet, da er det meget nemt at finde information om. Her er det primært information implimentation af databaser, men også stortset alt hvad vi kan have brug for. Dog er ulempen, at ingen kender dette sprog eller har erfaringer med det, og vi har samme problematik som med Python.\\ \\
+vi er kommet frem til at programmet vil blive skrevet i python, vi besluttede dette da vi følte vi havde mest kendskab til python og vil kunne bruge det på bedre vis end de andre sprog.\pagebreak \\
 \textbf{Functionality:} Programmet administrere udlåninger af computere i form af hvem har en computer, er en computer udlånt, og om en computer er klar til udlåning samt om hvor længe en person har haft en given computer.\\
-\textbf{Application domain:} Programmet håndtere om computerne er udlånt og giver et overblik over hvilke computere der skal sendes rykkere efter.
-Conditions: Systemet vil blive kodet i Python og vil være begrænoset således at det kun er udlåneren som har adgang til systemet men en låner er nød til at kontakte udlåneren for at låne en computer.\\
+\textbf{Application domain:} For at løse problem doamin som er at få et bedre system end at skulle skrive manuelt ned på papir hver gang en computer skal udlånes, så skal programmet håndtere en bruger der skal låne computere ud til lånere. Dette vil programmet gøre ved hjælp af en database som har information om låneren og hvilke computere der er klar til at blive udlånt.\\
+Systemet skal udover dette også håndtere at sende en rykker ud til alle de personer som der har haft computerne i for lang tid, derfor har databasen også et timestamp der viser hvornår computeren blev udlånt og hvornår den bliver afleveret.\\
+\textbf{Conditions:} Systemet vil blive kodet i Python og vil være begrænoset således at det kun er udlåneren som har adgang til systemet men en låner er nød til at kontakte udlåneren for at låne en computer.\\
 \textbf{Technology:} Systemet vil blive kodet i Python og vil køre over python driveren ligeledes.\\
-\textbf{Objects:} Vores overordnede problem som systemet her skal løse er at den skal gøre udlåning af computere nemmere og sikrere for kunden, i den forstand at data’en forbliver et sted når den er tastet ind og med langt mindre risici og langt nemmere at finde end det førhen har været da det var i papir form med arkiver.\\
-\textbf{Responsibility:} Systemets ansvar er, at den skal kunne bruges på samme måde som værdi papirer fx ved tyveri eller skader på selve computeren, derfor er det meget vigtigt at systemet også har en sikkerhed i databasen der sikre mod brugerfejl på databasen.
+Systemet skal være tilgængeligt til at køre på både pc og mac, og vil komme til at have en database som vil ligge på kundens drev som bliver delt ud til kundens ansatte således at alle vil kunne bruge det derfra.\\
+Som lige nævnt vil serveren være brugt via et viatuelt drev som kunden allerede selv har, som databasen og programmet vil komme til at ligge på.\\
+\textbf{Objects:} Udlåner og låner. computere og måske andre elektroniske devices.\\
+\textbf{Responsibility:} Systemets ansvar ligge i at den skal udskifte de skriftlige værdipapire(http://da.wikipedia.org/wiki/V\%C3\%A6rdipapir) som kunden før hen havde med et mere sikkert alternativ hvor dataen ikke vil kunne forsvinde lige så let som et papir udskrift.
 \section{Kravspecifikationer}
 \textbf{Funktionelle krav}\\
 $\bullet$ Scanne en stregkode og modtage et brugerID som man indtaster manuelt. \\
@@ -143,7 +148,21 @@ Indtil videre er det kun databasens struktur som er blevet udviklet. Kravene til
 \section{Program- og systemtest}
 Ikke implementeret endnu.
 \section{Brugergrænseflade og interaktionsdesign}
-Ikke implementeret endnu.
+Ikke implementeret endnu.\\
+\includegraphics[scale=0.07]{1.jpg}\\
+GUI 1\\
+\includegraphics[scale=0.07]{4.jpg}\\
+GUI 2\\
+\includegraphics[scale=0.07]{5.jpg}\\
+GUI 3\\
+\includegraphics[scale=0.07]{6.jpg}\\
+GUI 4\\
+\includegraphics[scale=0.07]{7.jpg}\\
+GUI 5\\
+\includegraphics[scale=0.07]{8.jpg}\\
+GUI 6\\\\
+På de overnstående billeder GUI 1-6 ses de ideer vi har til hvordan det kunne komme til at se ud.\\
+Dette er dog stadig kun ide face af hvordan det muligtvis kunne komme til at se ud, derfor har vi en masse forskellige GUI ideer som vi kan se forskellige gode aspekter ved.
 \section{Projektsamarbejdet}
 Når der ses på samarbejdet mellem gruppen og kunden, ser vi det som værende ikke fyldstgørende. Dette er i den forstand, at der har været nogle uklarheder, som vi først har fået besvaret relativt sent. Det har endnu ikke været muligt for os at etablere et møde, men vi har modtaget en mail som har gjort op for nogle af uklarhederne omkring projektet. Mailen er vores umiddelbare udgangspunkt for projektet.\\
 Arbejdet internt i gruppen skrider still og roligt frem. Vi har indtil videre været ramt af eksamener og re-eksamener hvilket har sat tempoet lidt ned.\\
