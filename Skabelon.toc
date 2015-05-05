@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {3}Kravspecifikationer}{4}{section.3}
 \contentsline {section}{\numberline {4}Systemdesign}{8}{section.4}
 \contentsline {section}{\numberline {5}Program- og systemtest}{8}{section.5}
-\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{8}{section.6}
+\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{9}{section.6}
 \contentsline {section}{\numberline {7}Projektsamarbejdet}{9}{section.7}
 \contentsline {section}{\numberline {8}Bilag 3 - Timeline}{10}{section.8}
 \contentsline {section}{\numberline {9}Reviews}{11}{section.9}
