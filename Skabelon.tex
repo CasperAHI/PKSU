@@ -61,27 +61,21 @@ Som lige nævnt vil serveren være brugt via et viatuelt drev som kunden allered
 \textbf{Responsibility:} Systemets ansvar ligge i at den skal udskifte de skriftlige værdipapire(http://da.wikipedia.org/wiki/V\%C3\%A6rdipapir) som kunden før hen havde med et mere sikkert alternativ hvor dataen ikke vil kunne forsvinde lige så let som et papir udskrift.
 \section{Kravspecifikationer}
 \textbf{Funktionelle krav}\\
+Funktionelle krav beskriver samspillet mellem systemet og dets omgivelser uafhængigt af dens implementation. Miljøet omfatter brugeren og ethvert andet eksternt system, som systemet interagerer med. \cite{OOSE} \\
 $\bullet$ Scanne en stregkode og modtage et brugerID som man indtaster manuelt. \\
+$\bullet$ Systemet skal kunne modtage og opbevare en underskrift.
+$\bullet$ Systemet skal kunne udskrive/sende kvittering til låneren
 $\bullet$ Udlåne og aflevere datamater. \\
 $\bullet$ Vise data for hhv. lånerne og datamater. \\
 $\bullet$ Mulighed for at redigere lånerstatus og computerstatus i databasen af en bruger af systemet. \\
-
-\textbf{Ikke funktionelle krav}\\
 $\bullet$ En hovedeside, hvor brugeren kan tilgå de forskellige funktioner.\\
-$\bullet$ Programmet vil indeholde  følgende hovedegenskaber:
-
-	$\bullet$ Udlån, der har følgende egenskaber: 
-
-		Godkend, Cancel, BrugerID, objektID (Den skannede kode)
-
-	$\bullet$ Aflevering, der har følgende egenskaber:
-
-		Godkend, Cancel, ObjektID (Den skannede kode)
-
-	$\bullet$ Status, der har følgende egenskaber:
-
-		BrugerID, Show, Cancel, ObjektID\\
+\textbf{Ikke funktionelle krav}\\
+Ikke-funktionelle krav beskriver aspekter af systemet, som ikke er direkte relateret til den funktionelle opførsel af systemet. Ikke-funktionelle krav omfatter en bred vifte af krav, der gælder for mange forskellige aspekter af systemet, fra usability til performance. \cite{OOSE}
+$\bullet$ Systemet skal kunne tilgås fra Windows 7 og 8. \\
 $\bullet$ Tilgængeligheden på programmet skal være enten via en hjemmeside eller via et fælles drev, dette vil blive uddybet efter vores møde.
+$\bullet$ Programmet skal være sikkert og ikke kunne tilgås udefra, altså skal man være forbundet til KEA's netværk.
+$\bullet$ Vores kunde ønsker, at programmet ikke kører langsomt, da "De allerede har ting som kører langsomt i forvejen".
+$\bullet$ Systemet må ikke være case-sensitive.
 \newpage
 \textbf{Use-Case-model}\\
 Da vi på dette tidpunkt i planlægningen kun har et udkast til hvordan vi har tænkt os at systemet skal se ud, er det svært at lave denne del præcis, men et udkast til hvordan det kan komme til at se ud kan være følgende:\\
