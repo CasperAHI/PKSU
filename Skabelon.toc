@@ -5,8 +5,8 @@
 \contentsline {section}{\numberline {4}Systemdesign}{8}{section.4}
 \contentsline {section}{\numberline {5}Program- og systemtest}{8}{section.5}
 \contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{8}{section.6}
-\contentsline {section}{\numberline {7}Projektsamarbejdet}{8}{section.7}
-\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{9}{section.8}
-\contentsline {section}{\numberline {9}Reviews}{10}{section.9}
-\contentsline {subsection}{\numberline {9.1}A Rational Design Process: How and Why to Fake It}{10}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Designing for Usability: Key Principles and What Designers Think}{11}{subsection.9.2}
+\contentsline {section}{\numberline {7}Projektsamarbejdet}{9}{section.7}
+\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{10}{section.8}
+\contentsline {section}{\numberline {9}Reviews}{11}{section.9}
+\contentsline {subsection}{\numberline {9.1}A Rational Design Process: How and Why to Fake It}{11}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Designing for Usability: Key Principles and What Designers Think}{12}{subsection.9.2}

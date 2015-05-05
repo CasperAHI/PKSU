@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.12)  5 MAY 2015 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.3)  5 MAY 2015 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Skabelon.tex
 (./Skabelon.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,19 +23,19 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -185,7 +185,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -216,7 +216,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -240,27 +240,27 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-danish/danish.ldf
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-danish/danish.ldf
 Language: danish 2009/09/19 v1.3r Danish support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/12/03 3.9h Babel common definitions
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
 Package babel Info: Making " an active character on input line 82.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
@@ -301,31 +301,31 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen104
 \Hy@linkcounter=\count88
 \Hy@pagecounter=\count89
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count90
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -337,7 +337,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count91
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -362,36 +362,36 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count96
 \c@bookmark@seq@number=\count97
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen108
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen109
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count98
@@ -432,38 +432,38 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count110
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip47
 \f@ncyO@elh=\skip48
 \f@ncyO@erh=\skip49
@@ -474,10 +474,10 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \f@ncyO@olf=\skip54
 \f@ncyO@orf=\skip55
 )
-(/usr/share/texlive/texmf-dist/tex/latex/moreverb/moreverb.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/moreverb/moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks22
 \verbatim@line=\toks23
@@ -486,7 +486,8 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \tab@position=\count111
 \tab@size=\count112
 \listing@line=\count113
-) (./Skabelon.aux)
+)
+(./Skabelon.aux)
 \openout1 = `Skabelon.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -506,10 +507,10 @@ LaTeX Font Info:    ... okay on input line 32.
 \AtBeginShipoutBox=\box28
 Package hyperref Info: Link coloring OFF on input line 32.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count114
@@ -523,7 +524,7 @@ LaTeX Info: Redefining \nameref on input line 32.
 \openout3 = `Skabelon.out'.
 
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen119
@@ -536,10 +537,10 @@ LaTeX Info: Redefining \nameref on input line 32.
 \MPnumerator=\count119
 \makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks25
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
@@ -547,18 +548,18 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Try loading font information for U+msa on input line 35.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining danish shorthand "|
@@ -571,7 +572,8 @@ Package babel Info: Redefining danish shorthand "~
 (babel)             in language append on input line 37.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Skabelon.toc)
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Skab
+elon.toc)
 \tf@toc=\write4
 \openout4 = `Skabelon.toc'.
 
@@ -583,7 +585,8 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language append on input line 40.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language append on input line 40.
- [2]
+
+[2]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language append on input line 42.
 Package babel Info: Redefining danish shorthand "~
@@ -692,68 +695,77 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language append on input line 141.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 143.
+(babel)             in language append on input line 150.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 143.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 145.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 145.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 147.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 147.
+(babel)             in language append on input line 150.
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language append on input line 152.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language append on input line 152.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 152.
+(babel)             in language append on input line 154.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 152.
+(babel)             in language append on input line 154.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 159.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 159.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 159.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 159.
 
 [8]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 153.
+(babel)             in language append on input line 159.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 153.
+(babel)             in language append on input line 159.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 163.
+(babel)             in language append on input line 159.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 163.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 163.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 163.
+(babel)             in language append on input line 159.
  [9]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 163.
+(babel)             in language append on input line 160.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 163.
+(babel)             in language append on input line 160.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 164.
+(babel)             in language append on input line 170.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 164.
+(babel)             in language append on input line 170.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 170.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 170.
+ [10]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 170.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 170.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 171.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 171.
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--176
+Underfull \hbox (badness 10000) in paragraph at lines 172--183
 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 176.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 176.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 176.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 176.
-[10]
+(babel)             in language append on input line 183.
+[11]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 176.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 176.
+(babel)             in language append on input line 183.
  (./Skabelon.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 177--1
+Underfull \hbox (badness 10000) in paragraph at lines 184--1
 
  []
 
@@ -765,43 +777,43 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language append on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language append on input line 1.
-[11])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
+[12])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 190.
+(babel)             in language append on input line 197.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 190.
+(babel)             in language append on input line 197.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 190.
+(babel)             in language append on input line 197.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 190.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
+(babel)             in language append on input line 197.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
  (./Skabelon.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
 Package rerunfilecheck Info: File `Skabelon.out' has not changed.
 (rerunfilecheck)             Checksum: D5316F1E862D376A1962296C9716165B;693.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
  ) 
 Here is how much of TeX's memory you used:
- 6815 strings out of 493304
- 95259 string characters out of 6139871
- 186597 words of memory out of 5000000
- 10148 multiletter control sequences out of 15000+600000
+ 6832 strings out of 493117
+ 95993 string characters out of 6135434
+ 189732 words of memory out of 5000000
+ 10168 multiletter control sequences out of 15000+600000
  11503 words of font info for 45 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 29i,12n,43p,925b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Skabelon.pdf (12 pages, 214401 bytes).
+ 1141 hyphenation exceptions out of 8191
+ 29i,12n,43p,905b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Skabelon.pdf (13 pages, 216078 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
  104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
