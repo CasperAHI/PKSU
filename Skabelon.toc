@@ -2,26 +2,11 @@
 \contentsline {section}{\numberline {1}Abstract}{3}{section.1}
 \contentsline {section}{\numberline {2}Form\IeC {\r a}l og rammer}{3}{section.2}
 \contentsline {section}{\numberline {3}Kravspecifikationer}{4}{section.3}
-<<<<<<< HEAD
 \contentsline {section}{\numberline {4}Systemdesign}{9}{section.4}
 \contentsline {section}{\numberline {5}Program- og systemtest}{9}{section.5}
 \contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{10}{section.6}
-\contentsline {section}{\numberline {7}Projektsamarbejdet}{13}{section.7}
-\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{14}{section.8}
-\contentsline {section}{\numberline {9}Reviews}{15}{section.9}
-\contentsline {subsection}{\numberline {9.1}A Rational Design Process: How and Why to Fake It}{15}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Designing for Usability: Key Principles and What Designers Think}{16}{subsection.9.2}
-=======
-\contentsline {section}{\numberline {4}Systemdesign}{8}{section.4}
-\contentsline {section}{\numberline {5}Program- og systemtest}{8}{section.5}
-\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{9}{section.6}
-\contentsline {section}{\numberline {7}Projektsamarbejdet}{12}{section.7}
-\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{13}{section.8}
-\contentsline {section}{\numberline {9}Reviews}{14}{section.9}
-\contentsline {subsection}{\numberline {9.1}A Rational Design Process: How and Why to Fake It}{14}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Designing for Usability: Key Principles and What Designers Think}{15}{subsection.9.2}
-<<<<<<< HEAD
-=======
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
+\contentsline {section}{\numberline {7}Projektsamarbejdet}{14}{section.7}
+\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{15}{section.8}
+\contentsline {section}{\numberline {9}Reviews}{16}{section.9}
+\contentsline {subsection}{\numberline {9.1}A Rational Design Process: How and Why to Fake It}{16}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Designing for Usability: Key Principles and What Designers Think}{17}{subsection.9.2}
