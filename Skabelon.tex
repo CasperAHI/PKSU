@@ -93,50 +93,51 @@ Da vi på dette tidpunkt i planlægningen kun har et udkast til hvordan vi har t
 
 Figur 1 illusterer brugerens råderum. Brugerne af systemet skal have adgang til de samme ting, som en eventuel administrator. Det er altså derfor ikke nødvendigt, at have en administrator. På figuren ses det, at brugeren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. På baggrund af, at vi stadig er i startfasen af kodningen af programmet, så vil det være muligt for kunden at få det ændret til, at der både skal være en 'standardbruger' og en administrator. Det kan betyde, at det kun administratoren, som kan få lov til at tilføje, redigere og slette  computere. ‘Standard' brugeren vil altså kun have mulighed for at lave et udlån, og registrere at en computer er blevet afleveret.\\
 \centerline{\includegraphics[scale=0.5]{BCE.png}}\\
-BCE-model
-\newpage
+BCE-model\\
+I BCE-modellen ses det hvordan udlåneren kan interagere med interfacet. Gennem dette får han/hun dagang til funktioner, såsom udlånComputer, afleverComputer, historik, og tilføj computer. Alle disse funktioner har tildelt en metode, der udfører udlånerens hensigter.\\
+\textbf{Use-case}\\
+Følgende use-cases er udarbejdet for at beskrive det nye, og det gamle system. Deres mening er at kaste lys over fordelene ved det nye system, såvel som bagdelene ved det gamle system. \\
 \begin{table}[h]
 \caption{Use-case 1}
 \begin{tabular}{ll}
 Scenario name                 & \underline{GammeltUdåningssystem} \\ \hline
-Participating actor           & \underline{bob:Låner} \\
-instances                     & \underline{alice:Udlåner} \\ \hline
-Flow of evnets                & 1. Bob mangler en computer, da hans egen er gået \\& ned. Han henvender sig derfor til Alice for at låne en.
-\\& 2. Alice tjekker i arkivet, om der er en ledig \\& computer. Hun finder en.
-\\& 3. Alice giver Bob en seddel, som bob skal udfylde: \\& Computer Mærke og model, S/N Tyveri-ID, \\& Låner, Navn, KEA login, Afdeling, Telefon/mobil, \\& Bemærkninger Underskrift, Låners underskrift \\& KEA Servicedesk Sagsnr, Udlånt af, Dato.
-\\& 4 Alice henter computeren til Bob og arkiverer
+Participating actor           & \underline{Låner} \\
+instances                     & \underline{Udlåner} \\ \hline
+Flow of evnets                & 1. Låneren mangler en computer, da hans egen er gået \\& ned. Han henvender sig derfor til udlåneren for at låne en.
+\\& 2. Udlåneren tjekker i arkivet, om der er en ledig \\& computer. Hun finder en.
+\\& 3. Udlåneren giver låneren en seddel, som låneren skal udfylde: \\& Computer Mærke og model, S/N Tyveri-ID, \\& Låner, Navn, KEA login, Afdeling, Telefon/mobil, \\& Bemærkninger Underskrift, Låners underskrift \\& KEA Servicedesk Sagsnr, Udlånt af, Dato.
+\\& 4 Udlåneren henter computeren til låneren og arkiverer
 \\& seddelen.
 \end{tabular}
-\end{table}
-Det ses her hvordan det gamle udlånssystem var forældet, og krævede meget unødvendigt arbejde.\\ \\
+\end{table} \\
+Det ses her hvordan det gamle udlånssystem var forældet, og krævede meget unødvendigt arbejde. \\
 \begin{table}[h]
 \caption{Use-case 2}
 \begin{tabular}{ll}
 Scenario name                 & \underline{NytUdlåningssystem-Udlån} \\ \hline
-Participating actor           & \underline{bob:Låner} \\
-instances                     & \underline{alice:Udlåner}\\ \hline
-Flow of evnets                & 1. Bob mangler en computer, da hans egen er gået              	\\& ned. Han henvender sig derfor til Alice for at låne en.
-\\& 2. Alice tjekker i arkivet, om der er en ledig \\& computer. Hun finder en.
-\\& 3. Alice indtaster Bobs ID og skanner computeren.
-\\& 4 Alice henter computeren til Bob.
+Participating actor           & \underline{Låner} \\
+instances                     & \underline{Udlåner}\\ \hline
+Flow of evnets                & 1. Låneren mangler en computer, da hans egen er gået              	\\& ned. Han henvender sig derfor til udlåneren for at låne en.
+\\& 2. udlåneren tjekker i arkivet, om der er en ledig \\& computer. Hun finder en.
+\\& 3. udlåneren indtaster lånerens ID og skanner computeren.
+\\& 4 Udlåneren henter computeren til låneren.
 \end{tabular}
-\end{table}
-
-Her er samme process beskrevet, blot med brug af det nye udlånssystem. Her er det tydeligt at processen er meget hurtigere og nemmere.
+\end{table}\\
+Her er samme process beskrevet, blot med brug af det nye udlånssystem. Her er det tydeligt at processen er meget hurtigere og nemmere, da punkter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. udfyldes automatisk. Derudover er det ikke nødvendigt at arkivere fysiske kvitteringer, der har risiko for at gå tabt.
+\newpage
 \begin{table}[h]
 \caption{Use-case 3}
 \begin{tabular}{ll}
 Scenario name                 & \underline{NytUdlåningssystem-Aflevering} \\ \hline
-Participating actor           & \underline{bob:Låner} \\
-instances                     & \underline{alice:Udlåner}\\ \hline
-Flow of evnets                & 1. Bob skal aflevere en computer, som han har lånt 
-\\& ned. Han henvender sig derfor til Alice for at aflevere den.
-\\& 2. Alice indtaster Bobs brugerID og skanner computeren.
-\\& Alice arkiverer computeren
+Participating actor           & \underline{Låner} \\
+instances                     & \underline{Udlåner}\\ \hline
+Flow of evnets                & 1. Låneren skal aflevere en computer, som han har lånt.
+\\& Han henvender sig derfor til udlåneren for at aflevere den.
+\\& 2. Udlåneren indtaster lånerens brugerID og skanner computeren.
+\\& Udlåneren arkiverer computeren.
 \end{tabular}
 \end{table}
-
-Til sidst er afleveringen af Bobs computer beskrevet. Som det ses er dette også hurtigt og let.
+Til sidst er afleveringen af lånerens computer beskrevet. Som det ses er dette også hurtigt og let, da den nye afleveringsmetode, ligesom udlåningsmetoden, ikke producerer fysiske værdipapirer, der kan gå tabt. Derudover udfyldes felter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. igen automatisk.
 \newpage
 Figur2\\
 \centerline{\includegraphics[scale=0.5]{Sekvensdiagram2.png}}
