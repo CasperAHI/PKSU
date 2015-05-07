@@ -60,7 +60,7 @@ Som lige nævnt vil serveren være brugt via et viatuelt drev som kunden allered
 \textbf{Objects:} Udlåner og låner. computere og måske andre elektroniske devices.\\
 \textbf{Responsibility:} Systemets ansvar ligge i at den skal udskifte de skriftlige værdipapire(http://da.wikipedia.org/wiki/V\%C3\%A6rdipapir) som kunden før hen havde med et mere sikkert alternativ hvor dataen ikke vil kunne forsvinde lige så let som et papir udskrift.
 \section{Kravspecifikationer}
-\textbf{Funktionelle krav}\\
+\subsection{Funktionelle krav}
 Funktionelle krav beskriver samspillet mellem systemet og dets omgivelser uafhængigt af dens implementation. Miljøet omfatter brugeren og ethvert andet eksternt system, som systemet interagerer med. \cite{OOSE} \\
 $\bullet$ Scanne en stregkode og modtage et brugerID som man indtaster manuelt. \\
 $\bullet$ Systemet skal kunne modtage og opbevare en underskrift.
@@ -69,12 +69,12 @@ $\bullet$ Udlåne og aflevere datamater. \\
 $\bullet$ Vise data for hhv. lånerne og datamater. \\
 $\bullet$ Mulighed for at redigere lånerstatus og computerstatus i databasen af en bruger af systemet. \\
 $\bullet$ En hovedeside, hvor brugeren kan tilgå de forskellige funktioner.\\
-\textbf{Ikke funktionelle krav}\\
-Ikke-funktionelle krav beskriver aspekter af systemet, som ikke er direkte relateret til den funktionelle opførsel af systemet. Ikke-funktionelle krav omfatter en bred vifte af krav, der gælder for mange forskellige aspekter af systemet, fra usability til performance. \cite{OOSE}
+\subsection{Ikke funktionelle krav}
+Ikke-funktionelle krav beskriver aspekter af systemet, som ikke er direkte relateret til den funktionelle opførsel af systemet. Ikke-funktionelle krav omfatter en bred vifte af krav, der gælder for mange forskellige aspekter af systemet, fra usability til performance. \cite{OOSE} \\
 $\bullet$ Systemet skal kunne tilgås fra Windows 7 og 8. \\
-$\bullet$ Tilgængeligheden på programmet skal være enten via en hjemmeside eller via et fælles drev, dette vil blive uddybet efter vores møde.
-$\bullet$ Programmet skal være sikkert og ikke kunne tilgås udefra, altså skal man være forbundet til KEA's netværk.
-$\bullet$ Vores kunde ønsker, at programmet ikke kører langsomt, da "De allerede har ting som kører langsomt i forvejen".
+$\bullet$ Tilgængeligheden på programmet skal være enten via en hjemmeside eller via et fælles drev, dette vil blive uddybet efter vores møde. \\
+$\bullet$ Programmet skal være sikkert og ikke kunne tilgås udefra, altså skal man være forbundet til KEA's netværk. \\
+$\bullet$ Vores kunde ønsker, at programmet ikke kører langsomt, da "De allerede har ting som kører langsomt i forvejen". \\
 $\bullet$ Systemet må ikke være case-sensitive.
 \newpage
 \textbf{Use-Case-model}\\
@@ -84,7 +84,6 @@ Da vi på dette tidpunkt i planlægningen kun har et udkast til hvordan vi har t
   \centering
     \includegraphics[width=0.8\textwidth]{UseCaseModel}
 \end{figure} 
-
 Figur 1 illusterer brugerens råderum. Brugerne af systemet skal have adgang til de samme ting, som en eventuel administrator. Det er altså derfor ikke nødvendigt, at have en administrator. På figuren ses det, at brugeren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. På baggrund af, at vi stadig er i startfasen af kodningen af programmet, så vil det være muligt for kunden at få det ændret til, at der både skal være en 'standardbruger' og en administrator. Det kan betyde, at det kun administratoren, som kan få lov til at tilføje, redigere og slette  computere. ‘Standard' brugeren vil altså kun have mulighed for at lave et udlån, og registrere at en computer er blevet afleveret.\\
 \centerline{\includegraphics[scale=0.5]{BCE.png}}\\
 BCE-model\\
