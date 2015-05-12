@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {3.3}Use-Case-model}{6}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Klassediagram}{8}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}BCE-Model}{8}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Sekvensdiagram}{9}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.6}Sekvensdiagram}{10}{subsection.3.6}
 \contentsline {section}{\numberline {4}Systemdesign}{11}{section.4}
 \contentsline {section}{\numberline {5}Program- og systemtest}{12}{section.5}
 \contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{13}{section.6}

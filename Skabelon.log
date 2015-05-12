@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.3)  12 MAY 2015 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.3)  12 MAY 2015 23:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -685,7 +685,7 @@ Overfull \hbox (36.97292pt too wide) in paragraph at lines 91--101
  []
 
 
-Overfull \hbox (18.52844pt too wide) in paragraph at lines 105--114
+Overfull \hbox (20.47289pt too wide) in paragraph at lines 105--114
 [][] 
  []
 
@@ -702,6 +702,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--116
 
 Underfull \hbox (badness 10000) in paragraph at lines 79--116
 
+ []
+
+
+Overfull \hbox (4.08398pt too wide) in paragraph at lines 79--116
+\OT1/cmr/m/n/10 Dette gam-le udl^^Wanssytem kr^^Zver ek-stra un^^Zd-ven-dig tid
+ fra b^^Wade l^^Waner og udl^^Waner.
  []
 
 
@@ -742,278 +748,292 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language append on input line 130.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 131.
+(babel)             in language append on input line 132.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 131.
-<BCE.png, id=142, 617.30624pt x 357.335pt>
+(babel)             in language append on input line 132.
+<BCE.png, id=143, 617.30624pt x 357.335pt>
 File: BCE.png Graphic file (type png)
  <use BCE.png>
-Package pdftex.def Info: BCE.png used on input line 134.
+Package pdftex.def Info: BCE.png used on input line 135.
 (pdftex.def)             Requested size: 310.4979pt x 179.7412pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--139
+Underfull \hbox (badness 10000) in paragraph at lines 133--140
+
+ []
+
+
+Overfull \hbox (3.00296pt too wide) in paragraph at lines 133--140
+\OT1/cmr/m/n/10 nem det-te f^^War han/hun da-gang til funk-tio-ner, s^^Wasom ud
+l^^WanComputer, af-le-verCom-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--140
 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 139.
+(babel)             in language append on input line 140.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 139.
+(babel)             in language append on input line 140.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 139.
+(babel)             in language append on input line 140.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 139.
+(babel)             in language append on input line 140.
 [8 <./BCE.png>]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language append on input line 140.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language append on input line 140.
- <Sekvensdiagram2.png, id=150, 540.0175pt x 448.67625pt>
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 140.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 140.
+ [9]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 141.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 141.
+ <Sekvensdiagram2.png, id=157, 540.0175pt x 448.67625pt>
 File: Sekvensdiagram2.png Graphic file (type png)
 
 <use Sekvensdiagram2.png>
-Package pdftex.def Info: Sekvensdiagram2.png used on input line 142.
+Package pdftex.def Info: Sekvensdiagram2.png used on input line 144.
 (pdftex.def)             Requested size: 310.4979pt x 257.98pt.
 
-<Sekvensdiagram3.png, id=151, 581.17125pt x 380.42125pt>
+<Sekvensdiagram3.png, id=158, 581.17125pt x 380.42125pt>
 File: Sekvensdiagram3.png Graphic file (type png)
 
 <use Sekvensdiagram3.png>
-Package pdftex.def Info: Sekvensdiagram3.png used on input line 148.
+Package pdftex.def Info: Sekvensdiagram3.png used on input line 150.
 (pdftex.def)             Requested size: 310.4979pt x 203.24762pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--153
-
- []
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 153.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 153.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 153.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 153.
-[9 <./Sekvensdiagram2.png> <./Sekvensdiagram3.png>]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 153.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 153.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 153.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 153.
- [10]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 154.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 154.
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--167
+Underfull \hbox (badness 10000) in paragraph at lines 142--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--167
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 155.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 155.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 155.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 155.
+[10 <./Sekvensdiagram2.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 156.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 156.
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--169
 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 167.
+(babel)             in language append on input line 169.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 167.
+(babel)             in language append on input line 169.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 167.
+(babel)             in language append on input line 169.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 167.
-[11]
+(babel)             in language append on input line 169.
+[11 <./Sekvensdiagram3.png>]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 167.
+(babel)             in language append on input line 169.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 167.
+(babel)             in language append on input line 169.
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--170
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 170.
+(babel)             in language append on input line 172.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 170.
-<1.jpg, id=169, 2249.40375pt x 3998.94pt>
+(babel)             in language append on input line 172.
+<1.jpg, id=171, 2249.40375pt x 3998.94pt>
 File: 1.jpg Graphic file (type jpg)
  <use 1.jpg>
-Package pdftex.def Info: 1.jpg used on input line 172.
+Package pdftex.def Info: 1.jpg used on input line 174.
 (pdftex.def)             Requested size: 157.47435pt x 279.9544pt.
 
-<4.jpg, id=170, 5331.92pt x 2999.205pt>
+<4.jpg, id=172, 5331.92pt x 2999.205pt>
 File: 4.jpg Graphic file (type jpg)
  <use 4.jpg>
-Package pdftex.def Info: 4.jpg used on input line 174.
+Package pdftex.def Info: 4.jpg used on input line 176.
 (pdftex.def)             Requested size: 373.27254pt x 209.9658pt.
 
-<5.jpg, id=171, 5331.92pt x 2999.205pt>
+<5.jpg, id=173, 5331.92pt x 2999.205pt>
 File: 5.jpg Graphic file (type jpg)
  <use 5.jpg>
-Package pdftex.def Info: 5.jpg used on input line 176.
+Package pdftex.def Info: 5.jpg used on input line 178.
 (pdftex.def)             Requested size: 373.27254pt x 209.9658pt.
 
-<6.jpg, id=172, 5331.92pt x 2999.205pt>
+<6.jpg, id=174, 5331.92pt x 2999.205pt>
 File: 6.jpg Graphic file (type jpg)
  <use 6.jpg>
-Package pdftex.def Info: 6.jpg used on input line 178.
+Package pdftex.def Info: 6.jpg used on input line 180.
 (pdftex.def)             Requested size: 373.27254pt x 209.9658pt.
 
-<7.jpg, id=173, 5331.92pt x 2999.205pt>
+<7.jpg, id=175, 5331.92pt x 2999.205pt>
 File: 7.jpg Graphic file (type jpg)
  <use 7.jpg>
-Package pdftex.def Info: 7.jpg used on input line 180.
+Package pdftex.def Info: 7.jpg used on input line 182.
 (pdftex.def)             Requested size: 373.27254pt x 209.9658pt.
 
-<8.jpg, id=174, 5331.92pt x 2999.205pt>
+<8.jpg, id=176, 5331.92pt x 2999.205pt>
 File: 8.jpg Graphic file (type jpg)
  <use 8.jpg>
-Package pdftex.def Info: 8.jpg used on input line 182.
+Package pdftex.def Info: 8.jpg used on input line 184.
 (pdftex.def)             Requested size: 373.27254pt x 209.9658pt.
 
-Overfull \hbox (28.27254pt too wide) in paragraph at lines 171--189
+Overfull \hbox (28.27254pt too wide) in paragraph at lines 173--191
 [] 
  []
 
 
-Overfull \hbox (28.27254pt too wide) in paragraph at lines 171--189
+Overfull \hbox (28.27254pt too wide) in paragraph at lines 173--191
 [] 
  []
 
 
-Overfull \hbox (28.27254pt too wide) in paragraph at lines 171--189
+Overfull \hbox (28.27254pt too wide) in paragraph at lines 173--191
 [] 
  []
 
 
-Overfull \hbox (28.27254pt too wide) in paragraph at lines 171--189
+Overfull \hbox (28.27254pt too wide) in paragraph at lines 173--191
 [] 
  []
 
 
-Overfull \hbox (28.27254pt too wide) in paragraph at lines 171--189
+Overfull \hbox (28.27254pt too wide) in paragraph at lines 173--191
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--189
+Underfull \hbox (badness 10000) in paragraph at lines 173--191
 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 [12]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
  [13 <./1.jpg> <./4.jpg>]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
  [14 <./5.jpg> <./6.jpg>]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
  [15 <./7.jpg> <./8.jpg>]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 189.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 197.
+(babel)             in language append on input line 199.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 197.
+(babel)             in language append on input line 199.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 197.
+(babel)             in language append on input line 199.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 197.
+(babel)             in language append on input line 199.
 [16]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 198.
+(babel)             in language append on input line 200.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 198.
- <Referat.png, id=196, 357.2547pt x 595.5048pt>
+(babel)             in language append on input line 200.
+ <Referat.png, id=198, 357.2547pt x 595.5048pt>
 File: Referat.png Graphic file (type png)
  <use Referat.png>
-Package pdftex.def Info: Referat.png used on input line 208.
+Package pdftex.def Info: Referat.png used on input line 210.
 (pdftex.def)             Requested size: 357.25381pt x 595.50336pt.
 
-Overfull \hbox (12.25381pt too wide) in paragraph at lines 199--209
+Overfull \hbox (12.25381pt too wide) in paragraph at lines 201--211
 [] 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 211.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 211.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 211.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 211.
 [17]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 211.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 211.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 211.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 211.
  [18 <./Referat.png>]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 211.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 211.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 210.
+(babel)             in language append on input line 212.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 210.
+(babel)             in language append on input line 212.
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--222
+Underfull \hbox (badness 10000) in paragraph at lines 213--224
 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 222.
+(babel)             in language append on input line 224.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 222.
+(babel)             in language append on input line 224.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 222.
+(babel)             in language append on input line 224.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 222.
+(babel)             in language append on input line 224.
 [19]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 222.
+(babel)             in language append on input line 224.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 222.
+(babel)             in language append on input line 224.
  (./Skabelon.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 223--1
+Underfull \hbox (badness 10000) in paragraph at lines 225--1
 
  []
 
@@ -1026,28 +1046,28 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language append on input line 1.
 [20])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 236.
+(babel)             in language append on input line 238.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 236.
+(babel)             in language append on input line 238.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language append on input line 236.
+(babel)             in language append on input line 238.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language append on input line 236.
+(babel)             in language append on input line 238.
  [21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
  (./Skabelon.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
 Package rerunfilecheck Info: File `Skabelon.out' has not changed.
 (rerunfilecheck)             Checksum: 6AE5782CEAF9B1B996D88E2B8D4EDDB4;1146.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
  ) 
 Here is how much of TeX's memory you used:
  6901 strings out of 493117
  96721 string characters out of 6135434
- 189739 words of memory out of 5000000
+ 190739 words of memory out of 5000000
  10210 multiletter control sequences out of 15000+600000
  11503 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1058,10 +1078,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Skabelon.pdf (21 pages, 21153303 bytes).
+Output written on Skabelon.pdf (21 pages, 21154062 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
+ 265 PDF objects out of 1000 (max. 8388607)
+ 217 compressed objects within 3 object streams
  53 named destinations out of 1000 (max. 500000)
  200 words of extra memory for PDF output out of 10000 (max. 10000000)
 
