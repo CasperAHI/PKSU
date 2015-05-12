@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.3)  13 MAY 2015 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.3)  13 MAY 2015 00:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -851,6 +851,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--175
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--175
+
+ []
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language append on input line 175.
 Package babel Info: Redefining danish shorthand "~
@@ -1091,7 +1096,7 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Skabelon.pdf (21 pages, 21193928 bytes).
+Output written on Skabelon.pdf (21 pages, 21193926 bytes).
 PDF statistics:
  268 PDF objects out of 1000 (max. 8388607)
  219 compressed objects within 3 object streams
