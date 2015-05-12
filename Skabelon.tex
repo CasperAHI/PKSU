@@ -59,7 +59,7 @@ Systemet skal være tilgængeligt til at køre på både pc og mac, og vil komme
 \textbf{Responsibility:} Systemets ansvar ligger i, at den skal udskifte skriftlige udlånssedler, som fungerer som værdipapirer hos kunden. Dette system skal være et mere sikkert system, hvor data/sedler ikke vil kunne forsvinde, som det gør for dem nu.
 \section{Kravspecifikationer}
 \subsection{Funktionelle krav}
-Funktionelle krav beskriver samspillet mellem systemet og dets omgivelser uafhængigt af dens implementation. Miljøet omfatter brugeren og ethvert andet eksternt system, som systemet interagerer med. \cite{OOSE} \\
+Funktionelle krav beskriver samspillet mellem systemet og dets omgivelser uafhængigt af dens implementation. Miljøet omfatter brugeren og ethvert andet eksternt system, som systemet interagerer med. \cite{OOSE}. De funktionelle krav beskriver altså, hvordan system skal køre. Vi har altså en liste af de ting, som er forventet systemet skal kunne.\\
 $\bullet$ Systemet skal kunne skanne en stregkode og modtage et brugerID som man indtaster manuelt. \\
 $\bullet$ Systemet skal kunne modtage og opbevare en underskrift. \\
 $\bullet$ Systemet skal kunne udskrive/sende kvittering til låneren \\
@@ -68,24 +68,22 @@ $\bullet$ Systemet skal kunne vise data for hhv. lånerne og datamater. \\
 $\bullet$ Systemet skal kunne have mulighed for at redigere lånerstatus og computerstatus i databasen af en bruger af systemet. \\
 $\bullet$ Systemet skal have en hovedeside, hvor brugeren kan tilgå de forskellige funktioner.\\
 \subsection{Ikke funktionelle krav}
-Ikke-funktionelle krav beskriver aspekter af systemet, som ikke er direkte relateret til den funktionelle opførsel af systemet. Ikke-funktionelle krav omfatter en bred vifte af krav, der gælder for mange forskellige aspekter af systemet, fra usability til performance. \cite{OOSE}{119} \\
+Ikke-funktionelle krav beskriver aspekter af systemet, som ikke er direkte relateret til den funktionelle opførsel af systemet. Ikke-funktionelle krav omfatter en bred vifte af krav, der gælder for mange forskellige aspekter af systemet, fra usability til performance. \cite{OOSE}{119} \\ De ikke funktionelle krav, er lidt omvendt i forhold til de hvad funktionelle krav beskriver. De ikke funktionelle krav beskriver altså ikke hvad systemet skal kunne, men hvordan det skal kunne køre. Det er altså kravne til det miljø, som systemet skal køre i. \\
 $\bullet$ Systemet skal kunne tilgås fra Windows 7 og 8. \\
 $\bullet$ Tilgængeligheden på programmet skal være enten via en hjemmeside eller via et fælles drev, dette vil blive uddybet efter vores møde. \\
-$\bullet$ Programmet skal være sikkert og ikke kunne tilgås udefra, altså skal man være forbundet til KEA's netværk. \\
-$\bullet$ Vores kunde ønsker, at programmet ikke kører langsomt, da "De allerede har ting som kører langsomt i forvejen". \\
-$\bullet$ Systemet må ikke være case-sensitive.
+$\bullet$ Programmet skal være sikkert, altså skal det ikke kunne hackes eller kunne tilgås udefra, altså skal man være forbundet til KEA's netværk. Det skal også være sikkert ved, at der ikke mistes data i systemet. \\
+$\bullet$ Programmet må ikke køre langsomt, da. der i forvejen er for mange it-systemer kunden bruger der kører for langsomt. \\
+$\bullet$ Systemet må ikke være case-sensitive. Systemet må altså ikke skelne mellem store og små bogstaver ved inputs. Dette er for at undgå brugerfejl. 
 \newpage
-\textbf{Use-Case-model}\\
-Da vi på dette tidpunkt i planlægningen kun har et udkast til hvordan vi har tænkt os at systemet skal se ud, er det svært at lave denne del præcis, men et udkast til hvordan det kan komme til at se ud kan være følgende:\\
+\subsection{Use-Case-model}
+Use cases beskriver opførelsen af systemet, som set fra en Actor’s synspunkt. En Actor er en extern entity som interagere med systemet. En use case beskriver en funktion i systemet som en del af flere events, som giver Actor et visuelt resultat. En Actor starter en use case når de tilgår systemets funktionalitet. En use case kan starte en ny use case, og derfra hente mere information fra Actor.\cite{OOSE}{42} \\ \\
+Vi har lavet følgende udkast, som er et udtryk for, hvordan vi forventer vores system vil køre:\\ \\
 \begin{figure}[h!]
+\includegraphics[width=0.8\textwidth]{UseCaseModel}
   \caption{Use-Case-Model}
   \centering
-    \includegraphics[width=0.8\textwidth]{UseCaseModel}
-\end{figure} 
-Figur 1 illusterer brugerens råderum. Brugerne af systemet skal have adgang til de samme ting, som en eventuel administrator. Det er altså derfor ikke nødvendigt, at have en administrator. På figuren ses det, at brugeren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. På baggrund af, at vi stadig er i startfasen af kodningen af programmet, så vil det være muligt for kunden at få det ændret til, at der både skal være en 'standardbruger' og en administrator. Det kan betyde, at det kun administratoren, som kan få lov til at tilføje, redigere og slette  computere. ‘Standard' brugeren vil altså kun have mulighed for at lave et udlån, og registrere at en computer er blevet afleveret.\\
-\centerline{\includegraphics[scale=0.5]{BCE.png}}\\
-BCE-model\\
-I BCE-modellen ses det hvordan udlåneren kan interagere med interfacet. Gennem dette får han/hun dagang til funktioner, såsom udlånComputer, afleverComputer, historik, og tilføj computer. Alle disse funktioner har tildelt en metode, der udfører udlånerens hensigter.\\
+\end{figure}  \\ \\
+Figur 1 illusterer brugerens råderum. På figuren ses det, at brugeren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. Låneren har mulighed for at igang sætte et lån, eller aflevere en computer. Dette kan de gøre ved at henvende sig til en udlåner. Brugerne af vores system, skal have adgang til alle systemets funktioner. Der bliver derfor ikke skelnet i brugerrettigheder. \\
 \textbf{Use-case}\\
 Følgende use-cases er udarbejdet for at beskrive det nye, og det gamle system. Deres mening er at kaste lys over fordelene ved det nye system, såvel som bagdelene ved det gamle system. \\
 \begin{table}[h]
@@ -128,13 +126,29 @@ Flow of evnets                & 1. Låneren skal aflevere en computer, som han h
 \\& Udlåneren arkiverer computeren.
 \end{tabular}
 \end{table}
-Til sidst er afleveringen af lånerens computer beskrevet. Som det ses er dette også hurtigt og let, da den nye afleveringsmetode, ligesom udlåningsmetoden, ikke producerer fysiske værdipapirer, der kan gå tabt. Derudover udfyldes felter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. igen automatisk.
+Til sidst er afleveringen af lånerens computer beskrevet. Som det ses er dette også hurtigt og let, da den nye afleveringsmetode, ligesom udlåningsmetoden, ikke producerer fysiske værdipapirer, der kan gå tabt. Derudover udfyldes felter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. igen automatisk. \\
+\subsection{Klassediagram}
+\subsection{BCE-Model}
+Entity objekter repræsenterer vedvarende oplysninger der registreres af systemet. Boundary objekter repræsenterer samspillet mellem aktører og systemet. Control objekter er ansvarlig for at realisere use cases. Modellering af systemet med Entity, Boundary og Control objekter giver udviklere enkel heuristik til at skelne mellem forskellige, men beslægtede begreber.\cite{OOSE}{171}
+\begin{figure}[h!]
+\includegraphics[width=0.9\textwidth]{BCE.png}
+  \caption{BCE-Model}
+  \centering
+\end{figure}
+I BCE-modellen ses det hvordan udlåneren kan interagere med interfacet. Gennem dette får han/hun dagang til funktioner, såsom udlånComputer, afleverComputer, historik, og tilføj computer. Alle disse funktioner har tildelt en metode, der udfører udlånerens hensigter.\\
 \newpage
-Figur2\\
-\centerline{\includegraphics[scale=0.5]{Sekvensdiagram2.png}}
+\subsection{Sekvensdiagram}
+\begin{figure}[h!]
+\includegraphics[width=0.9\textwidth]{Sekvensdiagram2.png}
+  \caption{Sekvensdiagram-1}
+  \centering
+\end{figure}
 På ovenstående sekvensdiagram vises hvordan det nye udlånssystem kommer til at fungere ved udlån af computer. \\
-Figur3\\
-\centerline{\includegraphics[scale=0.5]{Sekvensdiagram3.png}}
+\begin{figure}[h!]
+\includegraphics[width=0.9\textwidth]{Sekvensdiagram3.png}
+  \caption{Sekvensdiagram-2}
+  \centering
+\end{figure} \\ \\
 På ovenstående sekvensdiagram vises hvordan det nye udlånssystem kommer til at fungere ved aflevering af computer. Som det ses er processerne for denne og udlån af computer meget ens.
 \newpage
 \section{Systemdesign}

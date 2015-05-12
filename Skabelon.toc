@@ -5,11 +5,15 @@
 \contentsline {section}{\numberline {3}Kravspecifikationer}{4}{section.3}
 \contentsline {subsection}{\numberline {3.1}Funktionelle krav}{4}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Ikke funktionelle krav}{4}{subsection.3.2}
-\contentsline {section}{\numberline {4}Systemdesign}{9}{section.4}
-\contentsline {section}{\numberline {5}Program- og systemtest}{10}{section.5}
-\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{11}{section.6}
-\contentsline {section}{\numberline {7}Projektsamarbejdet}{14}{section.7}
-\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{15}{section.8}
-\contentsline {section}{\numberline {9}Reviews}{17}{section.9}
-\contentsline {subsection}{\numberline {9.1}A Rational Design Process: How and Why to Fake It}{17}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Designing for Usability: Key Principles and What Designers Think}{18}{subsection.9.2}
+\contentsline {subsection}{\numberline {3.3}Use-Case-model}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Klassediagram}{8}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}BCE-Model}{8}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Sekvensdiagram}{9}{subsection.3.6}
+\contentsline {section}{\numberline {4}Systemdesign}{11}{section.4}
+\contentsline {section}{\numberline {5}Program- og systemtest}{12}{section.5}
+\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{13}{section.6}
+\contentsline {section}{\numberline {7}Projektsamarbejdet}{16}{section.7}
+\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{17}{section.8}
+\contentsline {section}{\numberline {9}Reviews}{19}{section.9}
+\contentsline {subsection}{\numberline {9.1}A Rational Design Process: How and Why to Fake It}{19}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Designing for Usability: Key Principles and What Designers Think}{20}{subsection.9.2}
