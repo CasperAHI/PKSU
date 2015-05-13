@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{OOSE}
+Bruegge and Dutoit.
+\newblock Object-oriented software engineering - using uml, patterns and java,
+  2010.
+
+\bibitem{Mockup}
+Pelle Ehn and Morten Kyng.
+\newblock Scardboard computers: Mocking-it-up or hands-on the future, 1991.
+
+\bibitem{UseDesign}
+John~D. Gould and Clayton Lewis.
+\newblock Designing for usability: Key principles and what designers think,
+  March 1985.
+
+\bibitem{SoftwareTest}
+Peter Sestoft.
+\newblock Systematic software testing, 2008.
+
+\bibitem{Scrum}
+Jeff Sutherland.
+\newblock Scrum handbook.
+
+\end{thebibliography}
