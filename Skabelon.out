@@ -1,5 +1,6 @@
 \BOOKMARK [1][-]{section.1}{Abstract}{}% 1
 \BOOKMARK [1][-]{section.2}{Form\345l og rammer}{}% 2
+<<<<<<< HEAD
 \BOOKMARK [1][-]{section.3}{Kravspecifikationer}{}% 3
 \BOOKMARK [2][-]{subsection.3.1}{Funktionelle krav}{section.3}% 4
 \BOOKMARK [2][-]{subsection.3.2}{Ikke funktionelle krav}{section.3}% 5
@@ -14,3 +15,21 @@
 \BOOKMARK [2][-]{subsection.10.2}{Designing for Usability: Key Principles and What Designers Think}{section.10}% 14
 \BOOKMARK [2][-]{subsection.10.3}{No Silver Bullet}{section.10}% 15
 \BOOKMARK [2][-]{subsection.10.4}{The M.A.D. Experience}{section.10}% 16
+=======
+\BOOKMARK [2][-]{subsection.2.1}{FACTOR Analyse}{section.2}% 3
+\BOOKMARK [1][-]{section.3}{Kravspecifikationer}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Funktionelle krav}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Ikke funktionelle krav}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.3}{Use-Case-model}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.4}{Klassediagram}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.5}{BCE-Model}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.6}{Sekvensdiagram}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Systemdesign}{}% 11
+\BOOKMARK [1][-]{section.5}{Program- og systemtest}{}% 12
+\BOOKMARK [1][-]{section.6}{Brugergr\346nseflade og interaktionsdesign}{}% 13
+\BOOKMARK [1][-]{section.7}{Projektsamarbejdet}{}% 14
+\BOOKMARK [1][-]{section.8}{Bilag 3 - Timeline}{}% 15
+\BOOKMARK [1][-]{section.9}{Reviews}{}% 16
+\BOOKMARK [2][-]{subsection.9.1}{A Rational Design Process: How and Why to Fake It}{section.9}% 17
+\BOOKMARK [2][-]{subsection.9.2}{Designing for Usability: Key Principles and What Designers Think}{section.9}% 18
+>>>>>>> origin/master

@@ -40,80 +40,76 @@ ProjDat2015}
 \newpage
 
 \section{Abstract}
-Københavns Erhvervs Akademi has requested a better solution to loan computers and IT-equipment to their employees and students. Their current system is based on paper and is very time consuming. They are having trouble archiving them, and at the same time some of the papers have disappeared using this system. Our customer has therefore requested an IT-solution to store the information of the loaner computers. We are making a library lending system for their computers and IT-equipment, which will be used by their employees in their IT-department. We will create a database, which will store all the information. The information is: Their users, their computers and if a computer is available or not. Our backend will be made in Python. We are still unsure if the front-end should be a website or a program, as the customer hasn’t evaluated on this request yet. \\
+Københavns Erhvervs Akademi has requested a better solution to loan computers and IT-equipment to their employees and students. Their current system is based on paper and is very time consuming. They are having trouble archiving them, and at the same time some of the papers have disappeared using this system. Our customer has therefore requested an IT-solution to store the information of the loaner computers. We are making a library lending system for their computers and IT-equipment, which will be used by their employees in their IT-department. We will create a database, which will store all the information. The information is: Their users, their computers and if a computer is available or not. Our backend will be made in Python. Our costumer has requested us to create a front-end to our liking. \\
 \section{Formål og rammer}
 Formålet ved projektet er, at vi skal lave et program eller website opsat udlåns-system. Dette system skal have til formål at holde opsyn med hvilke computere der er udlånt til hvilke personer og hvilke computere der er til rådighed til at blive udlånt til ansatte eller studerende i deres database.\\
 Formålet ved projektet er, at vi skal lave et program eller website opsat udlåns-system. Dette system skal have til formål at holde opsyn med hvilke computere der er udlånt til hvilke personer og hvilke computere der er til rådighed til at blive udlånt til ansatte eller studerende i deres database.\\
 Måden vi vil gøre dette på er at lave en database der skal stå for opmagasineringen af informationerne om både computerne men også hvem der har dem eller om de er klar til at blive udlånt.\\
 Udover dette skal lave vi et program til at administrere data’en fra databasen og formidle den på en fornuftig måde overfor brugeren.\\
 Vi skal til slut lave et program eller website der så fremviser dette på en nem forståelig måde til brugeren så de kan indtaste hvilke computere der er udlånt til hvem og hvilke computere der er klar til udlåning eller hvilke computere der bliver afleveret.\\ \\
-Vi har indtryk af, at Python er en af de mest brugte sprog til databaser. Der ingen af os, som har kendskab til sproget og vi ville derfor være nød til at lære det. Dette vil gøre det svære for os at få et program som virker.\\ \\
-C++ opfører sig på nogle punkter ligesom java, da det er objekt orienteret, hvilket vil sige, at det vil gøre lærings prosessen nemmere for os. Ud fra det overblik vi har dannet, da er det meget nemt at finde information om. Her er det primært information implimentation af databaser, men også stortset alt hvad vi kan have brug for. Dog er ulempen, at ingen kender dette sprog eller har erfaringer med det, og vi har samme problematik som med Python.\\ \\
-vi er kommet frem til at programmet vil blive skrevet i python, vi besluttede dette da vi følte vi havde mest kendskab til python og vil kunne bruge det på bedre vis end de andre sprog. \\
-\textbf{Functionality:} Programmet administrere udlåninger af computere i form af hvem har en computer, er en computer udlånt, og om en computer er klar til udlåning samt om hvor længe en person har haft en given computer.\\
-\textbf{Application domain:} For at løse problem doamin som er at få et bedre system end at skulle skrive manuelt ned på papir hver gang en computer skal udlånes, så skal programmet håndtere en bruger der skal låne computere ud til lånere. Dette vil programmet gøre ved hjælp af en database som har information om låneren og hvilke computere der er klar til at blive udlånt.\\
+\subsection{FACTOR Analyse}
+\textbf{Functionality:} Programmet administrere udlån af computere i form af hvem har en computer, er en computer udlånt, og om en computer er klar til udlån samt om hvor længe en person har haft en given computer.\\
+\textbf{Application domain:} For at løse problem domain som er at få et bedre system end at skulle skrive manuelt ned på papir hver gang en computer skal udlånes, så skal programmet håndtere en bruger der skal låne computere ud til lånere. Dette vil programmet gøre ved hjælp af en database som har information om låneren og hvilke computere der er klar til at blive udlånt.\\
 Systemet skal udover dette også håndtere at sende en rykker ud til alle de personer som der har haft computerne i for lang tid, derfor har databasen også et timestamp der viser hvornår computeren blev udlånt og hvornår den bliver afleveret.\\
-\textbf{Conditions:} Systemet vil blive kodet i Python og vil være begrænoset således at det kun er udlåneren som har adgang til systemet men en låner er nød til at kontakte udlåneren for at låne en computer.\\
+\textbf{Conditions:} Systemet vil blive kodet i Python og vil være begrænset således at det kun er udlåneren som har adgang til systemet, men en låner er nød til at kontakte udlåneren for at låne en computer.\\
 \textbf{Technology:} Systemet vil blive kodet i Python og vil køre over python driveren ligeledes.\\
 Systemet skal være tilgængeligt til at køre på både pc og mac, og vil komme til at have en database som vil ligge på kundens drev som bliver delt ud til kundens ansatte således at alle vil kunne bruge det derfra.\\
-Som lige nævnt vil serveren være brugt via et viatuelt drev som kunden allerede selv har, som databasen og programmet vil komme til at ligge på.\\
+\\
 \textbf{Objects:} Udlåner og låner. computere og måske andre elektroniske devices.\\
-\textbf{Responsibility:} Systemets ansvar ligge i at den skal udskifte de skriftlige værdipapire(http://da.wikipedia.org/wiki/V\%C3\%A6rdipapir) som kunden før hen havde med et mere sikkert alternativ hvor dataen ikke vil kunne forsvinde lige så let som et papir udskrift.
+\textbf{Responsibility:} Systemets ansvar ligger i, at den skal udskifte skriftlige udlånssedler, som fungerer som værdipapirer hos kunden. Dette system skal være et mere sikkert system, hvor data/sedler ikke vil kunne forsvinde, som det gør for dem nu.
 \section{Kravspecifikationer}
 \subsection{Funktionelle krav}
-Funktionelle krav beskriver samspillet mellem systemet og dets omgivelser uafhængigt af dens implementation. Miljøet omfatter brugeren og ethvert andet eksternt system, som systemet interagerer med. \cite{OOSE} \\
-$\bullet$ Scanne en stregkode og modtage et brugerID som man indtaster manuelt. \\
-$\bullet$ Systemet skal kunne modtage og opbevare en underskrift.
-$\bullet$ Systemet skal kunne udskrive/sende kvittering til låneren
-$\bullet$ Udlåne og aflevere datamater. \\
-$\bullet$ Vise data for hhv. lånerne og datamater. \\
-$\bullet$ Mulighed for at redigere lånerstatus og computerstatus i databasen af en bruger af systemet. \\
-$\bullet$ En hovedeside, hvor brugeren kan tilgå de forskellige funktioner.\\
+Funktionelle krav beskriver samspillet mellem systemet og dets omgivelser uafhængigt af dens implementation. Miljøet omfatter brugeren og ethvert andet eksternt system, som systemet interagerer med. \cite{OOSE}. De funktionelle krav beskriver altså, hvordan system skal køre. Vi har altså en liste af de ting, som er forventet systemet skal kunne.\\
+$\bullet$ Systemet skal kunne skanne en stregkode og modtage et brugerID som man indtaster manuelt. \\
+$\bullet$ Systemet skal kunne modtage og opbevare en underskrift. \\
+$\bullet$ Systemet skal kunne udskrive/sende kvittering til låneren \\
+$\bullet$ Systemet skal kunne udlåne og aflevere datamater. \\
+$\bullet$ Systemet skal kunne vise data for hhv. lånerne og datamater. \\
+$\bullet$ Systemet skal kunne have mulighed for at redigere lånerstatus og computerstatus i databasen af en bruger af systemet. \\
+$\bullet$ Systemet skal have en hovedeside, hvor brugeren kan tilgå de forskellige funktioner.\\
 \subsection{Ikke funktionelle krav}
-Ikke-funktionelle krav beskriver aspekter af systemet, som ikke er direkte relateret til den funktionelle opførsel af systemet. Ikke-funktionelle krav omfatter en bred vifte af krav, der gælder for mange forskellige aspekter af systemet, fra usability til performance. \cite{OOSE} \\
+Ikke-funktionelle krav beskriver aspekter af systemet, som ikke er direkte relateret til den funktionelle opførsel af systemet. Ikke-funktionelle krav omfatter en bred vifte af krav, der gælder for mange forskellige aspekter af systemet, fra usability til performance. \cite{OOSE}{119} \\ De ikke funktionelle krav, er lidt omvendt i forhold til de hvad funktionelle krav beskriver. De ikke funktionelle krav beskriver altså ikke hvad systemet skal kunne, men hvordan det skal kunne køre. Det er altså kravne til det miljø, som systemet skal køre i. \\
 $\bullet$ Systemet skal kunne tilgås fra Windows 7 og 8. \\
 $\bullet$ Tilgængeligheden på programmet skal være enten via en hjemmeside eller via et fælles drev, dette vil blive uddybet efter vores møde. \\
-$\bullet$ Programmet skal være sikkert og ikke kunne tilgås udefra, altså skal man være forbundet til KEA's netværk. \\
-$\bullet$ Vores kunde ønsker, at programmet ikke kører langsomt, da "De allerede har ting som kører langsomt i forvejen". \\
-$\bullet$ Systemet må ikke være case-sensitive.
+$\bullet$ Programmet skal være sikkert, altså skal det ikke kunne hackes eller kunne tilgås udefra, altså skal man være forbundet til KEA's netværk. Det skal også være sikkert ved, at der ikke mistes data i systemet. \\
+$\bullet$ Programmet må ikke køre langsomt, da. der i forvejen er for mange it-systemer kunden bruger der kører for langsomt. \\
+$\bullet$ Systemet må ikke være case-sensitive. Systemet må altså ikke skelne mellem store og små bogstaver ved inputs. Dette er for at undgå brugerfejl. 
 \newpage
-\textbf{Use-Case-model}\\
-Da vi på dette tidpunkt i planlægningen kun har et udkast til hvordan vi har tænkt os at systemet skal se ud, er det svært at lave denne del præcis, men et udkast til hvordan det kan komme til at se ud kan være følgende:\\
+\subsection{Use-Case-model}
+Use cases beskriver opførelsen af systemet, som set fra en Actor’s synspunkt. En Actor er en extern entity som interagere med systemet. En use case beskriver en funktion i systemet som en del af flere events, som giver Actor et visuelt resultat. En Actor starter en use case når de tilgår systemets funktionalitet. En use case kan starte en ny use case, og derfra hente mere information fra Actor.\cite{OOSE}{42} \\ \\
+Vi har lavet følgende udkast, som er et udtryk for, hvordan vi forventer vores system vil køre:\\ \\
 \begin{figure}[h!]
+\includegraphics[width=0.8\textwidth]{UseCaseModel}
   \caption{Use-Case-Model}
   \centering
-    \includegraphics[width=0.8\textwidth]{UseCaseModel}
-\end{figure} 
-Figur 1 illusterer brugerens råderum. Brugerne af systemet skal have adgang til de samme ting, som en eventuel administrator. Det er altså derfor ikke nødvendigt, at have en administrator. På figuren ses det, at brugeren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. På baggrund af, at vi stadig er i startfasen af kodningen af programmet, så vil det være muligt for kunden at få det ændret til, at der både skal være en 'standardbruger' og en administrator. Det kan betyde, at det kun administratoren, som kan få lov til at tilføje, redigere og slette  computere. ‘Standard' brugeren vil altså kun have mulighed for at lave et udlån, og registrere at en computer er blevet afleveret.\\
-\centerline{\includegraphics[scale=0.5]{BCE.png}}\\
-BCE-model\\
-I BCE-modellen ses det hvordan udlåneren kan interagere med interfacet. Gennem dette får han/hun dagang til funktioner, såsom udlånComputer, afleverComputer, historik, og tilføj computer. Alle disse funktioner har tildelt en metode, der udfører udlånerens hensigter.\\
+\end{figure}  \\ \\
+Figur 1 illusterer brugerens råderum. På figuren ses det, at brugeren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. Låneren har mulighed for at igang sætte et lån, eller aflevere en computer. Dette kan de gøre ved at henvende sig til en udlåner. Brugerne af vores system, skal have adgang til alle systemets funktioner. Der bliver derfor ikke skelnet i brugerrettigheder. \\
 \textbf{Use-case}\\
 Følgende use-cases er udarbejdet for at beskrive det nye, og det gamle system. Deres mening er at kaste lys over fordelene ved det nye system, såvel som bagdelene ved det gamle system. \\
 \begin{table}[h]
 \caption{Use-case 1}
 \begin{tabular}{ll}
-Scenario name                 & \underline{GammeltUdåningssystem} \\ \hline
+Use case name               & \underline{GammeltUdlånssystem} \\ \hline
 Participating actor           & \underline{Låner} \\
 instances                     & \underline{Udlåner} \\ \hline
-Flow of evnets                & 1. Låneren mangler en computer, da hans egen er gået \\& ned. Han henvender sig derfor til udlåneren for at låne en.
-\\& 2. Udlåneren tjekker i arkivet, om der er en ledig \\& computer. Hun finder en.
+Flow of evnets                & 1. Låneren mangler en computer.\\& Låner henvender sig derfor til udlåneren for at låne en.
+\\& 2. Udlåneren tjekker i arkivet, om der er en ledig \\& computer. Udlåner finder en.
 \\& 3. Udlåneren giver låneren en seddel, som låneren skal udfylde: \\& Computer Mærke og model, S/N Tyveri-ID, \\& Låner, Navn, KEA login, Afdeling, Telefon/mobil, \\& Bemærkninger Underskrift, Låners underskrift \\& KEA Servicedesk Sagsnr, Udlånt af, Dato.
-\\& 4 Udlåneren henter computeren til låneren og arkiverer
+\\& 4. Udlåneren henter computeren til låneren og arkiverer
 \\& seddelen.
 \end{tabular}
 \end{table} \\
-Det ses her hvordan det gamle udlånssystem var forældet, og krævede meget unødvendigt arbejde. \\
+Dette gamle udlånssytem kræver ekstra unædvendig tid fra både låner og udlåner. Udlåner riskere også, at der går rod i papirarbejdet og at tingene forsvinder. Systemet er altså forældet, og derfor ønsker kunden en løsning istedet. \\
 \begin{table}[h]
 \caption{Use-case 2}
 \begin{tabular}{ll}
-Scenario name                 & \underline{NytUdlåningssystem-Udlån} \\ \hline
+Use case name             & \underline{NytUdlånssystem-Udlån} \\ \hline
 Participating actor           & \underline{Låner} \\
 instances                     & \underline{Udlåner}\\ \hline
-Flow of evnets                & 1. Låneren mangler en computer, da hans egen er gået              	\\& ned. Han henvender sig derfor til udlåneren for at låne en.
-\\& 2. udlåneren tjekker i arkivet, om der er en ledig \\& computer. Hun finder en.
-\\& 3. udlåneren indtaster lånerens ID og skanner computeren.
-\\& 4 Udlåneren henter computeren til låneren.
+Flow of evnets                & 1. Låner mangler en computer.	\\& Låner henvender sig derfor til udlåneren for at låne en.
+\\& 2. Udlåneren tjekker i arkivet, om der er en ledig \\& computer. Låner finder en.
+\\& 3. Udlåneren indtaster lånerens ID og skanner computeren.
+\\& 4. Udlåneren henter computeren til låneren.
 \end{tabular}
 \end{table}\\
 Her er samme process beskrevet, blot med brug af det nye udlånssystem. Her er det tydeligt at processen er meget hurtigere og nemmere, da punkter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. udfyldes automatisk. Derudover er det ikke nødvendigt at arkivere fysiske kvitteringer, der har risiko for at gå tabt.
@@ -121,29 +117,57 @@ Her er samme process beskrevet, blot med brug af det nye udlånssystem. Her er d
 \begin{table}[h]
 \caption{Use-case 3}
 \begin{tabular}{ll}
-Scenario name                 & \underline{NytUdlåningssystem-Aflevering} \\ \hline
+Use case name               & \underline{NytUdlånssystem-Aflevering} \\ \hline
 Participating actor           & \underline{Låner} \\
 instances                     & \underline{Udlåner}\\ \hline
-Flow of evnets                & 1. Låneren skal aflevere en computer, som han har lånt.
-\\& Han henvender sig derfor til udlåneren for at aflevere den.
+Flow of evnets                & 1. Låner skal aflevere en computer, som har været udlånt.
+\\& Låner henvender sig derfor til udlåneren for at aflevere den.
 \\& 2. Udlåneren indtaster lånerens brugerID og skanner computeren.
 \\& Udlåneren arkiverer computeren.
 \end{tabular}
 \end{table}
-Til sidst er afleveringen af lånerens computer beskrevet. Som det ses er dette også hurtigt og let, da den nye afleveringsmetode, ligesom udlåningsmetoden, ikke producerer fysiske værdipapirer, der kan gå tabt. Derudover udfyldes felter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. igen automatisk.
-\newpage
-Figur2\\
-\centerline{\includegraphics[scale=0.5]{Sekvensdiagram2.png}}
+Til sidst er afleveringen af lånerens computer beskrevet. Som det ses er dette også hurtigt og let, da den nye afleveringsmetode, ligesom udlåningsmetoden, ikke producerer fysiske værdipapirer, der kan gå tabt. Derudover udfyldes felter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. igen automatisk. \\
+\subsection{Klassediagram}
+Klassediagrammer bruges til at beskrive strukturen af systemet. Klasser er abstraktioner, der angiver struktur og adfærd af et sæt objekter. Objekter er instanser af klasser, der oprettes, ændres og ødelægges under udførelsen af systemet. Klassediagrammer beskriver systemet i form af objekter, klasser, attributter, operationer, og deres sammenslutninger. \cite{OOSE}{30}
+\subsection{BCE-Model}
+Entity objekter repræsenterer vedvarende oplysninger der registreres af systemet. Boundary objekter repræsenterer samspillet mellem aktører og systemet. Control objekter er ansvarlig for at realisere use cases. Modellering af systemet med Entity, Boundary og Control objekter giver udviklere enkel heuristik til at skelne mellem forskellige, men beslægtede begreber.\cite{OOSE}{171}
+\begin{figure}[h!]
+\includegraphics[width=0.9\textwidth]{BCE.png}
+  \caption{BCE-Model}
+  \centering
+\end{figure} \\ \\
+I BCE-modellen ses det hvordan udlåneren kan interagere med interfacet. Gennem dette får han/hun dagang til funktioner, såsom udlånComputer, afleverComputer, historik, og tilføj computer. Alle disse funktioner har tildelt en metode, der udfører udlånerens hensigter.\\
+\subsection{Sekvensdiagram}
+Et sekvens diagram forbinder use cases med objekter. Det viser, hvordan en use case (eller scenarier) opfører sig og hvordan det fordeles blandt de deltagende objekter. Sekvens diagrammer er normalt ikke så godt et medium for kommunikation med brugeren som use cases er, da sekvens diagrammer kræver mere baggrund om notation. \cite{OOSE}{179} \\
+\begin{figure}[h!]
+\includegraphics[width=0.9\textwidth]{Sekvensdiagram2.png}
+  \caption{Sekvensdiagram-1}
+  \centering
+\end{figure}
 På ovenstående sekvensdiagram vises hvordan det nye udlånssystem kommer til at fungere ved udlån af computer. \\
-Figur3\\
-\centerline{\includegraphics[scale=0.5]{Sekvensdiagram3.png}}
+\newpage
+\begin{figure}[h!]
+\includegraphics[width=0.9\textwidth]{Sekvensdiagram3.png}
+  \caption{Sekvensdiagram-2}
+  \centering
+\end{figure}
 På ovenstående sekvensdiagram vises hvordan det nye udlånssystem kommer til at fungere ved aflevering af computer. Som det ses er processerne for denne og udlån af computer meget ens.
 \newpage
 \section{Systemdesign}
-Systemet er bygget op om en database. Databasens struktur er blevet udviklet, så den kan besvare de spørgsmål vi har til databasen, og så det er nemt for os at udvinde den information vi eller kunden ønsker. Kravene til databasen er, at den skal opbevare data for brugerne, computerne, udlån og historikken for de udlånte computere. Vi lavede først de fire ovennævnte tables. Vi kom frem til den konklusion, at det ikke nemt kunne besvare de simple spørgsmål om hvilke computere var ledige uden, at man skulle slette i tablen for lån. Strukturen er blevet ændret til kun at indholde brugere, computere og lån, hvor historikken findes i lån. Det nuværende design kan også nemt udbygges, hvis kunden har flere krav. \\
-Vi har lavet vores backend i Python, hvor vi har lavet et program, som kan hente det data vi har brug for fra databasen. Vores Python program anvender sqlite3 biblioteket. \\
-Vi har ikke lavet brugerfladen endnu. Dette vil blive gjort i enten python som et program eller blive en hjemmeside lavet i Django.\\ Grunden til hjemmesiden vil være i Django, er fordi det kan bruge python. Det vil altså være muligt for os at anvende vores python program som backend. Vi har været i kontakt med kunden omkring det skulle være et program eller en hjemmeside. Til dette havde kunden ingen krav, og lader det være op til os. Vi er stadig i processen, hvor vi diskuterer de forskellige fordele og ulemper. En af fordelene ved at lave et python program er, at vi ikke har behov for at lære et nyt sprog, men brugerfladen vil ikke nødvendigvis bliver ligeså køn som hvis det er en hjemmeside. En Fordel ved at lave en hjemmeside er, at der kan laves en pænere brugerflade, men det er et helt nyt som vi skal lære. \\
-Vores kunde her derudover os stilt os det krav, at vi skal sikre os at der kan indsættes en underskrift i systemet. Vi har endnu ikke bestemt os for hvordan dette skal gøres. Vi skal enten få underskriften fra en touchpad/mus på en computer, eller koble en tablet til computeren og få brugeren til at skrive sin underskrift på denne. Vi har da tænkt os at opbevare billedet med underskriften i en mappe på et fællesdrev, hvor vi tilknytte de enkelte underskrifter til de der tilhørende udlån. \\
+Vi har lavet et deployment diagram, som viser systemets opbygning. Deployment diagrammet bliver brugt til at vise rune-time komponenter og nodes. \cite{OOSE}{256}
+\begin{figure}[h!]
+\includegraphics[width=0.9\textwidth]{deploymentdiagram.png}
+  \caption{Deployment Diagram}
+  \centering
+\end{figure} \\ \\
+Systemet er bygget op om en database. Databasens struktur er blevet udviklet, så det er nemt for os at udvinde den information vi eller kunden ønsker. Kravene til databasen er, at den skal opbevare data for brugerne, computerne, udlån og historikken for de udlånte computere. Vi lavede en tabel for hver af disse. Vi kom frem til den konklusion, at det ikke var nemt at udvinde information om hvilke computere var ledige, uden at man skulle slette noget af sin data i en tabellen. Dette var fordi, at når en Computer var blevet afleveret, da vil dens data stadig være i en tabel for de udlånte computere, alle afleverede computere ville altså stå som værende udlånt. Strukturen er blevet ændret til kun at indholde brugere, computere og lån, hvor historikken findes i lån. \\ \\
+Vi har i gruppen diskuteret vores forskellige muligheder for backend:
+Vi har indtryk af, at Python er en af de mest brugte sprog til databaser. Vi alle i gruppen tidligere arbejde i Python i blok 3. Dette var i forbindelse med eksamen i Datamining. Alle i gruppen har derfor kendskab til Python.\\ \\
+Vi har i gruppen overvejet C++. C++ opfører sig på nogle punkter ligesom java, da det er objekt-orienteret, hvilket vil sige, at det vil gøre lærings processen nemmere for os. Ud fra det overblik vi har dannet, da er det meget nemt at finde information om. Her er det primært information implimentation af databaser, men også stortset alt hvad vi kan have brug for. Dog er ulempen, at ingen kender dette sprog eller har erfaringer med det.\\ \\ \\
+Vi er kommet frem til, at programmet vil blive skrevet i python, vi besluttede dette da vi følte vi havde mest kendskab til python og vil kunne bruge det på bedre vis end andre sprog. \\
+Vi har derfor lavet vores backend i Python, hvor vi har lavet et program, som kan hente det data vi har brug for fra databasen. Vores Python program anvender sqlite3 biblioteket. \\
+Vi har ikke lavet brugerfladen endnu. Dette vil blive gjort i enten python som et program eller blive en hjemmeside lavet i Django.\\ Grunden til hjemmesiden vil være i Django, er fordi det er et python framework. Vi har været i kontakt med kunden omkring det skulle være et program eller en hjemmeside. Til dette havde kunden ingen krav, og lader det være op til os. Vi er stadig i processen, hvor vi diskuterer de forskellige fordele og ulemper. En af fordelene ved at lave et python program er, at vi ikke har behov for at lære et nyt sprog. En fordel ved at lave en hjemmeside er, at der kan laves en pænere brugerflade, men det er et helt nyt sprog som vi skal lære. \\
+Vores kunde har derudover også stillet os det krav, at vi skal sikre os at der kan indsættes en underskrift i systemet. Vi har endnu ikke bestemt os for hvordan dette skal gøres. Vi skal enten få underskriften fra en touchpad/mus på en computer, eller koble en tablet til computeren og få brugeren til at skrive sin underskrift på denne. Vi har da tænkt os at opbevare billedet med underskriften i en mappe på et fællesdrev, hvor vi tilknytte de enkelte underskrifter til de der tilhørende udlån. \\ \\
 Udestående opgaver, som mangler at bliver lavet: \\
 $\bullet$ Front-end. \\
 $\bullet$ Implementation af underskrift. \\
