@@ -80,10 +80,13 @@ class Application(Frame):
         self.ShowAllButton = Button(self, text = "Vis alle laante", command = self.vislaante)
         self.ShowAllButton.grid(row = 2, column = 3, sticky = W)
         
+        self.ShowOldButton = Button(self, text = "Vis alle udlaaninger", command = self.visGammle)
+        self.ShowOldButton.grid(row = 2, column = 4, sticky = W)
+        
     def somthing(self):
         self.content = "Hello"
         print (c.execute("Select deviceid From Device").fetchall())
-        print (c.execute("Select did From Loan").fetchall())
+        print (c.execute("Select * From Loan").fetchall())
         print (c.execute("Select deviceid From Device Where deviceid NOT IN (Select did From Loan)").fetchall())
     
     def udlaaner(self):
@@ -94,18 +97,24 @@ class Application(Frame):
                 message = "Computeren er udlaant, kan ikke laanes"
             else:
                 udlaan(brugerID, computerID)
-                message = "Computeren er nu udlaant til: " + brugerID
+                message = "Computer " + computerID + " er nu udlaant til: " + brugerID
             self.text.delete(0.0, END)
             self.text.insert(0.0, message)
     
     def visLedige(self):
-        midlertidig = c.execute("Select * From Device Where deviceid NOT IN (Select did From Loan)").fetchall()
+        midlertidig = c.execute("Select * From Device Where deviceid NOT IN (Select did From Loan Where delivered IS NULL)").fetchall()
         self.text.delete(0.0, END)
         for i in midlertidig:
             self.text.insert(0.0, str(i) + "\n")
             
+    def visGammle(self):
+        midlertidig = c.execute("Select * From Loan Where delivered IS NOT NULL").fetchall()
+        self.text.delete(0.0, END)
+        for i in midlertidig:
+            self.text.insert(0.0, str(i) + "\n")        
+            
     def vislaante(self):
-        midlertidig = c.execute("Select * From Device Where deviceid IN (Select did From Loan)").fetchall()
+        midlertidig = c.execute("Select * From Device Where deviceid IN (Select did From Loan Where delivered IS NULL)").fetchall()
         self.text.delete(0.0, END)
         for i in midlertidig:
             self.text.insert(0.0, str(i) + "\n")
@@ -116,7 +125,7 @@ class Application(Frame):
         if (len(brugerID) >= 1) and (len(computerID) >= 1):
             if muligAff(brugerID, computerID):
                 afflevering(brugerID, computerID)
-                message = brugerID + "har nu affleveret computer: " + computerID
+                message = brugerID + " har nu affleveret computer: " + computerID
             else:
                 message = "Der er ingen computere der er laant af denne person"
             self.text.delete(0.0, END)
