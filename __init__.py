@@ -7,7 +7,7 @@ con = sqlite3.connect(r"KEAbib.db")
 conn = sqlite3.connect("KEAbib.db")
 sqlCon = sqlite3.connect("KEAbib.db").cursor()
 
-'''
+
 sqlCon.execute("""CREATE TABLE Bruger (
                 brugerid INTEGER PRIMARY KEY AUTOINCREMENT,
                 mail TEXT,
@@ -26,7 +26,7 @@ sqlCon.execute("""CREATE TABLE Loan (
                 loan datetime,
                 delivered datetime,
                 FOREIGN KEY(bid) REFERENCES Bruger(brugerid),
-                FOREIGN KEY(did) REFERENCES Device(deviceid) )""")'''
+                FOREIGN KEY(did) REFERENCES Device(deviceid) )""")
 try:
     sqlCon.execute("INSERT INTO Bruger(mail, navn, telefon) VALUES ('blahblah@blah.blah' , 'Casper' , '11223344')")
     conn.commit()
