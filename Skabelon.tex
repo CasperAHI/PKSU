@@ -25,7 +25,7 @@
 \newcommand{\epm}{\end{pmatrix}}
 
 \renewcommand{\headrulewidth}{0pt}
-\title{Delrapport 2}
+\title{Delrapport 3}
 \author{Anders Brandhof '190493' SGL135 \\ Andreas Jørgensen '240594' SRV415 \\ Casper Iversen '090691' JVP497 \\ Søren Jensen '270792' PWS412 \\
 Instruktor: Markus Lund W\\
 ProjDat2015}
@@ -96,7 +96,9 @@ Flow of evnets                & 1. Låneren mangler en computer.\\& Låner henve
 \\& 2. Udlåneren tjekker i arkivet, om der er en ledig \\& computer. Udlåner finder en.
 \\& 3. Udlåneren giver låneren en seddel, som låneren skal udfylde: \\& Computer Mærke og model, S/N Tyveri-ID, \\& Låner, Navn, KEA login, Afdeling, Telefon/mobil, \\& Bemærkninger Underskrift, Låners underskrift \\& KEA Servicedesk Sagsnr, Udlånt af, Dato.
 \\& 4. Udlåneren henter computeren til låneren og arkiverer
-\\& seddelen.
+\\& seddelen.\\ \hline
+Entry conditions & $\bullet$ Låneren mangler en computer. \\ \hline
+Exit conditions  & $\bullet$ Låneren har lånt en computer. 
 \end{tabular}
 \end{table} \\
 Dette gamle udlånssytem kræver ekstra unædvendig tid fra både låner og udlåner. Udlåner riskere også, at der går rod i papirarbejdet og at tingene forsvinder. Systemet er altså forældet, og derfor ønsker kunden en løsning istedet. \\
@@ -109,7 +111,9 @@ instances                     & \underline{Udlåner}\\ \hline
 Flow of evnets                & 1. Låner mangler en computer.	\\& Låner henvender sig derfor til udlåneren for at låne en.
 \\& 2. Udlåneren tjekker i arkivet, om der er en ledig \\& computer. Låner finder en.
 \\& 3. Udlåneren indtaster lånerens ID og skanner computeren.
-\\& 4. Udlåneren henter computeren til låneren.
+\\& 4. Udlåneren henter computeren til låneren.\\ \hline
+Entry conditions & $\bullet$ Låneren mangler en computer. \\ \hline
+Exit conditions  & $\bullet$ Låneren har lånt en computer. 
 \end{tabular}
 \end{table}\\
 Her er samme process beskrevet, blot med brug af det nye udlånssystem. Her er det tydeligt at processen er meget hurtigere og nemmere, da punkter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. udfyldes automatisk. Derudover er det ikke nødvendigt at arkivere fysiske kvitteringer, der har risiko for at gå tabt.
@@ -123,10 +127,25 @@ instances                     & \underline{Udlåner}\\ \hline
 Flow of evnets                & 1. Låner skal aflevere en computer, som har været udlånt.
 \\& Låner henvender sig derfor til udlåneren for at aflevere den.
 \\& 2. Udlåneren indtaster lånerens brugerID og skanner computeren.
-\\& Udlåneren arkiverer computeren.
+\\& Udlåneren arkiverer computeren. \\ \hline
+Entry conditions & $\bullet$ Låner har lånt en computer.\\ \hline
+Exit conditions  & $\bullet$ Låner har afleveret sin computer.
 \end{tabular}
 \end{table}
 Til sidst er afleveringen af lånerens computer beskrevet. Som det ses er dette også hurtigt og let, da den nye afleveringsmetode, ligesom udlåningsmetoden, ikke producerer fysiske værdipapirer, der kan gå tabt. Derudover udfyldes felter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. igen automatisk. \\
+\begin{table}[h]
+\caption{Use-case 4}
+\begin{tabular}{ll}
+Use case name               & \underline{VisHistorik} \\ \hline
+Participating actor           & \underline{Udlåner} \\
+instances\\ \hline
+Flow of evnets                & 1. Udlåner skal tjekke historikken for en låner.
+                            \\& 2. Udlåneren vælger visHistorik-knappen for en låner, hvilket
+                            \\& får programmet til at vise lånerens historik.  \\ \hline
+Entry conditions & - \\ \hline
+Exit conditions  & $\bullet$ Udlåner har set lånerens historik.
+\end{tabular}
+\end{table}
 \subsection{Klassediagram}
 Klassediagrammer bruges til at beskrive strukturen af systemet. Klasser er abstraktioner, der angiver struktur og adfærd af et sæt objekter. Objekter er instanser af klasser, der oprettes, ændres og ødelægges under udførelsen af systemet. Klassediagrammer beskriver systemet i form af objekter, klasser, attributter, operationer, og deres sammenslutninger. \cite{OOSE}{30}
 \subsection{BCE-Model}
@@ -138,20 +157,26 @@ Entity objekter repræsenterer vedvarende oplysninger der registreres af systeme
 \end{figure} \\ \\
 I BCE-modellen ses det hvordan udlåneren kan interagere med interfacet. Gennem dette får han/hun dagang til funktioner, såsom udlånComputer, afleverComputer, historik, og tilføj computer. Alle disse funktioner har tildelt en metode, der udfører udlånerens hensigter.\\
 \subsection{Sekvensdiagram}
-Et sekvens diagram forbinder use cases med objekter. Det viser, hvordan en use case (eller scenarier) opfører sig og hvordan det fordeles blandt de deltagende objekter. Sekvens diagrammer er normalt ikke så godt et medium for kommunikation med brugeren som use cases er, da sekvens diagrammer kræver mere baggrund om notation. \cite{OOSE}{179} \\
+Et sekvens diagram forbinder use cases med objekter. Det viser, hvordan en use case (eller scenarier) opfører sig og hvordan det fordeles blandt de deltagende objekter. Sekvens diagrammer er normalt ikke så godt et medium for kommunikation med brugeren som use cases er, da sekvens diagrammer kræver mere baggrund om notation. \cite{OOSE}{179} 
 \begin{figure}[h!]
-\includegraphics[width=0.9\textwidth]{Sekvensdiagram2.png}
+\includegraphics[width=0.9\textwidth]{SekvensLaan}
   \caption{Sekvensdiagram-1}
   \centering
-\end{figure}
-På ovenstående sekvensdiagram vises hvordan det nye udlånssystem kommer til at fungere ved udlån af computer. \\
+\end{figure}\\
+På Figur 3 vises hvordan det nye udlånssystem kommer til at fungere ved udlån af computer. Det ses her hvordan låneren trykker på lånerknappen, hvilket skaber en controller, der skaber udlånsformularen. Denne udlånsformular udfylder og indsender låneren, hvorefter lånet oprettes i databasen, og en kvittering bliver printet.
 \newpage
 \begin{figure}[h!]
-\includegraphics[width=0.9\textwidth]{Sekvensdiagram3.png}
+\includegraphics[width=0.9\textwidth]{SekvensAflever}
   \caption{Sekvensdiagram-2}
   \centering
 \end{figure}
-På ovenstående sekvensdiagram vises hvordan det nye udlånssystem kommer til at fungere ved aflevering af computer. Som det ses er processerne for denne og udlån af computer meget ens.
+På Figur 4 vises hvordan det nye udlånssystem kommer til at fungere ved aflevering af computer. Det ses her hvordan låneren trykker på afleveringsknappen, hvilket skaber en controller, der skaber afleveringsformularen. Denne afleveringsformular udfylder og indsender låneren, hvorefter afleveringen registreres i databasen, og en kvittering bliver printet. Som det ses er processerne for denne og udlån af computer meget ens.
+\begin{figure}[h!]
+\includegraphics[width=0.9\textwidth]{SekvensHistorik}
+  \caption{Sekvensdiagram-3}
+  \centering
+\end{figure}\\
+På Figur 5 vises det hvordan det nye udlånssystem kommer til at fungere ved vis af historik. Brugeren af programmet trykker på historikknappen for en bruger eller en computer, hvilket skaber en historikcontroller, der skaber en interfacecontroller, der starter interfacet of, der viser historikken. 
 \newpage
 \section{Systemdesign}
 Vi har lavet et deployment diagram, som viser systemets opbygning. Deployment diagrammet bliver brugt til at vise rune-time komponenter og nodes. \cite{OOSE}{256}
