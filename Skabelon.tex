@@ -157,20 +157,26 @@ Entity objekter repræsenterer vedvarende oplysninger der registreres af systeme
 \end{figure} \\ \\
 I BCE-modellen ses det hvordan udlåneren kan interagere med interfacet. Gennem dette får han/hun dagang til funktioner, såsom udlånComputer, afleverComputer, historik, og tilføj computer. Alle disse funktioner har tildelt en metode, der udfører udlånerens hensigter.\\
 \subsection{Sekvensdiagram}
-Et sekvens diagram forbinder use cases med objekter. Det viser, hvordan en use case (eller scenarier) opfører sig og hvordan det fordeles blandt de deltagende objekter. Sekvens diagrammer er normalt ikke så godt et medium for kommunikation med brugeren som use cases er, da sekvens diagrammer kræver mere baggrund om notation. \cite{OOSE}{179} \\
+Et sekvens diagram forbinder use cases med objekter. Det viser, hvordan en use case (eller scenarier) opfører sig og hvordan det fordeles blandt de deltagende objekter. Sekvens diagrammer er normalt ikke så godt et medium for kommunikation med brugeren som use cases er, da sekvens diagrammer kræver mere baggrund om notation. \cite{OOSE}{179} 
 \begin{figure}[h!]
-\includegraphics[width=0.9\textwidth]{Sekvensdiagram2.png}
+\includegraphics[width=0.9\textwidth]{SekvensLaan}
   \caption{Sekvensdiagram-1}
   \centering
-\end{figure}
-På ovenstående sekvensdiagram vises hvordan det nye udlånssystem kommer til at fungere ved udlån af computer. \\
+\end{figure}\\
+På ovenstående sekvensdiagram vises hvordan det nye udlånssystem kommer til at fungere ved udlån af computer.
 \newpage
 \begin{figure}[h!]
-\includegraphics[width=0.9\textwidth]{Sekvensdiagram3.png}
+\includegraphics[width=0.9\textwidth]{SekvensAflever}
   \caption{Sekvensdiagram-2}
   \centering
 \end{figure}
 På ovenstående sekvensdiagram vises hvordan det nye udlånssystem kommer til at fungere ved aflevering af computer. Som det ses er processerne for denne og udlån af computer meget ens.
+\begin{figure}[h!]
+\includegraphics[width=0.9\textwidth]{SekvensHistorik}
+  \caption{Sekvensdiagram-3}
+  \centering
+\end{figure}\\
+På ovenstående sekvensdiagram vises det hvordan det nye udlånssystem kommer til at fungere ved vis af historik
 \newpage
 \section{Systemdesign}
 Vi har lavet et deployment diagram, som viser systemets opbygning. Deployment diagrammet bliver brugt til at vise rune-time komponenter og nodes. \cite{OOSE}{256}
