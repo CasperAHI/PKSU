@@ -59,21 +59,26 @@ Systemet skal være tilgængeligt til at køre på både pc og mac, og vil komme
 \textbf{Responsibility:} Systemets ansvar ligger i, at den skal udskifte skriftlige udlånssedler, som fungerer som værdipapirer hos kunden. Dette system skal være et mere sikkert system, hvor data/sedler ikke vil kunne forsvinde, som det gør for dem nu.
 \section{Kravspecifikationer}
 \subsection{Funktionelle krav}
-Funktionelle krav beskriver samspillet mellem systemet og dets omgivelser uafhængigt af dens implementation. Miljøet omfatter brugeren og ethvert andet eksternt system, som systemet interagerer med. \cite{OOSE}. De funktionelle krav beskriver altså, hvordan system skal køre. Vi har altså en liste af de ting, som er forventet systemet skal kunne.\\
-$\bullet$ Systemet skal kunne skanne en stregkode og modtage et brugerID som man indtaster manuelt. \\
-$\bullet$ Systemet skal kunne modtage og opbevare en underskrift. \\
-$\bullet$ Systemet skal kunne udskrive/sende kvittering til låneren \\
-$\bullet$ Systemet skal kunne udlåne og aflevere datamater. \\
-$\bullet$ Systemet skal kunne vise data for hhv. lånerne og datamater. \\
-$\bullet$ Systemet skal kunne have mulighed for at redigere lånerstatus og computerstatus i databasen af en bruger af systemet. \\
-$\bullet$ Systemet skal have en hovedeside, hvor brugeren kan tilgå de forskellige funktioner.\\
+Funktionelle krav beskriver samspillet mellem systemet og dets omgivelser uafhængigt af dens implementation. Miljøet omfatter brugeren og ethvert andet eksternt system, som systemet interagerer med. \cite[s.125]{OOSE}. De funktionelle krav beskriver altså, hvordan system skal køre. Vi har altså en liste af de ting, som er forventet systemet skal kunne. Både funktionelle og ikke-funktionelle krav har vi fundet frem via møder med kunden eller mails fra kunden.
+\begin{itemize}
+	\item Systemet skal kunne skanne en stregkode og modtage et brugerID som man indtaster manuelt.
+	\item Systemet skal kunne modtage og opbevare en underskrift.
+	\item Systemet skal kunne udskrive/sende kvittering til låneren.
+	\item Systemet skal kunne udlåne og aflevere datamater.
+	\item Systemet skal kunne vise data for hhv. lånerne og datamater.
+	\item Systemet skal kunne have mulighed for at redigere lånerstatus og computerstatus i databasen af en bruger af systemet.
+	\item Systemet skal have en hovedeside, hvor brugeren kan tilgå de forskellige funktioner.
+\end{itemize}
+\newpage
 \subsection{Ikke funktionelle krav}
-Ikke-funktionelle krav beskriver aspekter af systemet, som ikke er direkte relateret til den funktionelle opførsel af systemet. Ikke-funktionelle krav omfatter en bred vifte af krav, der gælder for mange forskellige aspekter af systemet, fra usability til performance. \cite{OOSE}{119} \\ De ikke funktionelle krav, er lidt omvendt i forhold til de hvad funktionelle krav beskriver. De ikke funktionelle krav beskriver altså ikke hvad systemet skal kunne, men hvordan det skal kunne køre. Det er altså kravne til det miljø, som systemet skal køre i. \\
-$\bullet$ Systemet skal kunne tilgås fra Windows 7 og 8. \\
-$\bullet$ Tilgængeligheden på programmet skal være enten via en hjemmeside eller via et fælles drev, dette vil blive uddybet efter vores møde. \\
-$\bullet$ Programmet skal være sikkert, altså skal det ikke kunne hackes eller kunne tilgås udefra, altså skal man være forbundet til KEA's netværk. Det skal også være sikkert ved, at der ikke mistes data i systemet. \\
-$\bullet$ Programmet må ikke køre langsomt, da. der i forvejen er for mange it-systemer kunden bruger der kører for langsomt. \\
-$\bullet$ Systemet må ikke være case-sensitive. Systemet må altså ikke skelne mellem store og små bogstaver ved inputs. Dette er for at undgå brugerfejl. 
+Ikke-funktionelle krav beskriver aspekter af systemet, som ikke er direkte relateret til den funktionelle opførsel af systemet. Ikke-funktionelle krav omfatter en bred vifte af krav, der gælder for mange forskellige aspekter af systemet, fra usability til performance. \cite[s.119]{OOSE} \\ De ikke funktionelle krav, er lidt omvendt i forhold til de hvad funktionelle krav beskriver. De ikke funktionelle krav beskriver altså ikke hvad systemet skal kunne, men hvordan det skal kunne køre. Det er altså kravne til det miljø, som systemet skal køre i.
+\begin{itemize}
+	\item Systemet skal kunne tilgås fra Windows 7, 8 og fra Mac.
+	\item Tilgængeligheden på programmet skal være enten via en hjemmeside eller via et fælles drev, dette vil blive uddybet efter vores møde.
+	\item Programmet skal være sikkert, altså skal det ikke kunne hackes eller kunne tilgås udefra, altså skal man være forbundet til KEA's netværk. Det skal også være sikkert ved, at der ikke mistes data i systemet.
+	\item Programmet skal køre så hurtigt som muligt, da databasen over tid kan blive meget stor.
+	\item Systemet må ikke være case-sensitive. Systemet må altså ikke skelne mellem store og små bogstaver ved inputs. Dette er for at undgå brugerfejl.
+\end{itemize}
 \newpage
 \subsection{Use-Case-model}
 Use cases beskriver opførelsen af systemet, som set fra en Actor’s synspunkt. En Actor er en extern entity som interagere med systemet. En use case beskriver en funktion i systemet som en del af flere events, som giver Actor et visuelt resultat. En Actor starter en use case når de tilgår systemets funktionalitet. En use case kan starte en ny use case, og derfra hente mere information fra Actor.\cite{OOSE}{42} \\ \\

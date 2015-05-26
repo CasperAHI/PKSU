@@ -4,7 +4,7 @@
 \contentsline {subsection}{\numberline {2.1}FACTOR Analyse}{3}{subsection.2.1}
 \contentsline {section}{\numberline {3}Kravspecifikationer}{4}{section.3}
 \contentsline {subsection}{\numberline {3.1}Funktionelle krav}{4}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Ikke funktionelle krav}{4}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Ikke funktionelle krav}{5}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Use-Case-model}{6}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Klassediagram}{8}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}BCE-Model}{8}{subsection.3.5}
