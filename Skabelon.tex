@@ -25,7 +25,7 @@
 \newcommand{\epm}{\end{pmatrix}}
 
 \renewcommand{\headrulewidth}{0pt}
-\title{Delrapport 2}
+\title{Delrapport 3}
 \author{Anders Brandhof '190493' SGL135 \\ Andreas Jørgensen '240594' SRV415 \\ Casper Iversen '090691' JVP497 \\ Søren Jensen '270792' PWS412 \\
 Instruktor: Markus Lund W\\
 ProjDat2015}
@@ -163,20 +163,20 @@ Et sekvens diagram forbinder use cases med objekter. Det viser, hvordan en use c
   \caption{Sekvensdiagram-1}
   \centering
 \end{figure}\\
-På ovenstående sekvensdiagram vises hvordan det nye udlånssystem kommer til at fungere ved udlån af computer.
+På Figur 3 vises hvordan det nye udlånssystem kommer til at fungere ved udlån af computer. Det ses her hvordan låneren trykker på lånerknappen, hvilket skaber en controller, der skaber udlånsformularen. Denne udlånsformular udfylder og indsender låneren, hvorefter lånet oprettes i databasen, og en kvittering bliver printet.
 \newpage
 \begin{figure}[h!]
 \includegraphics[width=0.9\textwidth]{SekvensAflever}
   \caption{Sekvensdiagram-2}
   \centering
 \end{figure}
-På ovenstående sekvensdiagram vises hvordan det nye udlånssystem kommer til at fungere ved aflevering af computer. Som det ses er processerne for denne og udlån af computer meget ens.
+På Figur 4 vises hvordan det nye udlånssystem kommer til at fungere ved aflevering af computer. Det ses her hvordan låneren trykker på afleveringsknappen, hvilket skaber en controller, der skaber afleveringsformularen. Denne afleveringsformular udfylder og indsender låneren, hvorefter afleveringen registreres i databasen, og en kvittering bliver printet. Som det ses er processerne for denne og udlån af computer meget ens.
 \begin{figure}[h!]
 \includegraphics[width=0.9\textwidth]{SekvensHistorik}
   \caption{Sekvensdiagram-3}
   \centering
 \end{figure}\\
-På ovenstående sekvensdiagram vises det hvordan det nye udlånssystem kommer til at fungere ved vis af historik
+På Figur 5 vises det hvordan det nye udlånssystem kommer til at fungere ved vis af historik. Brugeren af programmet trykker på historikknappen for en bruger eller en computer, hvilket skaber en historikcontroller, der skaber en interfacecontroller, der starter interfacet of, der viser historikken. 
 \newpage
 \section{Systemdesign}
 Vi har lavet et deployment diagram, som viser systemets opbygning. Deployment diagrammet bliver brugt til at vise rune-time komponenter og nodes. \cite{OOSE}{256}
