@@ -167,33 +167,44 @@ Vi har i gruppen overvejet C++. C++ opfører sig på nogle punkter ligesom java,
 Vi er kommet frem til, at programmet vil blive skrevet i python, vi besluttede dette da vi følte vi havde mest kendskab til python og vil kunne bruge det på bedre vis end andre sprog. \\
 Vi har derfor lavet vores backend i Python, hvor vi har lavet et program, som kan hente det data vi har brug for fra databasen. Vores Python program anvender sqlite3 biblioteket. \\
 Vi har ikke lavet brugerfladen endnu. Dette vil blive gjort i enten python som et program eller blive en hjemmeside lavet i Django.\\ Grunden til hjemmesiden vil være i Django, er fordi det er et python framework. Vi har været i kontakt med kunden omkring det skulle være et program eller en hjemmeside. Til dette havde kunden ingen krav, og lader det være op til os. Vi er stadig i processen, hvor vi diskuterer de forskellige fordele og ulemper. En af fordelene ved at lave et python program er, at vi ikke har behov for at lære et nyt sprog. En fordel ved at lave en hjemmeside er, at der kan laves en pænere brugerflade, men det er et helt nyt sprog som vi skal lære. \\
-Vores kunde har derudover også stillet os det krav, at vi skal sikre os at der kan indsættes en underskrift i systemet. Vi har endnu ikke bestemt os for hvordan dette skal gøres. Vi skal enten få underskriften fra en touchpad/mus på en computer, eller koble en tablet til computeren og få brugeren til at skrive sin underskrift på denne. Vi har da tænkt os at opbevare billedet med underskriften i en mappe på et fællesdrev, hvor vi tilknytte de enkelte underskrifter til de der tilhørende udlån. \\ \\
+Vores kunde har derudover også stillet os det krav, at vi skal sikre os at der kan indsættes en underskrift i systemet. Vi har endnu ikke bestemt os for hvordan dette skal gøres. Vi skal enten få underskriften fra en touchpad/mus på en computer, eller koble en tablet til computeren og få brugeren til at skrive sin underskrift på denne. Vi har da tænkt os at opbevare billedet med underskriften i en mappe på et fællesdrev, hvor vi tilknytte de enkelte underskrifter til de der tilhørende udlån. \\[0.1in]
 Udestående opgaver, som mangler at bliver lavet: \\
 $\bullet$ Front-end. \\
 $\bullet$ Implementation af underskrift. \\
 $\bullet$ Program som udskriver kvittering, når en computer afleveres.
 \section{Program- og systemtest}
-Vi har tænkt os at dele program- og systemtest op i to. Vi vil her teste brugervenligheden og om systemet virker som det skal. Vores plan for at teste brugervenligheden er, at vi vil lave Think-Aloud test med vores kunde. Vi vil her observere, hvordan vores kunde færdes i vores system og give vores kunde flere forskellige opgaver som skal løses ved brug af vores system. Vi vil her undervejs notere de gode og dårlige ting ved systemet. Når testen med kunden er færdig, vil vi evaluere testen med kunden, og høre hvad kunden synes om systemet, eller om noget er uhensigtsmæssigt. Think Aloud testen vil blive lavet i forhold til artiklen "Thinking Aloud - User Testing by Molich" \cite{ThinkAloud}. \\ \\
+Vi har tænkt os at dele program- og systemtest op i to. Vi vil her teste brugervenligheden og om systemet virker som det skal. Vores plan for at teste brugervenligheden er, at vi vil lave Think-Aloud test med vores kunde. Vi vil her observere, hvordan vores kunde færdes i vores system og give vores kunde flere forskellige opgaver som skal løses ved brug af vores system. Vi vil her undervejs notere de gode og dårlige ting ved systemet. Når testen med kunden er færdig, vil vi evaluere testen med kunden, og høre hvad kunden synes om systemet, eller om noget er uhensigtsmæssigt. Think Aloud testen vil blive lavet i forhold til artiklen "Thinking Aloud - User Testing by Molich" \cite{ThinkAloud}. \\[0.1in]
 Denne test skal laves med kunden for, for det første at teste om løsningen er hensigtsmæssig, fra kundens synspunkt, og for det andet for at teste løsningens brugervenlighed og intuitivitet. 
 Vi vil derudover teste vores system, for at se om det virker som det er tiltænkt. Vi vil altså lave testcases for vores funktioner i python. Vi vil her for eksempel teste, om det er muligt at låne den samme computer ud til to personer på samme tid, om det er muligt at udlåne en fri computer som har været udlånt, men er blevet afleveret. Vi vil altså teste alle de essentielle funktioner, som får systemet til at fungere. Vi vil her teste systemet i forhold til de metoder, som er nævnt i artiklen "Systematic Software Testing" \cite{SoftwareTest}.
 \section{Brugergrænseflade og interaktionsdesign}
-\includegraphics[scale=0.07]{1.jpg}\\
-Figur 4 (GUI 1) -  Beskriver et muligt design af løsningen. Her gøres der brug af en dropdown-menu.\\
-\includegraphics[scale=0.07]{7.jpg}\\
-Figur 5 (GUI 2) - Beskriver et muligt design af løsningen. Her gøres der brug af en dropdown-menu.\\
-\includegraphics[scale=0.07]{5.jpg}\\
-Figur 6 (GUI 3) - Beskriver et muligt design af løsningen. Her gøres der brug af en vertikal CSS-menu.\\
-\includegraphics[scale=0.07]{6.jpg}\\
-Figur 7 (GUI 4) - Beskriver et muligt design af løsningen. Her gøres der brug af en vertikal CSS-menu.\\
-\includegraphics[scale=0.07]{4.jpg}\\
-Figur 8 (GUI 5) Beskriver et muligt design af løsningen. Her gøres der brug af en vertikal CSS-menu.\\
-\includegraphics[scale=0.07]{8.jpg}\\
-Figur 9 (GUI 6) Beskriver et muligt design af løsningen. Her gøres der brug af en vertikal CSS-menu.\\\\
-På de overnstående billeder GUI 1-6 ses de ideer vi har til hvordan det kunne komme til at se ud.\\
-Dette er dog stadig kun ide face af hvordan det muligtvis kunne komme til at se ud, derfor har vi en masse forskellige GUI ideer som vi kan se forskellige gode aspekter ved.\\
-Disse billeder er en sammensætning for at se et samlet GUI således at figur 4 og 5 udgør vores første GUI med en drop down menu som skal give et bedre overblik over de forskellige handlinger.\\
-figur 6,7,8 og 9 udgør vores andet GUI design som fremstår på en mulig hjemmeside version hvor vi har menuerne i siden og kan komme ind på de forskellige sektioner som vist på billederne.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Tilfojbruger.png}
+\caption{Tilføjelse af brugere}
+\end{figure}
+På figur 6 her ses vores program og hvordan bruger tilføjelsen ser ud.\\
+Vi har sat det op på denne måde da for at tilføje et nyt element til databasen kræver det en mail, KEA ID (dette er det specielle id som KEA arbejdere og studerende har ligesom vi har på KU), og et telefon nummer. Vi har foruden dette også en stor text box som vi bruger til at vise alle brgerne når man klikker på "vis alle brugere" knappen.\\
+vi har valgt at sætte det op på denne måde da det virkede som om det var den mest intuative måde at gøre det på med alle indsæt værdier i toppen og knapperne i bunden.\\
 \pagebreak
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Tilfojcomputer.png}
+\caption{Tilføjelse af ny computer}
+\end{figure}
+\\
+På figur 7 ser vi hvordan programmet ser ud i ny computer tilføjelses delen.\\
+Her har vi valgt at sætte det op på mere eller mindre samme måde som vi har gjort med tilføj bruger men bare med tilføjelse af computere og de elementer der skal til for at tilføje en ny computer til databasen.
+\pagebreak
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Udlan.png}
+\caption{Udlån af computere og afflevering}
+\end{figure}
+på figur 8 ser vi hvordan hovede delen af programmet ser ud, nemlig den del hvor vi realt udlåner og afflevere computere.
+\\[0.1in]
+Som det ses på de ovenstående figure har vi nu et nogenlunde fungerende program dog med små layout messige løse ender som der skal kigges på(fx nogen knapper der går udover kanten af GUI'en og noget text der lige skal ændres på nogen af knapperne.)
+\pagebreak
+
 \section{Projektsamarbejdet}
 Når vi ser på samarbejdet mellem gruppen og kunden har vi haft en del problemer i forstanden at vi ikke har haft mulighed for at få et møde i før for få dage siden. Dette har vi da fået løst da vi formåede at presse på og få et møde og få langt støre klarhed omkring projektet. Før dette havde vi blot en email at arbejde ud fra dog gav den også godt udgangspunkt for hvad vi kunne starte med at arbejde med.\\
 Vi har efter dette haft bedre håndtering af arbejdet da vi har fået langt større klarhed omkring projektet. Dog har kunden til dette møde kommet med et meget pludseligt krav til projektet som vil tilføre en større mængde arbejde til projektet end forventet. Kravet var at vi skulle tilføje et underskrift system af en art til hvad vi allerede havde fået information om at lave. Dette har vi haft forskellige forslag til hvordan vi skulle løse som f.eks. Have en tablet hvor personen skriver underskrift på og gemme billedet på samme drev og med navngivning med et sagsnummer så det kan findes via databasen.\\
