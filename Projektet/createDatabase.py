@@ -39,6 +39,7 @@ class Application(Frame):
                     tyverid INT )""")
 
         c.execute("""CREATE TABLE Loan (
+                    sagsID INTEGER PRIMARY KEY AUTOINCREMENT,
                     bid INT,
                     did INT,
                     loan DATETIME,

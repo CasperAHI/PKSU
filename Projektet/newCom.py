@@ -38,9 +38,6 @@ class Application(Frame):
         self.AddComButton = Button(self, text = "Tilfoj ny device", command = self.somthing)
         self.AddComButton.grid(row = 2, column = 2, sticky = W)
         
-        self.showButton = Button(self, text = "Vis alle brugere", command = self.showing)
-        self.showButton.grid(row = 2, column = 6, sticky = W)
-        
     def somthing(self):
         dType = self.DeviceTypeEntry.get()
         name = self.DeviceNameEntry.get()
@@ -55,13 +52,6 @@ class Application(Frame):
                 message = "En device er allerede i systemet"
             self.text.delete(0.0, END)
             self.text.insert(0.0, message)
-        
-    
-    def showing(self):
-        alleBrugere = c.execute("Select * From Device").fetchall()
-        self.text.delete(0.0, END)
-        for i in alleBrugere:
-            self.text.insert(0.0, str(i) + "\n")
                 
 root = Tk()
 root.title("Tilfoj ny computer")

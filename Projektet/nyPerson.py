@@ -35,11 +35,8 @@ class Application(Frame):
         self.text = Text(self, width = 60, height = 30, wrap = WORD)
         self.text.grid(row = 1, column = 2, columnspan = 10, sticky = W)
         
-        self.AddComButton = Button(self, text = "Tilfoj ny device", command = self.somthing)
+        self.AddComButton = Button(self, text = "Tilfoj ny person", command = self.somthing)
         self.AddComButton.grid(row = 2, column = 2, sticky = W)
-        
-        self.showButton = Button(self, text = "Vis alle brugere", command = self.showing)
-        self.showButton.grid(row = 2, column = 6, sticky = W)
         
     def somthing(self):
         mail = self.mailEntry.get()
@@ -55,12 +52,6 @@ class Application(Frame):
                 message = "Denne bruger er allerede i systemet"
             self.text.delete(0.0, END)
             self.text.insert(0.0, message)
-        
-    def showing(self):
-        alleBrugere = c.execute("Select * From Bruger").fetchall()
-        self.text.delete(0.0, END)
-        for i in alleBrugere:
-            self.text.insert(0.0, str(i) + "\n")
     
     
 root = Tk()

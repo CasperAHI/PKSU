@@ -65,23 +65,14 @@ class Application(Frame):
         self.ComputerIDEntry = Entry(self)
         self.ComputerIDEntry.grid(row = 0, column = 3, sticky = W)
         
-        self.text = Text(self, width = 60, height = 30, wrap = WORD)
-        self.text.grid(row = 1, column = 0, columnspan = 10, sticky = W)
+        self.text = Text(self, width = 60, height = 5, wrap = WORD)
+        self.text.grid(row = 1, column = 0, columnspan = 5, sticky = W)
         
         self.LoanButton = Button(self, text = "Laan Computer", command = self.udlaaner)
-        self.LoanButton.grid(row = 2, column = 0, sticky = W)
+        self.LoanButton.grid(row = 2, column = 1, sticky = W)
         
         self.ReturnButton = Button(self, text = "Afflever Compueter", command = self.affleverCom)
-        self.ReturnButton.grid(row = 2, column = 1, sticky = W)
-        
-        self.ShowButton = Button(self, text = "Vis alle ledige", command = self.visLedige)
-        self.ShowButton.grid(row = 2, column = 2, sticky = W)
-        
-        self.ShowAllButton = Button(self, text = "Vis alle laante", command = self.vislaante)
-        self.ShowAllButton.grid(row = 2, column = 3, sticky = W)
-        
-        self.ShowOldButton = Button(self, text = "Vis alle udlaaninger", command = self.visGammle)
-        self.ShowOldButton.grid(row = 2, column = 4, sticky = W)
+        self.ReturnButton.grid(row = 2, column = 3, sticky = W)
         
     def somthing(self):
         self.content = "Hello"
@@ -101,24 +92,6 @@ class Application(Frame):
             self.text.delete(0.0, END)
             self.text.insert(0.0, message)
     
-    def visLedige(self):
-        midlertidig = c.execute("Select * From Device Where deviceid NOT IN (Select did From Loan Where delivered IS NULL)").fetchall()
-        self.text.delete(0.0, END)
-        for i in midlertidig:
-            self.text.insert(0.0, str(i) + "\n")
-            
-    def visGammle(self):
-        midlertidig = c.execute("Select * From Loan Where delivered IS NOT NULL").fetchall()
-        self.text.delete(0.0, END)
-        for i in midlertidig:
-            self.text.insert(0.0, str(i) + "\n")        
-            
-    def vislaante(self):
-        midlertidig = c.execute("Select * From Device Where deviceid IN (Select did From Loan Where delivered IS NULL)").fetchall()
-        self.text.delete(0.0, END)
-        for i in midlertidig:
-            self.text.insert(0.0, str(i) + "\n")
-            
     def affleverCom(self):
         brugerID = self.BrugerIDEntry.get()
         computerID = self.ComputerIDEntry.get()
@@ -134,7 +107,7 @@ class Application(Frame):
 
 root = Tk()
 root.title("Computer Udlaan og Afflevering")
-root.geometry("500x550")
+root.geometry("500x135")
 app = Application(root)
 
 root.mainloop()
