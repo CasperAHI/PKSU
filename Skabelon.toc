@@ -7,17 +7,17 @@
 \contentsline {subsection}{\numberline {3.2}Ikke funktionelle krav}{5}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Use-Case-model}{6}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Use-case}{7}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Klassediagram}{8}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}BCE-Model}{8}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Sekvensdiagram}{9}{subsection.3.7}
-\contentsline {section}{\numberline {4}Systemdesign}{11}{section.4}
-\contentsline {section}{\numberline {5}Program- og systemtest}{12}{section.5}
-\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{13}{section.6}
-\contentsline {section}{\numberline {7}Projektsamarbejdet}{16}{section.7}
-\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{17}{section.8}
-\contentsline {section}{\numberline {9}Referat af kundem\IeC {\o }de d. 4. maj 2015}{18}{section.9}
-\contentsline {section}{\numberline {10}Reviews}{19}{section.10}
-\contentsline {subsection}{\numberline {10.1}A Rational Design Process: How and Why to Fake It}{19}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Designing for Usability: Key Principles and What Designers Think}{20}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}No Silver Bullet}{21}{subsection.10.3}
-\contentsline {subsection}{\numberline {10.4}The M.A.D. Experience}{22}{subsection.10.4}
+\contentsline {subsection}{\numberline {3.5}Klassediagram}{9}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}BCE-Model}{10}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Sekvensdiagram}{11}{subsection.3.7}
+\contentsline {section}{\numberline {4}Systemdesign}{13}{section.4}
+\contentsline {section}{\numberline {5}Program- og systemtest}{14}{section.5}
+\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{15}{section.6}
+\contentsline {section}{\numberline {7}Projektsamarbejdet}{18}{section.7}
+\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{19}{section.8}
+\contentsline {section}{\numberline {9}Referat af kundem\IeC {\o }de d. 4. maj 2015}{20}{section.9}
+\contentsline {section}{\numberline {10}Reviews}{21}{section.10}
+\contentsline {subsection}{\numberline {10.1}A Rational Design Process: How and Why to Fake It}{21}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Designing for Usability: Key Principles and What Designers Think}{22}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}No Silver Bullet}{23}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}The M.A.D. Experience}{24}{subsection.10.4}
