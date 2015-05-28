@@ -42,13 +42,13 @@ ProjDat2015}
 \section{Abstract}
 Københavns Erhvervs Akademi has requested a better solution to loan computers and IT-equipment to their employees and students. Their current system is based on paper and is very time consuming. They are having trouble archiving them, and at the same time some of the papers have disappeared using this system. Our customer has therefore requested an IT-solution to store the information of the loaner computers. We are making a library lending system for their computers and IT-equipment, which will be used by their employees in their IT-department. We will create a database, which will store all the information. The information is: Their users, their computers and if a computer is available or not. Our backend will be made in Python. Our costumer has requested us to create a front-end to our liking. \\
 \section{Formål og rammer}
-Formålet ved projektet er, at vi skal lave et program eller website opsat udlåns-system. Dette system skal have til formål at holde opsyn med hvilke computere der er udlånt til hvilke personer og hvilke computere der er til rådighed til at blive udlånt til ansatte eller studerende i deres database.\\
-Formålet ved projektet er, at vi skal lave et program eller website opsat udlåns-system. Dette system skal have til formål at holde opsyn med hvilke computere der er udlånt til hvilke personer og hvilke computere der er til rådighed til at blive udlånt til ansatte eller studerende i deres database.\\
+Formålet ved projektet er, at vi skal lave et udlåns-system for Københavns Erhvervs Akademi. Dette system skal have til formål at holde opsyn med hvilke computere der er udlånt til hvilke personer og hvilke computere der er til rådighed til at blive udlånt til ansatte eller studerende i deres database.\\
 Måden vi vil gøre dette på er at lave en database der skal stå for opmagasineringen af informationerne om både computerne men også hvem der har dem eller om de er klar til at blive udlånt.\\
 Udover dette skal lave vi et program til at administrere data’en fra databasen og formidle den på en fornuftig måde overfor brugeren.\\
-Vi skal til slut lave et program eller website der så fremviser dette på en nem forståelig måde til brugeren så de kan indtaste hvilke computere der er udlånt til hvem og hvilke computere der er klar til udlåning eller hvilke computere der bliver afleveret.\\ \\
+Vi skal til slut lave et program der fremviser dette på en nem forståelig måde til brugeren, så de kan indtaste hvilke computere der er udlånt til hvem og hvilke computere der er klar til udlån eller hvilke computere der bliver afleveret.\\ \\
 \subsection{FACTOR Analyse}
-\textbf{Functionality:} Programmet administrere udlån af computere i form af hvem har en computer, er en computer udlånt, og om en computer er klar til udlån samt om hvor længe en person har haft en given computer.\\
+FACTOR kan anvendes på to måder. Det kan bruges til at støtte system-definitions udviklingen, hvor det omhyggeligt overvejes, hvordan hver af de seks elementer bør formuleres. Ellers, kan der startes med en definition ved at beskrives systemet, og derefter bruge kriterene for at se, hvordan system-definitionen opfylder hver af de seks kriterier. Vi har valgt at anvende FACTOR på den først nævnte måde.
+\textbf{Functionality:} Programmet administrerer udlån af computere i form af hvem har en computer, er en computer udlånt, og om en computer er klar til udlån samt hvor længe en person har haft en given computer.\\
 \textbf{Application domain:} For at løse problem domain som er at få et bedre system end at skulle skrive manuelt ned på papir hver gang en computer skal udlånes, så skal programmet håndtere en bruger der skal låne computere ud til lånere. Dette vil programmet gøre ved hjælp af en database som har information om låneren og hvilke computere der er klar til at blive udlånt.\\
 Systemet skal udover dette også håndtere at sende en rykker ud til alle de personer som der har haft computerne i for lang tid, derfor har databasen også et timestamp der viser hvornår computeren blev udlånt og hvornår den bliver afleveret.\\
 \textbf{Conditions:} Systemet vil blive kodet i Python og vil være begrænset således at det kun er udlåneren som har adgang til systemet, men en låner er nød til at kontakte udlåneren for at låne en computer.\\
@@ -73,8 +73,8 @@ Funktionelle krav beskriver samspillet mellem systemet og dets omgivelser uafhæ
 \subsection{Ikke funktionelle krav}
 Ikke-funktionelle krav beskriver aspekter af systemet, som ikke er direkte relateret til den funktionelle opførsel af systemet. Ikke-funktionelle krav omfatter en bred vifte af krav, der gælder for mange forskellige aspekter af systemet, fra usability til performance. \cite[s.119]{OOSE} \\ De ikke funktionelle krav, er lidt omvendt i forhold til de hvad funktionelle krav beskriver. De ikke funktionelle krav beskriver altså ikke hvad systemet skal kunne, men hvordan det skal kunne køre. Det er altså kravne til det miljø, som systemet skal køre i.
 \begin{itemize}
-	\item Systemet skal kunne tilgås fra Windows 7, 8 og fra Mac.
-	\item Tilgængeligheden på programmet skal være enten via en hjemmeside eller via et fælles drev, dette vil blive uddybet efter vores møde.
+	\item Systemet skal kunne tilgås fra Windows 7, 8.
+	\item Tilgængeligheden på programmet skal være gennem et lokalt drev.
 	\item Programmet skal være sikkert, altså skal det ikke kunne hackes eller kunne tilgås udefra, altså skal man være forbundet til KEA's netværk. Det skal også være sikkert ved, at der ikke mistes data i systemet.
 	\item Programmet skal køre så hurtigt som muligt, da databasen over tid kan blive meget stor.
 	\item Systemet må ikke være case-sensitive. Systemet må altså ikke skelne mellem store og små bogstaver ved inputs. Dette er for at undgå brugerfejl.
@@ -107,7 +107,7 @@ Entry conditions & $\bullet$ Låneren mangler en computer. \\ \hline
 Exit conditions  & $\bullet$ Låneren har lånt en computer. 
 \end{tabular}
 \end{table} \\
-Dette gamle udlånssytem kræver ekstra unædvendig tid fra både låner og udlåner. Udlåner riskere også, at der går rod i papirarbejdet og at tingene forsvinder. Systemet er altså forældet, og derfor ønsker kunden en løsning istedet. \\
+Det gamle udlånssytem, der vises i Use-case 1, kræver ekstra unædvendig tid fra både låner og udlåner. Udlåner riskere også, at der går rod i papirarbejdet og at tingene forsvinder. Systemet er altså forældet, og derfor ønsker kunden en løsning istedet. \\
 \begin{table}[h]
 \caption{Use-case 2}
 \begin{tabular}{ll}
@@ -151,17 +151,26 @@ Flow of evnets                & 1. Udlåner skal tjekke historikken for en låne
 Entry conditions & - \\ \hline
 Exit conditions  & $\bullet$ Udlåner har set lånerens historik.
 \end{tabular}
-\end{table}
+\end{table}\\
+I Use-case 4 vises hvordan proceduren for at se historikken for en computer eller en bruger foregår.
+\newpage
 \subsection{Klassediagram}
-Klassediagrammer bruges til at beskrive strukturen af systemet. Klasser er abstraktioner, der angiver struktur og adfærd af et sæt objekter. Objekter er instanser af klasser, der oprettes, ændres og ødelægges under udførelsen af systemet. Klassediagrammer beskriver systemet i form af objekter, klasser, attributter, operationer, og deres sammenslutninger. \cite{OOSE}{30}
-\subsection{BCE-Model}
-Entity objekter repræsenterer vedvarende oplysninger der registreres af systemet. Boundary objekter repræsenterer samspillet mellem aktører og systemet. Control objekter er ansvarlig for at realisere use cases. Modellering af systemet med Entity, Boundary og Control objekter giver udviklere enkel heuristik til at skelne mellem forskellige, men beslægtede begreber.\cite{OOSE}{171}
+Klassediagrammer bruges til at beskrive strukturen af systemet. Klasser er abstraktioner, der angiver struktur og adfærd af et sæt objekter. Objekter er instanser af klasser, der oprettes, ændres og ødelægges under udførelsen af systemet. Klassediagrammer beskriver systemet i form af objekter, klasser, attributter, operationer, og deres sammenslutninger. \cite[s.30]{OOSE}
 \begin{figure}[h!]
-\includegraphics[width=0.9\textwidth]{BCE.png}
+\includegraphics[width=0.9\textwidth]{Klassediagram}
+  \caption{Klassediagram}
+  \centering
+\end{figure}
+\newpage
+\subsection{BCE-Model}
+Entity objekter repræsenterer vedvarende oplysninger der registreres af systemet. Boundary objekter repræsenterer samspillet mellem aktører og systemet. Control objekter er ansvarlig for at realisere use cases. Modellering af systemet med Entity, Boundary og Control objekter giver udviklere enkel heuristik til at skelne mellem forskellige, men beslægtede begreber.\cite[s.171]{OOSE}
+\begin{figure}[h!]
+\includegraphics[width=0.9\textwidth]{BCE}
   \caption{BCE-Model}
   \centering
-\end{figure} \\ \\
-I BCE-modellen ses det hvordan udlåneren kan interagere med interfacet. Gennem dette får han/hun dagang til funktioner, såsom udlånComputer, afleverComputer, historik, og tilføj computer. Alle disse funktioner har tildelt en metode, der udfører udlånerens hensigter.\\
+\end{figure}\\
+I BCE-modellen (figur 2) ses det hvordan udlåneren kan interagere med interfacet. Gennem dette får han/hun dagang til funktioner, såsom udlånComputer, afleverComputer, historik, og tilføj computer. Alle disse funktioner har tildelt en metode, der udfører udlånerens hensigter.
+\newpage
 \subsection{Sekvensdiagram}
 Et sekvens diagram forbinder use cases med objekter. Det viser, hvordan en use case (eller scenarier) opfører sig og hvordan det fordeles blandt de deltagende objekter. Sekvens diagrammer er normalt ikke så godt et medium for kommunikation med brugeren som use cases er, da sekvens diagrammer kræver mere baggrund om notation. \cite{OOSE}{179} 
 \begin{figure}[h!]
@@ -191,18 +200,21 @@ Vi har lavet et deployment diagram, som viser systemets opbygning. Deployment di
   \caption{Deployment Diagram}
   \centering
 \end{figure} \\ \\
-Systemet er bygget op om en database. Databasens struktur er blevet udviklet, så det er nemt for os at udvinde den information vi eller kunden ønsker. Kravene til databasen er, at den skal opbevare data for brugerne, computerne, udlån og historikken for de udlånte computere. Vi lavede en tabel for hver af disse. Vi kom frem til den konklusion, at det ikke var nemt at udvinde information om hvilke computere var ledige, uden at man skulle slette noget af sin data i en tabellen. Dette var fordi, at når en Computer var blevet afleveret, da vil dens data stadig være i en tabel for de udlånte computere, alle afleverede computere ville altså stå som værende udlånt. Strukturen er blevet ændret til kun at indholde brugere, computere og lån, hvor historikken findes i lån. \\ \\
+I figur 5 ses et deployment diagram. Diagrammet viser vores systems opbygning, og hvordan vores system taler sammen. Vi har altså lavet en database, som taler sammen med computeren via python. \\
+Systemet er bygget op om en database. Databasens struktur er blevet udviklet, så det er nemt for os at udvinde den information vi eller kunden ønsker. Det er gjort, så vi med simple relationer kan få dataen frem, dette betyder, at vi ikke skal lave 'avanceret' "relational algebra". Kravene til databasen er, at den skal opbevare data for brugerne, computerne, udlån og historikken for de udlånte computere. Vi lavede en tabel for hver af disse. Vi kom frem til den konklusion, at det ikke var nemt at udvinde information om hvilke computere var ledige, uden at man skulle slette noget af sin data i en tabellen. Dette var fordi, at når en Computer var blevet afleveret, da vil dens data stadig være i en tabel for de udlånte computere, alle afleverede computere ville altså stå som værende udlånt. Strukturen er blevet ændret til kun at indholde brugere, computere og lån, hvor historikken findes i lån. \\ \\
 Vi har i gruppen diskuteret vores forskellige muligheder for backend:
-Vi har indtryk af, at Python er en af de mest brugte sprog til databaser. Vi alle i gruppen tidligere arbejde i Python i blok 3. Dette var i forbindelse med eksamen i Datamining. Alle i gruppen har derfor kendskab til Python.\\ \\
-Vi har i gruppen overvejet C++. C++ opfører sig på nogle punkter ligesom java, da det er objekt-orienteret, hvilket vil sige, at det vil gøre lærings processen nemmere for os. Ud fra det overblik vi har dannet, da er det meget nemt at finde information om. Her er det primært information implimentation af databaser, men også stortset alt hvad vi kan have brug for. Dog er ulempen, at ingen kender dette sprog eller har erfaringer med det.\\ \\ \\
-Vi er kommet frem til, at programmet vil blive skrevet i python, vi besluttede dette da vi følte vi havde mest kendskab til python og vil kunne bruge det på bedre vis end andre sprog. \\
+Vi har indtryk af, at Python er en af de mest brugte sprog til databaser. Vi har alle i gruppen tidligere arbejdet i Python i blok 3. Dette var i forbindelse med eksamen i Datamining. Alle i gruppen har derfor kendskab til Python.\\ \\
+Vi har i gruppen også overvejet at skrive det i C++. Vi overvejede dette fordi C++ er et object-orienteret sprog, og vi alle i gruppen på forhånd har kendskab til Java. Vi har erfaret ved søgning på google, at der let kan findes information (samt dokumentation) om sproget på nettet (i forhold til f.eks. SML). Ulempen ved et valg af C++ er, at ingen i gruppen har arbejdet i C++ før, og vi vil derfor skulle lære det. \\ \\ \\
+Vi er kommet frem til, at programmet vil blive skrevet i python. Vi har valgt Python, fordi vi i gruppen har de største kompetencer i dette sprog. Vi kan derfor undgå at bruge unødvendig tid på at lære et nyt sprog. \\
 Vi har derfor lavet vores backend i Python, hvor vi har lavet et program, som kan hente det data vi har brug for fra databasen. Vores Python program anvender sqlite3 biblioteket. \\
-Vi har ikke lavet brugerfladen endnu. Dette vil blive gjort i enten python som et program eller blive en hjemmeside lavet i Django.\\ Grunden til hjemmesiden vil være i Django, er fordi det er et python framework. Vi har været i kontakt med kunden omkring det skulle være et program eller en hjemmeside. Til dette havde kunden ingen krav, og lader det være op til os. Vi er stadig i processen, hvor vi diskuterer de forskellige fordele og ulemper. En af fordelene ved at lave et python program er, at vi ikke har behov for at lære et nyt sprog. En fordel ved at lave en hjemmeside er, at der kan laves en pænere brugerflade, men det er et helt nyt sprog som vi skal lære. \\
+Vi har ikke lavet brugerfladen endnu. Dette vil blive gjort i enten Python som et program eller blive en hjemmeside lavet i Django.\\ Grunden til hjemmesiden vil være i Django, er fordi det er et Python framework. Vi har været i kontakt med kunden omkring det skulle være et program eller en hjemmeside. Til dette havde kunden ingen krav, og lader det være op til os. Vi har i gruppen diskuteret de forskellige fordele og ulemper. En fordel ved at lave en hjemmeside i django er, at der kan laves en pænere brugerflade. Med en pænere brugerflade skal det forstås sådan, at oftest vil et program i f.eks. Python se skrabet ud og kan i visse tilfælde ligne noget fra 90'erne. De eksempler vi har set på en hjemmeside lavet i Django har oftest en pænere brugerflade end et '90'er program. \\
+En af fordelene ved at lave et Python program er, at vi ikke har behov for at lære hvordan en hjemmeside i Django skal opbygges. Det er altså nemmere for os at lave et fungerende program, som vil leve op til kundens krav. \\
+Vi har valgt at lave programmet i Python for at vi hurtigere har kunne få lavet en prototype. \\
 Vores kunde har derudover også stillet os det krav, at vi skal sikre os at der kan indsættes en underskrift i systemet. Vi har endnu ikke bestemt os for hvordan dette skal gøres. Vi skal enten få underskriften fra en touchpad/mus på en computer, eller koble en tablet til computeren og få brugeren til at skrive sin underskrift på denne. Vi har da tænkt os at opbevare billedet med underskriften i en mappe på et fællesdrev, hvor vi tilknytte de enkelte underskrifter til de der tilhørende udlån. \\[0.1in]
 Udestående opgaver, som mangler at bliver lavet: \\
-$\bullet$ Front-end. \\
-$\bullet$ Implementation af underskrift. \\
-$\bullet$ Program som udskriver kvittering, når en computer afleveres.
+$\bullet$ Fuld implementation af Front-end - Vi mangler at få udarbejdet nogen af de ønskede funktioner i programmet. \\
+$\bullet$ Implementation af underskrift. - Vi mangler i gruppen, at diskutere hvordan vi vil udvide programmet til at tage imod en underskrift, samt hvordan denne underskrift skal opbevares i systemet.\\
+$\bullet$ Program som udskriver kvittering, når en computer afleveres - Vi mangler i gruppen at diskutere, hvordan vi vil udvide programmet til enten automatisk at sende en kvittering til print, eller til at lave kvittering, som brugeren selv manuelt kan sende til print. Kunden ønsker at kvittering skal indeholde følgende: Computerens mærke, model, serie nummer, tyveri ID, lånerens initialer, lånerens underskrift, tilhørende sagsnummer, dato for udlevering og dato for indlevering.
 \section{Program- og systemtest}
 Vi har tænkt os at dele program- og systemtest op i to. Vi vil her teste brugervenligheden og om systemet virker som det skal. Vores plan for at teste brugervenligheden er, at vi vil lave Think-Aloud test med vores kunde. Vi vil her observere, hvordan vores kunde færdes i vores system og give vores kunde flere forskellige opgaver som skal løses ved brug af vores system. Vi vil her undervejs notere de gode og dårlige ting ved systemet. Når testen med kunden er færdig, vil vi evaluere testen med kunden, og høre hvad kunden synes om systemet, eller om noget er uhensigtsmæssigt. Think Aloud testen vil blive lavet i forhold til artiklen "Thinking Aloud - User Testing by Molich" \cite{ThinkAloud}. \\[0.1in]
 Denne test skal laves med kunden for, for det første at teste om løsningen er hensigtsmæssig, fra kundens synspunkt, og for det andet for at teste løsningens brugervenlighed og intuitivitet. 
@@ -242,15 +254,18 @@ På figur 10 ser vi vores hovede GUI som åbner alle de andre sektioner samt mul
 \pagebreak
 
 \section{Projektsamarbejdet}
-Når vi ser på samarbejdet mellem gruppen og kunden har vi haft en del problemer i forstanden at vi ikke har haft mulighed for at få et møde i før for få dage siden. Dette har vi da fået løst da vi formåede at presse på og få et møde og få langt støre klarhed omkring projektet. Før dette havde vi blot en email at arbejde ud fra dog gav den også godt udgangspunkt for hvad vi kunne starte med at arbejde med.\\
-Vi har efter dette haft bedre håndtering af arbejdet da vi har fået langt større klarhed omkring projektet. Dog har kunden til dette møde kommet med et meget pludseligt krav til projektet som vil tilføre en større mængde arbejde til projektet end forventet. Kravet var at vi skulle tilføje et underskrift system af en art til hvad vi allerede havde fået information om at lave. Dette har vi haft forskellige forslag til hvordan vi skulle løse som f.eks. Have en tablet hvor personen skriver underskrift på og gemme billedet på samme drev og med navngivning med et sagsnummer så det kan findes via databasen.\\
-Anden forslag ville kunne være at lave det hele over en hjemmeside og kode noget javascribt ind og sætte et viatuelt underskrift ind under også gemme den som et billede og arkivere på samme måde som nævnt i forslaget ovenover.\\
+\subsection{Kunden}
+Når vi ser på samarbejdet mellem gruppen og kunden har vi haft en del problemer i forstanden at vi ikke har haft mulighed for at få et møde i før for ret langt inde i projektet. Dette fik vi løst efter at formåede at presse på og få stablet et møde på benene. Efter det første møde 4/5 fik vi få langt støre klarhed omkring projektet. Før dette havde vi blot en email at arbejde ud fra dog gav den også godt udgangspunkt for hvad vi kunne starte med at arbejde med.\\
+Vi har efter dette bedre kunne håndtere arbejdet da vi har fået langt større klarhed omkring projektet. Dog har kunden til dette mødet kommet med et meget pludseligt krav til projektet som vil tilføre en større mængde arbejde til projektet end forventet. Kravet var at vi skulle tilføje et underskrift system til, som skulle implementeres i programmet som sikkerhed for at de respektive personer havde lånt det respektive ting.\\
+Vi har endnu ikke fået valgt metoden vi vil løse problemet med, men vi hælder mest til at bruge en tablet også gemme billederne lokalt eller på et virtuelt drev.\\
+\subsection{Arbejdsstruktur}
 For at effektivisere vores arbejde med projektet, har vi indført to faste dage hver uge, hvor vi vil sidde og udvikle IT-systemet. Dette er for at sikre, at vi kan leve op til vores egne deadlines som vi (dog kun har sat som et personligt mål da kunden ikke har en fast deadline), og nå at få den krævende viden for at få et virkende program.\\
-Vi er begyndt her at lave et startmøde i gruppen, når vi mødes, hvor vi uddelegerer arbejde og sikrer os, at vi alle arbejder på relevante felter.\\
 Vi vil efter gruppearbejdet opdatere hinanden på hvad og hvor meget der er blevet lavet. Vi vil gøre det i form af forklaring af hver persons individuelle arbejde både i form af kode eller i form af hvilken strukturering af arbejdet vi hver har lavet.\\
 Vi mener indtil videre ikke, at vores arbejdsindsats har været god nok, da vi har haft en del eksamener og reeksamener og derfor været nød til at udsætte arbejdet på projektet. det er derfor at vi har valgt, at ændre i vores egen møde struktur og indføre to faste dage om ugen.
 Derudover har der været tryk på ifb. med nye krav for kunden som er kommet meget sent. Første møde med kunden blev stablet på benene d.4 maj, hvilket er lidt over en måned senere end hvad vi havde ønsket. Vi burde  måske have presset mere på for at få tid med kunden. Men i og med kunden er en fra gruppens chef, har vi haft problemer med at presse på da det vi var bange for at sætte vores gruppemedlem i et dårligt lys.\\
-I gruppen er der omkring 3 der arbejder ad gangen der typisk er en som skal det ene eller andet, det tager vi ikke så tungt i gruppen da vi alle kan have en off-dag eller simpelthen har for travlt.
+I gruppen er der omkring 3 der arbejder ad gangen, fordi der typisk er en som skal det ene eller andet, det tager vi ikke så tungt i gruppen da vi alle kan have en off-dag eller simpelthen har for travlt.\\
+\subsection{Refleksion over arbejdsmetoden}
+Metoden vi arbejder efter ligner meget godt Scrum metoden. ~\cite{Scrum} Vi har strukteret det således at vi mødes to gange for at evaluere vores fremgang, disse møder ligner meget disse Scrum meetings. Forskellen er at vores møder er lidt en blanding af det vi kender som "daily scrum meetings" og de reele møder. Møderne to gange om ugen sikrer en fremgang og en fælles enighed om hvordan vi går videre med projektet. Typisk bliver opgaverne delt op og derefter refkleteret til møderne. På denne måde sikrer vi os at "spilde" minimal arbejdskraft ved hele tiden at sikrer os, at det er de rigtige ting der bliver lavet og ikke eventuelt lave noget dobbelt.\\ 
 \newpage
 \section{Bilag 3 - Timeline}
 På nuværende tidspunkt har vores arbejde ikke været på selve programmet endnu men snarere på ideen bag den, så vi vil have en bedre forståelse af hvilket produkt vi skal ende med. Dog er vores egne deadlines sat således:\\
@@ -262,13 +277,13 @@ Den 25. marts modtog vi mail fra kunden om hvad de ønskede sig af programmet. K
 $\bullet$ Afholdt gruppemøde 21-04-2015:\\
 Den 21. april har vi aftalt, at vi ønsker at have den første prototype klar inden den 3. maj. Vi har endvidere aftalt at have to faste dage om ugen, hvor vi vil arbejde på projektet. Dette valg er truffet for at sikre os, at vores egen deadline vil kunne blive overholdt.\\
 $\bullet$ Afholdt kundemøde 4-5-2015:\\
-Den 4. manj holdt vi møde med kunden, hvor vi fik respons på eventuelle designs, og fik informationer om krav, prioriteringer og problemer med hensyn til løsningen. Et referat af mødet er vedlagt.
+Den 4. maj holdt vi møde med kunden, hvor vi fik respons på eventuelle designs, og fik informationer om krav, prioriteringer og problemer med hensyn til løsningen. Et referat af mødet er vedlagt.
 \pagebreak
 \section{Referat af kundemøde d. 4. maj 2015}
 \subsection*{Krav}
 $\bullet$ Udlån skal indholde et underskriftsfelt \\
 $\bullet$ Der skal være mulighed for udvidelse til mange computere, da systemet skal udvides i 2016. \\
-$\bullet$ Computere skal have et typefelt (er det en PC eller Mac) \\
+$\bullet$ Computere skal have et typefelt\\
 $\bullet$ Systemet må ikke kunne tilgås udefra. \\
 $\bullet$ Alle skal kunne oprette nye brugere. \\
 $\bullet$ Redigering er forbeholdt administratorer. \\
