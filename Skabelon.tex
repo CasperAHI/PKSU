@@ -50,9 +50,8 @@ Vi skal til slut lave et program der fremviser dette på en nem forståelig måd
 \subsection{FACTOR Analyse}
 FACTOR kan anvendes på to måder. Det kan bruges til at støtte system-definitions udviklingen, hvor det omhyggeligt overvejes, hvordan hver af de seks elementer bør formuleres. Ellers, kan der startes med en definition ved at beskrive systemet, og derefter bruge kriterene for at se, hvordan system-definitionen opfylder hver af de seks kriterier. Vi har valgt at anvende FACTOR på den først nævnte måde. \\
 \textbf{Functionality:} Programmet administrerer udlån af computere i form af hvem har en computer, er en computer udlånt, og om en computer er klar til udlån samt hvor længe en person har haft en given computer.\\
-\textbf{Application domain:} For at løse problem domain som er at få et bedre system end at skulle skrive manuelt ned på papir hver gang en computer skal udlånes, så skal programmet håndtere en bruger der skal låne computere ud til lånere. Dette vil programmet gøre ved hjælp af en database som har information om låneren og hvilke computere der er klar til at blive udlånt.\\
-Systemet skal udover dette også håndtere at sende en rykker ud til alle de personer som der har haft computerne i for lang tid, derfor har databasen også et timestamp der viser hvornår computeren blev udlånt og hvornår den bliver afleveret.\\
-\textbf{Conditions:} Systemet vil blive kodet i Python og vil være begrænset således at det kun er udlåneren som har adgang til systemet, men en låner er nød til at kontakte udlåneren for at låne en computer.\\
+\textbf{Application domain:} Anvendelsesområdet er Københavns Erhvervsakademis IT-afdeling. Dette er grundet, at det er de ansatte i afdelingen som er brugerne af systemet.\\
+\textbf{Conditions:} Der er to conditions. Den ene er, at systemet skal køre på en VDI (Virtual desktop infrastructure).\\
 \textbf{Technology:} Systemet vil blive kodet i Python og vil køre over python driveren ligeledes.\\
 Systemet skal være tilgængeligt til at køre på  Windows, og vil komme til at have en database som vil ligge på kundens drev som bliver delt ud til kundens ansatte således at alle vil kunne bruge det derfra.\\
 \textbf{Objects:} Udlåner og låner. computere og måske andre elektroniske devices.\\
@@ -86,9 +85,10 @@ Vi har lavet følgende udkast, som er et udtryk for, hvordan vi forventer vores 
 \begin{figure}[h!]
 \includegraphics[width=0.8\textwidth]{UseCaseModel}
   \caption{Use-Case-Model}
+  \label{fig:USM}
   \centering
 \end{figure}  \\ \\
-Figur 1 illusterer brugerens råderum. På figuren ses det, at udlåneren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. Låneren har mulighed for at igang sætte et lån, eller aflevere en computer. Dette kan de gøre ved at henvende sig til en udlåner. Brugerne af vores system, skal have adgang til alle systemets funktioner. Der bliver derfor ikke skelnet i brugerrettigheder, da låneren kun har adgang til systemet gennem en udlåner.
+Figur \ref{fig:USM} illusterer brugerens råderum. På figuren ses det, at udlåneren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. Låneren har mulighed for at igang sætte et lån, eller aflevere en computer. Dette kan de gøre ved at henvende sig til en udlåner. Brugerne af vores system, skal have adgang til alle systemets funktioner. Der bliver derfor ikke skelnet i brugerrettigheder, da låneren kun har adgang til systemet gennem en udlåner.
 \newpage
 \subsection{Use-case}
 Følgende use-cases er udarbejdet for at beskrive det nye, og det gamle system. Deres mening er at kaste lys over fordelene ved det nye system, såvel som bagdelene ved det gamle system. \\
@@ -159,49 +159,63 @@ Klassediagrammer bruges til at beskrive strukturen af systemet. Klasser er abstr
 \begin{figure}[h!]
 \includegraphics[width=0.9\textwidth]{Klassediagram}
   \caption{Klassediagram}
+    \label{fig:KLS}
   \centering
 \end{figure}
+
+Figur \ref{fig:KLS} viser:
 \newpage
 \subsection{BCE-Model}
 Entity objekter repræsenterer vedvarende oplysninger der registreres af systemet. Boundary objekter repræsenterer samspillet mellem aktører og systemet. Control objekter er ansvarlig for at realisere use cases. Modellering af systemet med Entity, Boundary og Control objekter giver udviklere enkel heuristik til at skelne mellem forskellige, men beslægtede begreber.\cite[p~171]{OOSE}
 \begin{figure}[h!]
 \includegraphics[width=0.9\textwidth]{BCE}
   \caption{BCE-Model}
+    \label{fig:BCE}
   \centering
 \end{figure}\\
-I BCE-modellen (figur 2) ses det hvordan udlåneren kan interagere med interfacet. Gennem dette får han/hun dagang til funktioner, såsom udlånComputer, afleverComputer, historik, og tilføj computer. Alle disse funktioner har tildelt en metode, der udfører udlånerens hensigter.
+På figur \ref{fig:BCE} ses det hvordan udlåneren kan interagere med interfacet. Gennem dette får han/hun dagang til funktioner, såsom udlånComputer, afleverComputer, historik, og tilføj computer. Alle disse funktioner har tildelt en metode, der udfører udlånerens hensigter.
 \newpage
 \subsection{Sekvensdiagram}
 Et sekvens diagram forbinder use cases med objekter. Det viser, hvordan en use case (eller scenarier) opfører sig og hvordan det fordeles blandt de deltagende objekter. Sekvens diagrammer er normalt ikke så godt et medium for kommunikation med brugeren som use cases er, da sekvens diagrammer kræver mere baggrund om notation. \cite[p~179]{OOSE} 
 \begin{figure}[h!]
 \includegraphics[width=0.9\textwidth]{SekvensLaan}
   \caption{Sekvensdiagram-1}
+    \label{fig:SEK1}
   \centering
 \end{figure}\\
-På Figur 3 vises hvordan det nye udlånssystem kommer til at fungere ved udlån af computer. Det ses her hvordan låneren trykker på lånerknappen, hvilket skaber en controller, der skaber udlånsformularen. Denne udlånsformular udfylder og indsender låneren, hvorefter lånet oprettes i databasen, og en kvittering bliver printet.
+På figur \ref{fig:SEK1} vises hvordan det nye udlånssystem kommer til at fungere ved udlån af computer. Det ses her hvordan låneren trykker på lånerknappen, hvilket skaber en controller, der skaber udlånsformularen. Denne udlånsformular udfylder og indsender låneren, hvorefter lånet oprettes i databasen, og en kvittering bliver printet.
 \newpage
 \begin{figure}[h!]
 \includegraphics[width=0.9\textwidth]{SekvensAflever}
   \caption{Sekvensdiagram-2}
+    \label{fig:SEK2}
   \centering
 \end{figure}
-På Figur 4 vises hvordan det nye udlånssystem kommer til at fungere ved aflevering af computer. Det ses her hvordan låneren trykker på afleveringsknappen, hvilket skaber en controller, der skaber afleveringsformularen. Denne afleveringsformular udfylder og indsender låneren, hvorefter afleveringen registreres i databasen, og en kvittering bliver printet. Som det ses er processerne for denne og udlån af computer meget ens.
+På figur \ref{fig:SEK2} vises hvordan det nye udlånssystem kommer til at fungere ved aflevering af computer. Det ses her hvordan låneren trykker på afleveringsknappen, hvilket skaber en controller, der skaber afleveringsformularen. Denne afleveringsformular udfylder og indsender låneren, hvorefter afleveringen registreres i databasen, og en kvittering bliver printet. Som det ses er processerne for denne og udlån af computer meget ens.
 \begin{figure}[h!]
 \includegraphics[width=0.9\textwidth]{SekvensHistorik}
   \caption{Sekvensdiagram-3}
+    \label{fig:SEK3}
   \centering
 \end{figure}\\
-På Figur 5 vises det hvordan det nye udlånssystem kommer til at fungere ved vis af historik. Brugeren af programmet trykker på historikknappen for en bruger eller en computer, hvilket skaber en historikcontroller, der skaber en interfacecontroller, der starter interfacet of, der viser historikken. 
+På figur \ref{fig:SEK3} vises det hvordan det nye udlånssystem kommer til at fungere ved vis af historik. Brugeren af programmet trykker på historikknappen for en bruger eller en computer, hvilket skaber en historikcontroller, der skaber en interfacecontroller, der starter interfacet of, der viser historikken. 
 \newpage
 \section{Systemdesign}
 Vi har lavet et deployment diagram, som viser systemets opbygning. Deployment diagrammet bliver brugt til at vise rune-time komponenter og nodes. \cite[p~256]{OOSE}
 \begin{figure}[h!]
 \includegraphics[width=0.9\textwidth]{deploymentdiagram}
   \caption{Deployment Diagram}
+    \label{fig:DEP}
   \centering
 \end{figure} \\ \\
-I figur 7 ses et deployment diagram. Diagrammet viser vores systems implementering. Vi har altså lavet en database, som taler sammen med programmet via SQL. Computeren tilgår programmet igennem en anden computer via en virtuel maskine. \\
-Systemet er bygget op om en database. Databasens struktur er blevet udviklet, så det er nemt for os at udvinde den information vi eller kunden ønsker. Det er gjort, så vi med simple relationer kan få dataen frem, dette betyder, at vi ikke skal lave 'avanceret' "relational algebra". Kravene til databasen er, at den skal opbevare data for brugerne, computerne, udlån og historikken for de udlånte computere. Vi lavede en tabel for hver af disse. Vi kom frem til den konklusion, at det ikke var nemt at udvinde information om hvilke computere var ledige, uden at man skulle slette noget af sin data i en tabellen. Dette var fordi, at når en Computer var blevet afleveret, da vil dens data stadig være i en tabel for de udlånte computere, alle afleverede computere ville altså stå som værende udlånt. Strukturen er blevet ændret til kun at indholde brugere, computere og lån, hvor historikken findes i lån. \\ \\
+I figur \ref{fig:DEP} ses et deployment diagram. Diagrammet viser vores systems implementering. Vi har altså lavet en database, som taler sammen med programmet via SQL. Computeren tilgår programmet igennem en anden computer via en virtuel maskine. \\
+\begin{figure}[h!]
+\includegraphics[width=0.8\textwidth]{EERDiagram}
+  \caption{Enhanced Entity Diagram}
+  \label{fig:EER}
+  \centering
+\end{figure} \\
+Systemet er bygget op om en database. Databasens struktur er blevet udviklet, så det er nemt for os at udvinde den information vi eller kunden ønsker. Det er gjort, så vi med simple relationer kan få dataen frem, dette betyder, at vi ikke skal lave avanceret relationel algebra. Kravene til databasen er, at den skal opbevare data for brugerne, computerne, udlån og historikken for de udlånte computere. Vi lavede en tabel for hver af disse. Vi kom frem til den konklusion, at det ikke var nemt at udvinde information om hvilke computere var ledige, uden at man skulle slette noget af sin data i en tabellen. Dette var fordi, at når en Computer var blevet afleveret, da vil dens data stadig være i en tabel for de udlånte computere, alle afleverede computere ville altså stå som værende udlånt. Strukturen er blevet ændret til kun at indholde brugere, computere og lån, hvor historikken findes i lån. På figur \ref{fig:EER} ses et Enhanced Entity Relation diagram. Diagrammet viser databasens struktur.  \\ \\
 Vi har i gruppen diskuteret vores forskellige muligheder for backend:
 Vi har indtryk af, at Python er en af de mest brugte sprog til databaser. Vi har alle i gruppen tidligere arbejdet i Python i blok 3. Dette var i forbindelse med eksamen i Datamining. Alle i gruppen har derfor kendskab til Python.\\ \\
 Vi har i gruppen også overvejet at skrive det i C++. Vi overvejede dette fordi C++ er et object-orienteret sprog, og vi alle i gruppen på forhånd har kendskab til Java. Vi har erfaret ved søgning på google, at der let kan findes information (samt dokumentation) om sproget på nettet (i forhold til f.eks. SML). Ulempen ved et valg af C++ er, at ingen i gruppen har arbejdet i C++ før, og vi vil derfor skulle lære det. \\ \\ \\
@@ -224,8 +238,9 @@ Vi vil derudover teste vores system, for at se om det virker som det er tiltænk
 \centering
 \includegraphics[width=1\textwidth]{Tilfojbruger.png}
 \caption{Tilføjelse af brugere}
+\label{fig:GUI1}
 \end{figure}
-På figur 6 her ses vores program og hvordan bruger tilføjelsen ser ud.\\
+På figur \ref{fig:GUI1} her ses vores program og hvordan bruger tilføjelsen ser ud.\\
 Vi har sat det op på denne måde da for at tilføje et nyt element til databasen kræver det en mail, KEA ID (dette er det specielle id som KEA arbejdere og studerende har ligesom vi har på KU), og et telefon nummer. Vi har foruden dette også en stor text box.\\
 vi har valgt at sætte det op på denne måde da det virkede som om det var den mest intuative måde at gøre det på med alle indsæt værdier i toppen og knapperne i bunden.\\
 \pagebreak
@@ -233,24 +248,27 @@ vi har valgt at sætte det op på denne måde da det virkede som om det var den 
 \centering
 \includegraphics[width=1\textwidth]{Tilfojcomputer.png}
 \caption{Tilføjelse af ny computer}
+\label{fig:GUI2}
 \end{figure}
 \\
-På figur 7 ser vi hvordan programmet ser ud i ny computer tilføjelses delen.\\
+På figur \ref{fig:GUI2} ser vi hvordan programmet ser ud i ny computer tilføjelses delen.\\
 Her har vi valgt at sætte det op på mere eller mindre samme måde som vi har gjort med tilføj bruger men bare med tilføjelse af computere og de elementer der skal til for at tilføje en ny computer til databasen.
 \pagebreak
 \begin{figure}[h!]
 \centering
 \includegraphics[width=1\textwidth]{Udlan.png}
-\caption{Udlån af computere og afflevering}
+\caption{Udlån af computere og aflevering}
+\label{fig:GUI3}
 \end{figure}
-på figur 8 ser vi hvordan hovede delen af programmet ser ud, nemlig den del hvor vi realt udlåner og afflevere computere.
+på figur \ref{fig:GUI3} ser vi hvordan hovede delen af programmet ser ud, nemlig den del hvor vi realt udlåner og aflevere computere.
 \pagebreak
 \begin{figure}[h!]
 \centering
 \includegraphics[width=1\textwidth]{mainGUI.png}
-\caption{Udlån af computere og afflevering}
+\caption{Udlån af computere og aflevering}
+\label{fig:GUI4}
 \end{figure}\\
-På figur 10 ser vi vores hovede GUI som åbner alle de andre sektioner samt mulighed for at vise alle Brugere, Devices, alle lånte devices, alle ledige devices, og alle udlåninger der nogensinde har været der.(dog kun dem som er affleveret.)
+På figur \ref{fig:GUI4} ser vi vores hoved GUI som åbner alle de andre sektioner samt mulighed for at vise alle Brugere, Devices, alle lånte devices, alle ledige devices, og alle udlåninger der nogensinde har været der.(dog kun dem som er afleveret.)
 \pagebreak
 
 \section{Projektsamarbejdet}
