@@ -197,11 +197,11 @@ På Figur 5 vises det hvordan det nye udlånssystem kommer til at fungere ved vi
 \section{Systemdesign}
 Vi har lavet et deployment diagram, som viser systemets opbygning. Deployment diagrammet bliver brugt til at vise rune-time komponenter og nodes. \cite[p~256]{OOSE}
 \begin{figure}[h!]
-\includegraphics[width=0.9\textwidth]{deploymentdiagram.png}
+\includegraphics[width=0.9\textwidth]{deploymentdiagram}
   \caption{Deployment Diagram}
   \centering
 \end{figure} \\ \\
-I figur 5 ses et deployment diagram. Diagrammet viser vores systems opbygning, og hvordan vores system taler sammen. Vi har altså lavet en database, som taler sammen med computeren via python. \\
+I figur 7 ses et deployment diagram. Diagrammet viser vores systems implementering. Vi har altså lavet en database, som taler sammen med programmet via SQL. Computeren tilgår programmet igennem en anden computer via en virtuel maskine. \\
 Systemet er bygget op om en database. Databasens struktur er blevet udviklet, så det er nemt for os at udvinde den information vi eller kunden ønsker. Det er gjort, så vi med simple relationer kan få dataen frem, dette betyder, at vi ikke skal lave 'avanceret' "relational algebra". Kravene til databasen er, at den skal opbevare data for brugerne, computerne, udlån og historikken for de udlånte computere. Vi lavede en tabel for hver af disse. Vi kom frem til den konklusion, at det ikke var nemt at udvinde information om hvilke computere var ledige, uden at man skulle slette noget af sin data i en tabellen. Dette var fordi, at når en Computer var blevet afleveret, da vil dens data stadig være i en tabel for de udlånte computere, alle afleverede computere ville altså stå som værende udlånt. Strukturen er blevet ændret til kun at indholde brugere, computere og lån, hvor historikken findes i lån. \\ \\
 Vi har i gruppen diskuteret vores forskellige muligheder for backend:
 Vi har indtryk af, at Python er en af de mest brugte sprog til databaser. Vi har alle i gruppen tidligere arbejdet i Python i blok 3. Dette var i forbindelse med eksamen i Datamining. Alle i gruppen har derfor kendskab til Python.\\ \\
