@@ -57,6 +57,7 @@ FACTOR kan anvendes på to måder. Det kan bruges til at støtte system-definiti
 Systemet skal være tilgængeligt til at køre på  Windows, og vil komme til at have en database som vil ligge på kundens drev som bliver delt ud til kundens ansatte således at alle vil kunne bruge det derfra.\\
 \textbf{Objects:} Udlåner og låner. computere og måske andre elektroniske devices.\\
 \textbf{Responsibility:} Systemets ansvar ligger i, at den skal udskifte skriftlige udlånssedler, som fungerer som værdipapirer hos kunden. Dette system skal være et mere sikkert system, hvor data/sedler ikke vil kunne forsvinde, som det gør for dem nu.
+\newpage
 \section{Kravspecifikationer}
 \subsection{Funktionelle krav}
 Funktionelle krav beskriver samspillet mellem systemet og dets omgivelser uafhængigt af dens implementation. Miljøet omfatter brugeren og ethvert andet eksternt system, som systemet interagerer med. \cite[p~125]{OOSE}. De funktionelle krav beskriver altså, hvordan system skal køre. Vi har altså en liste af de ting, som er forventet systemet skal kunne. Både funktionelle og ikke-funktionelle krav har vi fundet frem via møder med kunden eller mails fra kunden.
@@ -91,7 +92,7 @@ Vi har lavet følgende udkast, som er et udtryk for, hvordan vi forventer vores 
 Figur \ref{fig:USM} illusterer brugerens råderum. På figuren ses det, at brugeren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. Låneren har mulighed for at igangsætte et lån, eller aflevere en computer, men kun ved at henvende sig til en udlåner/bruger. Brugerne af vores system, skal have adgang til alle systemets funktioner. Der bliver derfor ikke skelnet i brugerrettigheder, da låneren kun har adgang til systemet gennem en udlåner.
 \newpage
 \subsection{Use-case}
-Følgende use-cases er udarbejdet for at beskrive det nye, og det gamle system. Deres mening er at kaste lys over fordelene ved det nye system, såvel som bagdelene ved det gamle system.
+Følgende use-cases er udarbejdet for at beskrive det nye, og det gamle system. Deres mening er at kaste lys over fordelene ved det nye system, såvel som bagdelene ved det gamle system. De er lavet ud fra OOSE \cite[p~44]{OOSE} og kan beskrive hvordan programmets forskellige procedurer virker, såvel som hvad der kvalificerer procedurerne, og hvornår de er udført, eller har fejlet.
 \begin{table}[h]
 \caption{Use-case 1}
 \begin{tabular}{ll}
@@ -250,14 +251,25 @@ Vi har ikke lavet brugerfladen endnu. Dette vil blive gjort i enten Python som e
 En af fordelene ved at lave et Python program er, at vi ikke har behov for at lære hvordan en hjemmeside i Django skal opbygges. Det er altså nemmere for os at lave et fungerende program, som vil leve op til kundens krav. \\
 Vi har valgt at lave programmet i Python for at vi hurtigere har kunne få lavet en prototype.
 \subsection{Udestående implementering i programmet}
+<<<<<<< Updated upstream
 Vores kunde har meget sent i forløbet stillet os det krav, at vi skal sikre os, at der kan indsættes en underskrift i systemet. Vi har endnu ikke bestemt os for hvordan dette skal gøres. Vi skal enten få underskriften fra en touchpad/mus på en computer, eller koble en tablet til computeren og få brugeren til at skrive sin underskrift på denne. Vi har da tænkt os at opbevare billedet med underskriften i en mappe på et fællesdrev, hvor vi tilknytte de enkelte underskrifter til de der tilhørende udlån. \\
 $\bullet$ Fuld implementation af Front-end - Vi mangler at få udarbejdet nogen af de ønskede funktioner i programmet. \\
 $\bullet$ Implementation af underskrift. - Vi mangler i gruppen, at diskutere hvordan vi vil udvide programmet til at tage imod en underskrift, samt hvordan denne underskrift skal opbevares i systemet.\\
 $\bullet$ Program som udskriver kvittering, når en computer afleveres - Vi mangler i gruppen at diskutere, hvordan vi vil udvide programmet til enten automatisk at sende en kvittering til print, eller til at lave kvittering, som brugeren selv manuelt kan sende til print. Kunden ønsker at kvittering skal indeholde følgende: Computerens mærke, model, serie nummer, tyveri ID, lånerens initialer, lånerens underskrift, tilhørende sagsnummer, dato for udlevering og dato for indlevering.
+=======
+Vores kunde har derudover også stillet os det krav, at vi skal sikre os at der kan indsættes en underskrift i systemet. Vi har endnu ikke bestemt os for hvordan dette skal gøres. Vi skal enten få underskriften fra en touchpad/mus på en computer, eller koble en tablet til computeren og få brugeren til at skrive sin underskrift på denne. Vi har da tænkt os at opbevare billedet med underskriften i en mappe på et fællesdrev, hvor vi tilknytte de enkelte underskrifter til de der tilhørende udlån.
+\begin{itemize}
+	\item Fuld implementation af Front-end - Vi mangler at få udarbejdet nogle af de ønskede funktioner i programmet.
+	\item Implementation af underskrift. - Vi mangler i gruppen, at diskutere hvordan vi vil udvide programmet til at tage imod en underskrift, samt hvordan denne underskrift skal opbevares i systemet.
+	\item Program som udskriver kvittering, når en computer afleveres - Vi mangler i gruppen at diskutere, hvordan vi vil udvide programmet til enten automatisk at sende en kvittering til print, eller til at lave kvittering, som brugeren selv manuelt kan sende til print. Kunden ønsker at kvittering skal indeholde følgende: Computerens mærke, model, serie nummer, tyveri ID, lånerens initialer, lånerens underskrift, tilhørende sagsnummer, dato for udlevering og dato for indlevering.
+\end{itemize}
+\newpage
+>>>>>>> Stashed changes
 \section{Program- og systemtest}
 Vi har tænkt os at dele program- og systemtest op i to. Vi vil her teste brugervenligheden og om systemet virker som det skal. Vores plan for at teste brugervenligheden er, at vi vil lave Think-Aloud test med vores kunde. Vi vil her observere, hvordan vores kunde færdes i vores system og give vores kunde flere forskellige opgaver som skal løses ved brug af vores system. Vi vil her undervejs notere de gode og dårlige ting ved systemet. Når testen med kunden er færdig, vil vi evaluere testen med kunden, og høre hvad kunden synes om systemet, eller om noget er uhensigtsmæssigt. Think Aloud testen vil blive lavet i forhold til artiklen "Thinking Aloud - User Testing by Molich" \cite{ThinkAloud}. \\[0.1in]
 Denne test skal laves med kunden for, for det første at teste om løsningen er hensigtsmæssig, fra kundens synspunkt, og for det andet for at teste løsningens brugervenlighed og intuitivitet. 
 Vi vil derudover teste vores system, for at se om det virker som det er tiltænkt. Vi vil altså lave testcases for vores funktioner i python. Vi vil her for eksempel teste, om det er muligt at låne den samme computer ud til to personer på samme tid, om det er muligt at udlåne en fri computer som har været udlånt, men er blevet afleveret. Vi vil altså teste alle de essentielle funktioner, som får systemet til at fungere. Vi vil her teste systemet i forhold til de metoder, som er nævnt i artiklen "Systematic Software Testing" \cite{SoftwareTest}.
+\newpage
 \section{Brugergrænseflade og interaktionsdesign}
 \begin{figure}[h!]
 \centering
