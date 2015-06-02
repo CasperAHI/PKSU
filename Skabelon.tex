@@ -68,7 +68,6 @@ Funktionelle krav beskriver samspillet mellem systemet og dets omgivelser uafhæ
 	\item Systemet skal kunne have mulighed for at redigere lånerstatus og computerstatus i databasen af en bruger af systemet.
 	\item Systemet skal have en hovedeside, hvor brugeren kan tilgå de forskellige funktioner.
 \end{itemize}
-\newpage
 \subsection{Ikke funktionelle krav}
 Ikke-funktionelle krav beskriver aspekter af systemet, som ikke er direkte relateret til den funktionelle opførsel af systemet. Ikke-funktionelle krav omfatter en bred vifte af krav, der gælder for mange forskellige aspekter af systemet, fra usability til performance. \cite[p119]{OOSE} \\ De ikke funktionelle krav, er lidt omvendt i forhold til de hvad funktionelle krav beskriver. De ikke funktionelle krav beskriver altså ikke hvad systemet skal kunne, men hvordan det skal kunne køre. Det er altså kravne til det miljø, som systemet skal køre i.
 \begin{itemize}
@@ -83,15 +82,15 @@ Ikke-funktionelle krav beskriver aspekter af systemet, som ikke er direkte relat
 Use cases beskriver opførelsen af systemet, som set fra en Actor’s synspunkt. En Actor er en extern entity som interagere med systemet. En use case beskriver en funktion i systemet som en del af flere events, som giver Actor et visuelt resultat. En Actor starter en use case når de tilgår systemets funktionalitet. En use case kan starte en ny use case, og derfra hente mere information fra Actor.\cite[p~42]{OOSE} \\ \\
 Vi har lavet følgende udkast, som er et udtryk for, hvordan vi forventer vores system vil køre:\\ \\
 \begin{figure}[h!]
-\includegraphics[width=0.8\textwidth]{UseCaseModel}
+\includegraphics[width=0.8\textwidth]{UseCase}
   \caption{Use-Case-Model}
   \label{fig:USM}
   \centering
 \end{figure}  \\ \\
-Figur \ref{fig:USM} illusterer brugerens råderum. På figuren ses det, at udlåneren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. Låneren har mulighed for at igang sætte et lån, eller aflevere en computer. Dette kan de gøre ved at henvende sig til en udlåner. Brugerne af vores system, skal have adgang til alle systemets funktioner. Der bliver derfor ikke skelnet i brugerrettigheder, da låneren kun har adgang til systemet gennem en udlåner.
+Figur \ref{fig:USM} illusterer brugerens råderum. På figuren ses det, at brugeren skal have mulighed for at udlåne, slette, aflevere, redigere og tilføje IT-udstyr, her primært computere. Låneren har mulighed for at igangsætte et lån, eller aflevere en computer, men kun ved at henvende sig til en udlåner/bruger. Brugerne af vores system, skal have adgang til alle systemets funktioner. Der bliver derfor ikke skelnet i brugerrettigheder, da låneren kun har adgang til systemet gennem en udlåner.
 \newpage
 \subsection{Use-case}
-Følgende use-cases er udarbejdet for at beskrive det nye, og det gamle system. Deres mening er at kaste lys over fordelene ved det nye system, såvel som bagdelene ved det gamle system. \\
+Følgende use-cases er udarbejdet for at beskrive det nye, og det gamle system. Deres mening er at kaste lys over fordelene ved det nye system, såvel som bagdelene ved det gamle system.
 \begin{table}[h]
 \caption{Use-case 1}
 \begin{tabular}{ll}
@@ -107,7 +106,7 @@ Entry conditions & - \\ \hline
 Exit conditions  & -
 \end{tabular}
 \end{table} \\
-Det gamle udlånssytem, der vises i Use-case 1, kræver ekstra unødvendig tid fra både låner og udlåner. Udlåner riskerer også, at der går rod i papirarbejdet og at tingene forsvinder. Da systemet ikke er optimalt hverken tids eller sikkerhedsmæssigt, ønsker kunden en anden løsning på problemet. Der er ingen krav til systemet, derfor ingen entry eller exit conditions \\
+Det gamle udlånssytem, der vises i Use-case 1, kræver ekstra unødvendig tid fra både låner og udlåner. Udlåner riskerer også, at der går rod i papirarbejdet og at tingene forsvinder. Da systemet ikke er optimalt hverken tids eller sikkerhedsmæssigt, ønsker kunden en anden løsning på problemet. Der er ingen krav til systemet, derfor ingen entry eller exit conditions.
 \begin{table}[h]
 \caption{Use-case 2}
 \begin{tabular}{ll}
@@ -120,7 +119,7 @@ Flow of evnets                & 1. Låner mangler en computer.	\\& Låner henven
 \\& 4. Udlåneren henter computeren til låneren.\\ \hline
 Entry conditions & $\bullet$ Brugeren er logget ind \\ \hline
 Exit conditions  & $\bullet$ Et udlån er registreret i systemet.\\
-& $bullet$ Fejl kaldes hvis ingen ledige computere findes
+& $\bullet$ Fejl kaldes hvis ingen ledige computere findes
 \end{tabular}
 \end{table}\\
 Her er samme process beskrevet, blot med brug af det nye udlånssystem. Her er det tydeligt at processen er meget hurtigere og nemmere, da punkter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. udfyldes automatisk. Derudover er det ikke nødvendigt at arkivere fysiske kvitteringer, der har risiko for at gå tabt.
@@ -135,9 +134,9 @@ Flow of evnets                & 1. Låner skal aflevere en computer, som har væ
 \\& Låner henvender sig derfor til udlåneren for at aflevere den.
 \\& 2. Udlåneren indtaster lånerens brugerID og skanner computeren.
 \\& Udlåneren arkiverer computeren. \\ \hline
-Entry conditions & $\bullet$ Bruger er logget ind\\ \hline
+Entry conditions & $\bullet$ Bruger er logget ind.\\ \hline
 Exit conditions  & $\bullet$ Computeren er registreret som værende ledig\\
-& $bullet$ Fejl kaldes hvis computeren allerede var registreret som ledig
+& $\bullet$ Fejl kaldes hvis computeren allerede var registreret som ledig
 \end{tabular}
 \end{table}
 Til sidst er afleveringen af lånerens computer beskrevet. Som det ses er dette også hurtigt og let, da den nye afleveringsmetode, ligesom udlåningsmetoden, ikke producerer fysiske værdipapirer, der kan gå tabt. Derudover udfyldes felter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. igen automatisk. \\
@@ -150,11 +149,11 @@ instances\\ \hline
 Flow of evnets                & 1. Udlåner skal tjekke historikken for en låner.
                             \\& 2. Udlåneren vælger visHistorik-knappen for en låner, hvilket
                             \\& får programmet til at vise lånerens historik.  \\ \hline
-Entry conditions & - \\ \hline
+Entry conditions & $\bullet$ Brugeren er logget ind. \\ \hline
 Exit conditions  & $\bullet$ Systemet fremviser historikken
 \end{tabular}
 \end{table}\\
-I Use-case 4 vises hvordan proceduren for at se historikken for en computer eller en bruger foregår.
+I Use-case 4 vises hvordan proceduren for at se historikken for en computer eller en bruger foregår. Denne metode er, ligesom de andre hurtige og lette. Hvis en medarbejder ønskede at tjekke historikken via det gamle udlånssystem, fandt han/hun en stor og uoverskuelig mappe frem, hvor hvert papir repræsenterede et nyt udlån. Med denne løsning er historikken blot et tryk væk.
 \newpage
 \subsection{Klassediagram}
 Klassediagrammer bruges til at beskrive strukturen af systemet. Klasser er abstraktioner, der angiver struktur og adfærd af et sæt objekter. Objekter er instanser af klasser, der oprettes, ændres og ødelægges under udførelsen af systemet. Klassediagrammer beskriver systemet i form af objekter, klasser, attributter, operationer, og deres sammenslutninger. \cite[p~30]{OOSE}
@@ -165,7 +164,7 @@ Klassediagrammer bruges til at beskrive strukturen af systemet. Klasser er abstr
   \centering
 \end{figure}
 
-Figur \ref{fig:KLS} viser:
+Figur \ref{fig:KLS} viser
 \newpage
 \subsection{BCE-Model}
 Entity objekter repræsenterer vedvarende oplysninger der registreres af systemet. Boundary objekter repræsenterer samspillet mellem aktører og systemet. Control objekter er ansvarlig for at realisere use cases. Modellering af systemet med Entity, Boundary og Control objekter giver udviklere enkel heuristik til at skelne mellem forskellige, men beslægtede begreber.\cite[p~171]{OOSE}
