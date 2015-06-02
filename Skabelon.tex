@@ -103,11 +103,11 @@ Flow of evnets                & 1. Låneren mangler en computer.\\& Låner henve
 \\& 3. Udlåneren giver låneren en seddel, som låneren skal udfylde: \\& Computer Mærke og model, S/N Tyveri-ID, \\& Låner, Navn, KEA login, Afdeling, Telefon/mobil, \\& Bemærkninger Underskrift, Låners underskrift \\& KEA Servicedesk Sagsnr, Udlånt af, Dato.
 \\& 4. Udlåneren henter computeren til låneren og arkiverer
 \\& seddelen.\\ \hline
-Entry conditions & $\bullet$ Låneren mangler en computer. \\ \hline
-Exit conditions  & $\bullet$ Låneren har lånt en computer. 
+Entry conditions & - \\ \hline
+Exit conditions  & -
 \end{tabular}
 \end{table} \\
-Det gamle udlånssytem, der vises i Use-case 1, kræver ekstra unædvendig tid fra både låner og udlåner. Udlåner riskere også, at der går rod i papirarbejdet og at tingene forsvinder. Systemet er altså forældet, og derfor ønsker kunden en løsning istedet. \\
+Det gamle udlånssytem, der vises i Use-case 1, kræver ekstra unødvendig tid fra både låner og udlåner. Udlåner riskerer også, at der går rod i papirarbejdet og at tingene forsvinder. Da systemet ikke er optimalt hverken tids eller sikkerhedsmæssigt, ønsker kunden en anden løsning på problemet. Der er ingen krav til systemet, derfor ingen entry eller exit conditions \\
 \begin{table}[h]
 \caption{Use-case 2}
 \begin{tabular}{ll}
@@ -118,8 +118,9 @@ Flow of evnets                & 1. Låner mangler en computer.	\\& Låner henven
 \\& 2. Udlåneren tjekker i arkivet, om der er en ledig \\& computer. Låner finder en.
 \\& 3. Udlåneren indtaster lånerens ID og skanner computeren.
 \\& 4. Udlåneren henter computeren til låneren.\\ \hline
-Entry conditions & $\bullet$ Låneren mangler en computer. \\ \hline
-Exit conditions  & $\bullet$ Låneren har lånt en computer. 
+Entry conditions & $\bullet$ Brugeren er logget ind \\ \hline
+Exit conditions  & $\bullet$ Et udlån er registreret i systemet.\\
+& $bullet$ Fejl kaldes hvis ingen ledige computere findes
 \end{tabular}
 \end{table}\\
 Her er samme process beskrevet, blot med brug af det nye udlånssystem. Her er det tydeligt at processen er meget hurtigere og nemmere, da punkter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. udfyldes automatisk. Derudover er det ikke nødvendigt at arkivere fysiske kvitteringer, der har risiko for at gå tabt.
@@ -134,8 +135,9 @@ Flow of evnets                & 1. Låner skal aflevere en computer, som har væ
 \\& Låner henvender sig derfor til udlåneren for at aflevere den.
 \\& 2. Udlåneren indtaster lånerens brugerID og skanner computeren.
 \\& Udlåneren arkiverer computeren. \\ \hline
-Entry conditions & $\bullet$ Låner har lånt en computer.\\ \hline
-Exit conditions  & $\bullet$ Låner har afleveret sin computer.
+Entry conditions & $\bullet$ Bruger er logget ind\\ \hline
+Exit conditions  & $\bullet$ Computeren er registreret som værende ledig\\
+& $bullet$ Fejl kaldes hvis computeren allerede var registreret som ledig
 \end{tabular}
 \end{table}
 Til sidst er afleveringen af lånerens computer beskrevet. Som det ses er dette også hurtigt og let, da den nye afleveringsmetode, ligesom udlåningsmetoden, ikke producerer fysiske værdipapirer, der kan gå tabt. Derudover udfyldes felter som Mærke/model, S/N Tyveri-ID, og afdeling, etc. igen automatisk. \\
@@ -149,7 +151,7 @@ Flow of evnets                & 1. Udlåner skal tjekke historikken for en låne
                             \\& 2. Udlåneren vælger visHistorik-knappen for en låner, hvilket
                             \\& får programmet til at vise lånerens historik.  \\ \hline
 Entry conditions & - \\ \hline
-Exit conditions  & $\bullet$ Udlåner har set lånerens historik.
+Exit conditions  & $\bullet$ Systemet fremviser historikken
 \end{tabular}
 \end{table}\\
 I Use-case 4 vises hvordan proceduren for at se historikken for en computer eller en bruger foregår.
@@ -260,7 +262,7 @@ Her har vi valgt at sætte det op på mere eller mindre samme måde som vi har g
 \caption{Udlån af computere og aflevering}
 \label{fig:GUI3}
 \end{figure}
-på figur \ref{fig:GUI3} ser vi hvordan hovede delen af programmet ser ud, nemlig den del hvor vi realt udlåner og aflevere computere.
+på figur \ref{fig:GUI3} ser vi hvordan hoveddelen af programmet ser ud, nemlig den del hvor vi realt udlåner og aflevere computere.
 \pagebreak
 \begin{figure}[h!]
 \centering
