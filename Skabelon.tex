@@ -224,7 +224,7 @@ På figur \ref{fig:SEK3} vises det hvordan det nye udlånssystem kommer til at f
 \section{Systemdesign}
 \subsection{Deployment Diagram}
 % Brug NaurProgramming som reference, handler om hvordan det påvirker programmet at nye krav sættes, og derudover om man kan gå på kompromis med sit projekt så det bliver så "ændringsvenligt" så muligt
-Vi har lavet et deployment diagram figur\ref{fig:DEP}, som viser vores systems implementering. Deployment diagrammet bliver brugt til at vise run-time komponenter og nodes. \cite[p~256]{OOSE}\\
+Vi har lavet et deployment diagram figur\ref{fig:DEP}, som viser vores systems implementering, det er altså hvordan og hvad der skal til for at systemet kan køre. Deployment diagrammet bliver brugt til at vise run-time komponenter og nodes. \cite[p~256]{OOSE}\\
 \begin{figure}[h!]
 \includegraphics[width=0.9\textwidth]{deploymentdiagram}
   \caption{Deployment Diagram}
@@ -250,7 +250,7 @@ Vi har ikke lavet brugerfladen endnu. Dette vil blive gjort i enten Python som e
 En af fordelene ved at lave et Python program er, at vi ikke har behov for at lære hvordan en hjemmeside i Django skal opbygges. Det er altså nemmere for os at lave et fungerende program, som vil leve op til kundens krav. \\
 Vi har valgt at lave programmet i Python for at vi hurtigere har kunne få lavet en prototype.
 \subsection{Udestående implementering i programmet}
-Vores kunde har derudover også stillet os det krav, at vi skal sikre os at der kan indsættes en underskrift i systemet. Vi har endnu ikke bestemt os for hvordan dette skal gøres. Vi skal enten få underskriften fra en touchpad/mus på en computer, eller koble en tablet til computeren og få brugeren til at skrive sin underskrift på denne. Vi har da tænkt os at opbevare billedet med underskriften i en mappe på et fællesdrev, hvor vi tilknytte de enkelte underskrifter til de der tilhørende udlån. \\
+Vores kunde har meget sent i forløbet stillet os det krav, at vi skal sikre os, at der kan indsættes en underskrift i systemet. Vi har endnu ikke bestemt os for hvordan dette skal gøres. Vi skal enten få underskriften fra en touchpad/mus på en computer, eller koble en tablet til computeren og få brugeren til at skrive sin underskrift på denne. Vi har da tænkt os at opbevare billedet med underskriften i en mappe på et fællesdrev, hvor vi tilknytte de enkelte underskrifter til de der tilhørende udlån. \\
 $\bullet$ Fuld implementation af Front-end - Vi mangler at få udarbejdet nogen af de ønskede funktioner i programmet. \\
 $\bullet$ Implementation af underskrift. - Vi mangler i gruppen, at diskutere hvordan vi vil udvide programmet til at tage imod en underskrift, samt hvordan denne underskrift skal opbevares i systemet.\\
 $\bullet$ Program som udskriver kvittering, når en computer afleveres - Vi mangler i gruppen at diskutere, hvordan vi vil udvide programmet til enten automatisk at sende en kvittering til print, eller til at lave kvittering, som brugeren selv manuelt kan sende til print. Kunden ønsker at kvittering skal indeholde følgende: Computerens mærke, model, serie nummer, tyveri ID, lånerens initialer, lånerens underskrift, tilhørende sagsnummer, dato for udlevering og dato for indlevering.
