@@ -2,11 +2,12 @@
 \contentsline {section}{\numberline {1}Abstract}{3}{section.1}
 \contentsline {section}{\numberline {2}Form\IeC {\r a}l og rammer}{4}{section.2}
 \contentsline {subsection}{\numberline {2.1}FACTOR Analyse}{4}{subsection.2.1}
-\contentsline {section}{\numberline {3}Kravspecifikationer}{4}{section.3}
-\contentsline {subsection}{\numberline {3.1}Funktionelle krav}{4}{subsection.3.1}
+\contentsline {section}{\numberline {3}Kravspecifikationer}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Funktionelle krav}{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Ikke funktionelle krav}{5}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Use-Case-model}{6}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Use-case}{7}{subsection.3.4}
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.5}Klassediagram}{9}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}BCE-Model}{10}{subsection.3.6}
 \contentsline {subsection}{\numberline {3.7}Sekvensdiagram}{11}{subsection.3.7}
@@ -25,3 +26,22 @@
 \contentsline {section}{\numberline {9}Referat af kundem\IeC {\o }de d. 4. maj 2015}{24}{section.9}
 \contentsline {section}{\numberline {10}Reviews}{25}{section.10}
 \contentsline {subsection}{\numberline {10.1}Programming as theory building}{25}{subsection.10.1}
+=======
+\contentsline {subsection}{\numberline {3.5}Klassediagram}{10}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}BCE-Model}{11}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Sekvensdiagram}{12}{subsection.3.7}
+\contentsline {section}{\numberline {4}Systemdesign}{14}{section.4}
+\contentsline {subsection}{\numberline {4.1}Deployment Diagram}{14}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Database og EER-model}{14}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Backend/Frontend - Python Program}{15}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Udest\IeC {\r a}ende implementering i programmet}{16}{subsection.4.4}
+\contentsline {section}{\numberline {5}Program- og systemtest}{17}{section.5}
+\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{18}{section.6}
+\contentsline {section}{\numberline {7}Projektsamarbejdet}{22}{section.7}
+\contentsline {subsection}{\numberline {7.1}Kunden}{22}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Arbejdsstruktur}{22}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Refleksion over arbejdsmetoden}{22}{subsection.7.3}
+\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{24}{section.8}
+\contentsline {section}{\numberline {9}Referat af kundem\IeC {\o }de d. 4. maj 2015}{25}{section.9}
+\contentsline {section}{\numberline {10}Reviews}{26}{section.10}
+>>>>>>> origin/master
