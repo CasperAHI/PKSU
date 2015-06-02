@@ -7,26 +7,6 @@
 \contentsline {subsection}{\numberline {3.2}Ikke funktionelle krav}{5}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Use-Case-model}{6}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Use-case}{7}{subsection.3.4}
-<<<<<<< HEAD
-\contentsline {subsection}{\numberline {3.5}Klassediagram}{9}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}BCE-Model}{10}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Sekvensdiagram}{11}{subsection.3.7}
-\contentsline {section}{\numberline {4}Systemdesign}{13}{section.4}
-\contentsline {subsection}{\numberline {4.1}Deployment Diagram}{13}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Database og EER-model}{13}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Backend/Frontend - Python Program}{14}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Udest\IeC {\r a}ende implementering i programmet}{15}{subsection.4.4}
-\contentsline {section}{\numberline {5}Program- og systemtest}{15}{section.5}
-\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{16}{section.6}
-\contentsline {section}{\numberline {7}Projektsamarbejdet}{21}{section.7}
-\contentsline {subsection}{\numberline {7.1}Kunden}{21}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Arbejdsstruktur}{21}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Refleksion over arbejdsmetoden}{21}{subsection.7.3}
-\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{23}{section.8}
-\contentsline {section}{\numberline {9}Referat af kundem\IeC {\o }de d. 4. maj 2015}{24}{section.9}
-\contentsline {section}{\numberline {10}Reviews}{25}{section.10}
-\contentsline {subsection}{\numberline {10.1}Programming as theory building}{25}{subsection.10.1}
-=======
 \contentsline {subsection}{\numberline {3.5}Klassediagram}{10}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}BCE-Model}{11}{subsection.3.6}
 \contentsline {subsection}{\numberline {3.7}Sekvensdiagram}{12}{subsection.3.7}
@@ -35,13 +15,14 @@
 \contentsline {subsection}{\numberline {4.2}Database og EER-model}{14}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Backend/Frontend - Python Program}{15}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Udest\IeC {\r a}ende implementering i programmet}{16}{subsection.4.4}
-\contentsline {section}{\numberline {5}Program- og systemtest}{17}{section.5}
-\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{18}{section.6}
-\contentsline {section}{\numberline {7}Projektsamarbejdet}{22}{section.7}
-\contentsline {subsection}{\numberline {7.1}Kunden}{22}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Arbejdsstruktur}{22}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Refleksion over arbejdsmetoden}{22}{subsection.7.3}
-\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{24}{section.8}
-\contentsline {section}{\numberline {9}Referat af kundem\IeC {\o }de d. 4. maj 2015}{25}{section.9}
-\contentsline {section}{\numberline {10}Reviews}{26}{section.10}
->>>>>>> origin/master
+\contentsline {section}{\numberline {5}Program- og systemtest}{18}{section.5}
+\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{19}{section.6}
+\contentsline {section}{\numberline {7}Projektsamarbejdet}{23}{section.7}
+\contentsline {subsection}{\numberline {7.1}Kunden}{23}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Arbejdsstruktur}{23}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Refleksion over arbejdsmetoden}{23}{subsection.7.3}
+\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{25}{section.8}
+\contentsline {section}{\numberline {9}Referat af kundem\IeC {\o }de d. 4. maj 2015}{26}{section.9}
+\contentsline {section}{\numberline {10}Reviews}{27}{section.10}
+\contentsline {subsection}{\numberline {10.1}Programming as theory building}{27}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Extreme Programming}{28}{subsection.10.2}
