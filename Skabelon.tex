@@ -9,6 +9,7 @@
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{moreverb}
+\usepackage{verbatim}
 
 % Ved at bruge kommandoen \newcommand kan man forkorte kommandoer eller ændre dem til noget mere passende.
 \newcommand{\setR}{\mathbb{R}}
@@ -156,44 +157,43 @@ Exit conditions  & $\bullet$ Systemet fremviser historikken
 I Use-case 4 vises hvordan proceduren for at se historikken for en computer eller en bruger foregår. Denne metode er, ligesom de andre hurtige og lette. Hvis en medarbejder ønskede at tjekke historikken via det gamle udlånssystem, fandt han/hun en stor og uoverskuelig mappe frem, hvor hvert papir repræsenterede et nyt udlån. Med denne løsning er historikken blot et tryk væk.
 \newpage
 \subsection{Klassediagram}
-Klassediagrammer bruges til at beskrive strukturen af systemet. Klasser er abstraktioner, der angiver struktur og adfærd af et sæt objekter. Objekter er instanser af klasser, der oprettes, ændres og ødelægges under udførelsen af systemet. Klassediagrammer beskriver systemet i form af objekter, klasser, attributter, operationer, og deres sammenslutninger. \cite[p~30]{OOSE}
+Klassediagrammer bruges til at beskrive strukturen af systemet. Klasser er abstraktioner, der angiver struktur og adfærd af et sæt objekter. Objekter er instanser af klasser, der oprettes, ændres og ødelægges under udførelsen af systemet. Klassediagrammer beskriver systemet i form af objekter, klasser, attributter, operationer, og deres sammenslutninger. \cite[p~30]{OOSE} 
 \begin{figure}[h!]
 \includegraphics[width=0.9\textwidth]{Klassediagram}
   \caption{Klassediagram}
     \label{fig:KLS}
   \centering
-\end{figure}
-
-Figur \ref{fig:KLS} viser
+\end{figure}\\
+Figur \ref{fig:KLS} viser interaktionen mellem de forskellige komponenter i systemet. Det beskrives her hvordan en udlåner låner en computer til en låner. Både lån og aflevering af en computer bliver gjort af udlåneren, og benytter sig af brugerdatabasen og computerdatabasen, og udskriver en kvittering til låneren.
 \newpage
 \subsection{BCE-Model}
 Entity objekter repræsenterer vedvarende oplysninger der registreres af systemet. Boundary objekter repræsenterer samspillet mellem aktører og systemet. Control objekter er ansvarlig for at realisere use cases. Modellering af systemet med Entity, Boundary og Control objekter giver udviklere enkel heuristik til at skelne mellem forskellige, men beslægtede begreber.\cite[p~171]{OOSE}
 \begin{itemize}
-\item Boundary
-\begin{itemize}
-\item{-}lånComputerKnap 
-\item{-}aflComputerKnap 
-\item{-}tilføjBrugerKnap 
-\item{-}tilføjComputerKnap, 
-\item{-}visHistorikKnap 
-\item{-}udlånsformular 
-\item{-}afleveringsformular 
-\item{-}visLedigeKnap 
-\item{-}visBrugereKnap
-\end{itemize}
-\item Control
-\begin{itemize} 
-\item{-}computerLånController 
-\item{-}computerAflController 
-\item{-}printerController
-\end{itemize}
-\item Entity
-\begin {itemize} 
-\item{-}databasen 
-\item{-}computere 
-\item{-}logins 
-\item{-}historik
-\end{itemize}
+	\item Boundary
+	\begin{itemize}
+		\item lånComputerKnap 
+		\item aflComputerKnap 
+		\item tilføjBrugerKnap 
+		\item tilføjComputerKnap, 
+		\item visHistorikKnap 
+		\item udlånsformular 
+		\item afleveringsformular 
+		\item visLedigeKnap 
+		\item visBrugereKnap
+	\end{itemize}
+	\item Control
+	\begin{itemize} 
+		\item computerLånController 
+		\item computerAflController 
+		\item printerController
+	\end{itemize}
+	\item Entity
+	\begin{itemize} 
+		\item databasen 
+		\item computere 
+		\item logins 
+		\item historik
+	\end{itemize}
 \end{itemize}
 \newpage
 \subsection{Sekvensdiagram}
@@ -212,7 +212,7 @@ På figur \ref{fig:SEK1} vises hvordan det nye udlånssystem kommer til at funge
     \label{fig:SEK2}
   \centering
 \end{figure}
-På figur \ref{fig:SEK2} vises hvordan det nye udlånssystem kommer til at fungere ved aflevering af computer. Det ses her hvordan låneren trykker på afleveringsknappen, hvilket skaber en controller, der skaber afleveringsformularen. Denne afleveringsformular udfylder og indsender låneren, hvorefter afleveringen registreres i databasen, og en kvittering bliver printet. Som det ses er processerne for denne og udlån af computer meget ens.
+På figur \ref{fig:SEK2} vises hvordan det nye udlånssystem kommer til at fungere ved aflevering af computer. Det ses her hvordan låneren trykker på afleveringsknappen, hvilket skaber en controller, der skaber afleveringsformularen. Denne afleveringsformular udfylder og indsender låneren, hvorefter computerens status ændres, så den ikke længere står som udlånt, og lånerens status ændres, så computeren ikke længere står i hans navn, og en kvittering bliver printet. Som det ses er processerne for denne og udlån af computer meget ens.
 \begin{figure}[h!]
 \includegraphics[width=0.9\textwidth]{SekvensHistorik}
   \caption{Sekvensdiagram-3}
@@ -349,6 +349,8 @@ $\bullet$ Stregkoder kan være problematiske, set fra et økonomisk perspektiv. 
 $\bullet$ Python bliver muligvis et problem, da sproget skal ligge på drevet.
 \newpage
 \section{Reviews}
+
+\begin{comment}
 \subsection{A Rational Design Process: How and Why to Fake It}
 \textbf{Hovedpunkter}\\
 Den rationelle tankegang efterstræbes i artiklen, men ikke den traditionelle form af slagsen som titlen giver udtryk for.
@@ -387,6 +389,7 @@ Denne artikel beskriver erfaringerne som er blevet opnået ved et sammensat proj
 \textbf{Relationer og tanker}\\
 Projektet i The M.A.D. Experience er udviklet i forbindelse med et kursus lignende PKSU, hvilket betyder at mange af metoderne, der bruges er metoder vi også bruger i dette kursus, blandt andet Mocking it up\cite{Mockup}. Derudover kræves der også en aktiv process, der foregår mellem brugeren/kundem og programmørholdet/kursisterne på samme måde som i PKSU. Dette beskrives i OOSE som Planned Communication \cite{OOSE}{p~91}. Projektet, der beskrives i artiklen er udviklet agilt med brug af Scrummetoden \cite{Scrum}. Udviklingsgruppen har på 10 uger haft 5 iterationer, og derved produceret en prototype. 
 \pagebreak
+\end{comment}
 \bibliography{bibte}{}
 \bibliographystyle{plain}
 
