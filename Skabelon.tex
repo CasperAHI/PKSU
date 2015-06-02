@@ -222,14 +222,14 @@ På figur \ref{fig:SEK2} vises hvordan det nye udlånssystem kommer til at funge
 På figur \ref{fig:SEK3} vises det hvordan det nye udlånssystem kommer til at fungere ved vis af historik. Brugeren af programmet trykker på historikknappen for en bruger eller en computer, hvilket skaber en historikcontroller, der skaber en interfacecontroller, der starter interfacet of, der viser historikken. 
 \newpage
 \section{Systemdesign}
-Vi har lavet et deployment diagram, som viser systemets opbygning. Deployment diagrammet bliver brugt til at vise rune-time komponenter og nodes. \cite[p~256]{OOSE}
+Vi har lavet et deployment diagram figur\ref{fig:DEP}, som viser vores systems implementering. Deployment diagrammet bliver brugt til at vise rune-time komponenter og nodes. \cite[p~256]{OOSE}\\
+Databasen snakker sammen med programmet via SQL mens computeren tilgår databasen via programmet.
 \begin{figure}[h!]
 \includegraphics[width=0.9\textwidth]{deploymentdiagram}
   \caption{Deployment Diagram}
     \label{fig:DEP}
   \centering
-\end{figure} \\ \\
-I figur \ref{fig:DEP} ses et deployment diagram. Diagrammet viser vores systems implementering. Vi har altså lavet en database, som taler sammen med programmet via SQL. Computeren tilgår programmet igennem en anden computer via en virtuel maskine. \\
+\end{figure} \\
 \begin{figure}[h!]
 \includegraphics[width=0.8\textwidth]{EERDiagram}
   \caption{Enhanced Entity Diagram}
