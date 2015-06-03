@@ -17,9 +17,13 @@ def udlaan(bNavn, did):
     return
 
 def deviceErUdlaant(did):
-    checker = c.execute('SELECT * FROM Loan WHERE did = ?', [did]).fetchall()
+    checker = c.execute('SELECT * FROM Loan WHERE (did = ?)', [did]).fetchall()
+    checker2 = c.execute('SELECT * FROM Loan WHERE (did = ? AND delivered NOT NULL)', [did]).fetchall()
     if (len(checker) >= 1):
-        isRented = True
+        if (len(checker2) >= len(checker)):
+            isRented = False
+        else:
+            isRented = True
     else:
         isRented = False
     return isRented
