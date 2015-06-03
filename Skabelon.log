@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.21)  3 JUN 2015 04:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.21)  3 JUN 2015 05:12
 entering extended mode
 **Skabelon.tex
 (C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.tex
@@ -585,7 +585,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
  [5]
-<UseCase.png, id=170, 366.36874pt x 356.33125pt>
+<UseCase.png, id=185, 366.36874pt x 356.33125pt>
 File: UseCase.png Graphic file (type png)
  <use UseCase.png>
 Package pdftex.def Info: UseCase.png used on input line 87.
@@ -625,27 +625,27 @@ Overfull \hbox (29.72298pt too wide) in paragraph at lines 147--157
 [][] 
  []
 
-[9] <Klassediagram.png, id=198, 643.40375pt x 347.2975pt>
+[9] <Klassediagram.png, id=213, 643.40375pt x 347.2975pt>
 File: Klassediagram.png Graphic file (type png)
 
 <use Klassediagram.png>
 Package pdftex.def Info: Klassediagram.png used on input line 163.
 (pdftex.def)             Requested size: 310.4979pt x 167.60709pt.
  [10 <C:/Users/Akuma/Documents/GitHub/PKSU/Klassediagram.png>] [11] <SekvensLaa
-n.png, id=212, 689.57625pt x 403.5075pt>
+n.png, id=227, 689.57625pt x 403.5075pt>
 File: SekvensLaan.png Graphic file (type png)
 
 <use SekvensLaan.png>
 Package pdftex.def Info: SekvensLaan.png used on input line 203.
 (pdftex.def)             Requested size: 310.4979pt x 181.68752pt.
  [12 <C:/Users/Akuma/Documents/GitHub/PKSU/SekvensLaan.png>] <SekvensAflever.pn
-g, id=220, 799.98875pt x 402.50375pt>
+g, id=235, 799.98875pt x 402.50375pt>
 File: SekvensAflever.png Graphic file (type png)
 
 <use SekvensAflever.png>
 Package pdftex.def Info: SekvensAflever.png used on input line 211.
 (pdftex.def)             Requested size: 310.4979pt x 156.2204pt.
- <SekvensHistorik.png, id=222, 554.07pt x 263.98625pt>
+ <SekvensHistorik.png, id=237, 554.07pt x 263.98625pt>
 File: SekvensHistorik.png Graphic file (type png)
 
 <use SekvensHistorik.png>
@@ -653,7 +653,7 @@ Package pdftex.def Info: SekvensHistorik.png used on input line 218.
 (pdftex.def)             Requested size: 310.4979pt x 147.936pt.
  [13 <C:/Users/Akuma/Documents/GitHub/PKSU/SekvensAflever.png> <C:/Users/Akuma/
 Documents/GitHub/PKSU/SekvensHistorik.png>]
-<deploymentdiagram.png, id=235, 537.00626pt x 348.30125pt>
+<deploymentdiagram.png, id=250, 537.00626pt x 348.30125pt>
 File: deploymentdiagram.png Graphic file (type png)
 
 <use deploymentdiagram.png>
@@ -664,7 +664,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--236
 
  []
 
-<EERDiagram.png, id=237, 424.58624pt x 370.38374pt>
+<EERDiagram.png, id=252, 424.58624pt x 370.38374pt>
 File: EERDiagram.png Graphic file (type png)
  <use EERDiagram.png>
 Package pdftex.def Info: EERDiagram.png used on input line 238.
@@ -689,75 +689,142 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--253
  []
 
 [14 <C:/Users/Akuma/Documents/GitHub/PKSU/deploymentdiagram.png>] [15 <C:/Users
-/Akuma/Documents/GitHub/PKSU/EERDiagram.png>] [16] [17]
+/Akuma/Documents/GitHub/PKSU/EERDiagram.png>] [16] [17] [18]
+<1min.jpg, id=279, 2999.205pt x 5331.92pt>
+File: 1min.jpg Graphic file (type jpg)
+ <use 1min.jpg>
+Package pdftex.def Info: 1min.jpg used on input line 287.
+(pdftex.def)             Requested size: 345.0pt x 613.27995pt.
 
-LaTeX Warning: Citation `ThinkAloud' on page 18 undefined on input line 269.
 
-[18] <Tilfojbruger.png, id=264, 422.32782pt x 441.14813pt>
+LaTeX Warning: Float too large for page by 39.2244pt on input line 290.
+
+<2min.jpg, id=281, 5331.92pt x 2999.205pt>
+File: 2min.jpg Graphic file (type jpg)
+ <use 2min.jpg>
+Package pdftex.def Info: 2min.jpg used on input line 295.
+(pdftex.def)             Requested size: 345.0pt x 194.03989pt.
+
+<3min.jpg, id=283, 5331.92pt x 2999.205pt>
+File: 3min.jpg Graphic file (type jpg)
+ <use 3min.jpg>
+Package pdftex.def Info: 3min.jpg used on input line 303.
+(pdftex.def)             Requested size: 345.0pt x 194.03989pt.
+
+<4min.jpg, id=285, 5331.92pt x 2999.205pt>
+File: 4min.jpg Graphic file (type jpg)
+ <use 4min.jpg>
+Package pdftex.def Info: 4min.jpg used on input line 311.
+(pdftex.def)             Requested size: 345.0pt x 194.03989pt.
+
+<5min.jpg, id=287, 5331.92pt x 2999.205pt>
+File: 5min.jpg Graphic file (type jpg)
+ <use 5min.jpg>
+Package pdftex.def Info: 5min.jpg used on input line 319.
+(pdftex.def)             Requested size: 345.0pt x 194.03989pt.
+
+<6min.jpg, id=289, 5331.92pt x 2999.205pt>
+File: 6min.jpg Graphic file (type jpg)
+ <use 6min.jpg>
+Package pdftex.def Info: 6min.jpg used on input line 327.
+(pdftex.def)             Requested size: 345.0pt x 194.03989pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Tilfojbruger.png, id=300, 422.32782pt x 441.14813pt>
 File: Tilfojbruger.png Graphic file (type png)
-
-<use Tilfojbruger.png>
-Package pdftex.def Info: Tilfojbruger.png used on input line 276.
+ <use Tilfojbruger.png>
+Package pdftex.def Info: Tilfojbruger.png used on input line 347.
 (pdftex.def)             Requested size: 345.0pt x 360.38406pt.
- <Tilfojcomputer.png, id=266, 424.58624pt x 440.39531pt>
+
+<Tilfojcomputer.png, id=302, 424.58624pt x 440.39531pt>
 File: Tilfojcomputer.png Graphic file (type png)
 
 <use Tilfojcomputer.png>
-Package pdftex.def Info: Tilfojcomputer.png used on input line 286.
+Package pdftex.def Info: Tilfojcomputer.png used on input line 357.
 (pdftex.def)             Requested size: 345.0pt x 357.86063pt.
- <Udlan.png, id=268, 384.6872pt x 125.71968pt>
+ <Udlan.png, id=304, 384.6872pt x 125.71968pt>
 File: Udlan.png Graphic file (type png)
 
 <use Udlan.png>
-Package pdftex.def Info: Udlan.png used on input line 296.
+Package pdftex.def Info: Udlan.png used on input line 367.
 (pdftex.def)             Requested size: 345.0pt x 112.75723pt.
- <mainGUI.png, id=270, 384.6872pt x 383.18156pt>
+ <mainGUI.png, id=306, 384.6872pt x 383.18156pt>
 File: mainGUI.png Graphic file (type png)
 
 <use mainGUI.png>
-Package pdftex.def Info: mainGUI.png used on input line 304.
+Package pdftex.def Info: mainGUI.png used on input line 375.
 (pdftex.def)             Requested size: 345.0pt x 343.6733pt.
- [19 <C:/Users/Akuma/Documents/GitHub/PKSU/Tilfojbruger.png>]
-[20 <C:/Users/Akuma/Documents/GitHub/PKSU/Tilfojcomputer.png>] [21 <C:/Users/Ak
-uma/Documents/GitHub/PKSU/Udlan.png>] [22 <C:/Users/Akuma/Documents/GitHub/PKSU
-/mainGUI.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 313--316
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--399
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 400--405
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--322
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
 
  []
 
+[21] [22] [23] [24] [25] (C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 509.
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
-
- []
-
-[23] [24] [25] [26] [27] [28]
-(C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
- [29]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
+[26] [27 <C:/Users/Akuma/Documents/GitHub/PKSU/1min.jpg>] [28 <C:/Users/Akuma/D
+ocuments/GitHub/PKSU/2min.jpg> <C:/Users/Akuma/Documents/GitHub/PKSU/3min.jpg>]
+[29 <C:/Users/Akuma/Documents/GitHub/PKSU/4min.jpg> <C:/Users/Akuma/Documents/G
+itHub/PKSU/5min.jpg>] [30 <C:/Users/Akuma/Documents/GitHub/PKSU/6min.jpg>]
+[31 <C:/Users/Akuma/Documents/GitHub/PKSU/Tilfojbruger.png>] [32 <C:/Users/Akum
+a/Documents/GitHub/PKSU/Tilfojcomputer.png> <C:/Users/Akuma/Documents/GitHub/PK
+SU/Udlan.png>] [33 <C:/Users/Akuma/Documents/GitHub/PKSU/mainGUI.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 509.
 
 (C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 426.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 426.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 509.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 509.
 Package rerunfilecheck Info: File `Skabelon.out' has not changed.
-(rerunfilecheck)             Checksum: 998C3DA3079686A723A78C946F2B424C;1760.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 426.
+(rerunfilecheck)             Checksum: 9228EBF75E83E82BD3A8EDC9B72C6564;1949.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 509.
  ) 
 Here is how much of TeX's memory you used:
- 6756 strings out of 493921
- 94821 string characters out of 3144875
- 178653 words of memory out of 3000000
- 9874 multiletter control sequences out of 15000+200000
- 11503 words of font info for 45 fonts, out of 3000000 for 9000
+ 6807 strings out of 493921
+ 95404 string characters out of 3144875
+ 178806 words of memory out of 3000000
+ 9904 multiletter control sequences out of 15000+200000
+ 11671 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,12n,43p,1230b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
@@ -765,10 +832,11 @@ Here is how much of TeX's memory you used:
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Skabelon.pdf (29 pages, 477309 bytes).
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Skabelon.pdf (33 pages, 7092390 bytes).
 PDF statistics:
- 370 PDF objects out of 1000 (max. 8388607)
- 82 named destinations out of 1000 (max. 500000)
- 272 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -264,13 +264,84 @@ Vores kunde har derudover også stillet os det krav, at vi skal sikre os at der 
 	\item Program som udskriver kvittering, når en computer afleveres - Vi mangler i gruppen at diskutere, hvordan vi vil udvide programmet til enten automatisk at sende en kvittering til print, eller til at lave kvittering, som brugeren selv manuelt kan sende til print. Kunden ønsker at kvittering skal indeholde følgende: Computerens mærke, model, serie nummer, tyveri ID, lånerens initialer, lånerens underskrift, tilhørende sagsnummer, dato for udlevering og dato for indlevering.
 \end{itemize}
 \newpage
->>>>>>> Stashed changes
 \section{Program- og systemtest}
-Vi har tænkt os at dele program- og systemtest op i to. Vi vil her teste brugervenligheden og om systemet virker som det skal. Vores plan for at teste brugervenligheden er, at vi vil lave Think-Aloud test med vores kunde. Vi vil her observere, hvordan vores kunde færdes i vores system og give vores kunde flere forskellige opgaver som skal løses ved brug af vores system. Vi vil her undervejs notere de gode og dårlige ting ved systemet. Når testen med kunden er færdig, vil vi evaluere testen med kunden, og høre hvad kunden synes om systemet, eller om noget er uhensigtsmæssigt. Think Aloud testen vil blive lavet i forhold til artiklen "Thinking Aloud - User Testing by Molich" \cite{ThinkAloud}. \\[0.1in]
-Denne test skal laves med kunden for, for det første at teste om løsningen er hensigtsmæssig, fra kundens synspunkt, og for det andet for at teste løsningens brugervenlighed og intuitivitet. 
-Vi vil derudover teste vores system, for at se om det virker som det er tiltænkt. Vi vil altså lave testcases for vores funktioner i python. Vi vil her for eksempel teste, om det er muligt at låne den samme computer ud til to personer på samme tid, om det er muligt at udlåne en fri computer som har været udlånt, men er blevet afleveret. Vi vil altså teste alle de essentielle funktioner, som får systemet til at fungere. Vi vil her teste systemet i forhold til de metoder, som er nævnt i artiklen "Systematic Software Testing" \cite{SoftwareTest}.
-\newpage
+Måden vi har valgt at teste vores system og program er ved en simpel gennemgang af alle de funktioner der bliver brugt og hvorvidt de gør hvad de skal og om de overholder der regler som vi har sat op for hver af delende, f.eks at en primary key ikke vil blive brugt 2 gange i databasen eller ligne.\\[0.2in]
+$\bullet$ Vi starter med at teste om vores udlån knap gør som den skal og tjekker at den kun kan tilføje det samme element 1 gang, og at den ikke tilføjer noget til databasen eller gør noget når der ikke står noget i alle felterne.\\
+$\bullet$ Efter dette tjekker vi at vores aflever knap gør hvad den skal, at den kun kan aflevere ting der er udlånt og er udlånt af samme person som der aflevere den. Vi tjekker også at knappen intet gør når vi klikker på den men intet er indtastet i felterne.\\
+$\bullet$ Nu tester vi om vores tilføj bruger knap virker som den skal, altså den tilføjer en person til databasen som ikke er i den i forvejen (som ikke har samme KEA ID). Vi tester også her at knappen intet gør uden at have fået udfyldt felterne først.\\
+$\bullet$ Her tester vi at Tilføj ny device knappen virker. Vi tester at den kan tilføje en ny device til databasen. Vi tester også her at knappen kun gør noget når alle felter er udfyldt.\\
+$\bullet$ Her tester vi at alle vis knapperne virker altså at de viser præcis hvad vi gerne vil have f.eks vis bruger viser os alle brugere i databasen osv.\\[0.1in]
+I de ovenstående test tester vi at alle dele fungere som vi ønsker de gør ved blot at gå igennem alle knapperne og udfordre hvad man kan gøre med dem for at se om systemet holder til det. Alt dette kan man se i video testen af programmet fundet her: \url{https://youtu.be/cl0x1nP5nHM}\\
+\pagebreak
+
+
+
+%Vi har tænkt os at dele program- og systemtest op i to. Vi vil her teste brugervenligheden og om systemet virker som det skal. Vores plan for at teste brugervenligheden er, at vi vil lave Think-Aloud test med vores kunde. Vi vil her observere, hvordan vores kunde færdes i vores system og give vores kunde flere forskellige opgaver som skal løses ved brug af vores system. Vi vil her undervejs notere de gode og dårlige ting ved systemet. Når testen med kunden er færdig, vil vi evaluere testen med kunden, og høre hvad kunden synes om systemet, eller om noget er uhensigtsmæssigt. Think Aloud testen vil blive lavet i forhold til artiklen "Thinking Aloud - User Testing by Molich" \cite{ThinkAloud}. \\[0.1in]
+%Denne test skal laves med kunden for, for det første at teste om løsningen er hensigtsmæssig, fra kundens synspunkt, og for det andet for at teste løsningens brugervenlighed og intuitivitet. 
+%Vi vil derudover teste vores system, for at se om det virker som det er tiltænkt. Vi vil altså lave testcases for vores funktioner i python. Vi vil her for eksempel teste, om det er muligt at låne den samme computer ud til to personer på samme tid, om det er muligt at udlåne en fri computer som har været udlånt, men er blevet afleveret. Vi vil altså teste alle de essentielle funktioner, som får systemet til at fungere. Vi vil her teste systemet i forhold til de metoder, som er nævnt i artiklen "Systematic Software Testing" \cite{SoftwareTest}.
 \section{Brugergrænseflade og interaktionsdesign}
+\subsection{Gamle GUI}
+I denne section vil vi vise de gamle udkast vi havde til vores GUI for at få bedre forståelse for hvordan vi er end der hvor vi ende med vores nuværende GUI.\\[0.2in]
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{1min.jpg}
+\caption{}
+\label{fig:GamelGUI1}
+\end{figure}
+\ref{fig:GamelGUI1} - Beskriver et muligt design af løsningen. Her gøres der brug
+af en dropdown-menu.\\[0.1in]
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{2min.jpg}
+\caption{}
+\label{fig:GamelGUI2}
+\end{figure}
+\ref{fig:GamelGUI2} - Beskriver et muligt design af løsningen. Her gøres der brug
+af en dropdown-menu.\\[0.1in]
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{3min.jpg}
+\caption{}
+\label{fig:GamelGUI3}
+\end{figure}
+\ref{fig:GamelGUI3} - Beskriver et muligt design af løsningen. Her gøres der brug
+af en vertikal CSS-menu.\\[0.1in]
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{4min.jpg}
+\caption{}
+\label{fig:GamelGUI4}
+\end{figure}
+\ref{fig:GamelGUI4} - Beskriver et muligt design af løsningen. Her gøres der brug
+af en vertikal CSS-menu.\\[0.1in]
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{5min.jpg}
+\caption{}
+\label{fig:GamelGUI5}
+\end{figure}
+\ref{fig:GamelGUI5} Beskriver et muligt design af løsningen. Her gøres der brug af
+en vertikal CSS-menu.\\[0.1in]
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{6min.jpg}
+\caption{}
+\label{fig:GamelGUI6}
+\end{figure}
+\ref{fig:GamelGUI6} Beskriver et muligt design af løsningen. Her gøres der brug af
+en vertikal CSS-menu.\\[0.1in]
+På de ovenstående billeder \ref{fig:GamelGUI1} - \ref{fig:GamelGUI6} ses de ideer vi har til hvordan det kunne
+komme til at se ud.\\
+Dette er dog stadig kun ide face af hvordan det muligtvis kunne komme til at se
+ud, derfor har vi en masse forskellige GUI ideer som vi kan se forskellige gode
+aspekter ved.\\
+Disse billeder er en sammensætning for at se et samlet GUI således at \ref{fig:GamelGUI1}
+og \ref{fig:GamelGUI2} udgør vores første GUI med en drop down menu som skal give et bedre
+overblik over de forskellige handlinger.\\
+figur \ref{fig:GamelGUI3},\ref{fig:GamelGUI4},\ref{fig:GamelGUI5} og \ref{fig:GamelGUI6} udgør vores andet GUI design som fremstår på en mulig hjemmeside version hvor vi har menuerne i siden og kan komme ind på de forskellige
+sektioner som vist på billederne.
+\subsection{Nye GUI}
+Her starter vi med at vise vores video for vores program \url{https://youtu.be/5LBe7e8QitE}\\[0.1in]
 \begin{figure}[h!]
 \centering
 \includegraphics[width=1\textwidth]{Tilfojbruger.png}
@@ -278,9 +349,9 @@ Vi vil derudover teste vores system, for at se om det virker som det er tiltænk
 \label{fig:GUI1}
 \end{figure}
 På figur \ref{fig:GUI1} her ses vores program og hvordan bruger tilføjelsen ser ud.\\
-Vi har sat det op på denne måde da for at tilføje et nyt element til databasen kræver det en mail, KEA ID (dette er det specielle id som KEA arbejdere og studerende har ligesom vi har på KU), og et telefon nummer. Vi har foruden dette også en stor text box.\\
-vi har valgt at sætte det op på denne måde da det virkede som om det var den mest intuative måde at gøre det på med alle indsæt værdier i toppen og knapperne i bunden.\\
-\pagebreak
+Vi har sat det op på denne måde da for at tilføje et nyt element til databasen kræver det en mail, KEA ID (dette er det specielle id som KEA arbejdere og studerende har ligesom vi har på KU), og et telefon nummer. Vi har foruden dette også en stor text box.\\[0.1in]
+vi har valgt at sætte det op på denne måde da det virkede som om det var den mest intuative måde at gøre det på med alle indsæt værdier i toppen og knapperne i bunden.
+\\[0.1in]
 \begin{figure}[h!]
 \centering
 \includegraphics[width=1\textwidth]{Tilfojcomputer.png}
@@ -289,8 +360,8 @@ vi har valgt at sætte det op på denne måde da det virkede som om det var den 
 \end{figure}
 \\
 På figur \ref{fig:GUI2} ser vi hvordan programmet ser ud i ny computer tilføjelses delen.\\
-Her har vi valgt at sætte det op på mere eller mindre samme måde som vi har gjort med tilføj bruger men bare med tilføjelse af computere og de elementer der skal til for at tilføje en ny computer til databasen.
-\pagebreak
+Her har vi valgt at sætte det op på mere eller mindre samme måde som vi har gjort med tilføj bruger men bare med tilføjelse af computere og de elementer der skal til for at tilføje en ny computer til databasen.\\
+\\[0.1in]
 \begin{figure}[h!]
 \centering
 \includegraphics[width=1\textwidth]{Udlan.png}
@@ -298,7 +369,7 @@ Her har vi valgt at sætte det op på mere eller mindre samme måde som vi har g
 \label{fig:GUI3}
 \end{figure}
 på figur \ref{fig:GUI3} ser vi hvordan hoveddelen af programmet ser ud, nemlig den del hvor vi realt udlåner og aflevere computere.
-\pagebreak
+\\[0.1in]
 \begin{figure}[h!]
 \centering
 \includegraphics[width=1\textwidth]{mainGUI.png}
@@ -306,8 +377,20 @@ på figur \ref{fig:GUI3} ser vi hvordan hoveddelen af programmet ser ud, nemlig 
 \label{fig:GUI4}
 \end{figure}\\
 På figur \ref{fig:GUI4} ser vi vores hoved GUI som åbner alle de andre sektioner samt mulighed for at vise alle Brugere, Devices, alle lånte devices, alle ledige devices, og alle udlåninger der nogensinde har været der.(dog kun dem som er afleveret.)
-\pagebreak
-
+\subsection{Think out loud test:}
+Her vil vi lave en think out loud test for at finde ud af hvor bruger venlig vores system er og om det er til at forholde sig til for en udefra kommende.\\
+I testen her vil vores person få følgende spørgsmål stillet for at udføre dem i systemet:\\[0.2in]
+$\bullet$ Start Main GUI'en\\
+$\bullet$ Tilføj en ny person til systemet (Et KEA ID er bare et navn for nu)\\
+$\bullet$ Tilføj en ny device til databasen\\
+$\bullet$ Lån en device\\
+$\bullet$ vis udlånte devices\\
+$\bullet$ Aflever devicen\\
+$\bullet$ Vis gamle udlåninger\\
+$\bullet$ Vis alle brugere i systemet\\
+$\bullet$ Vis alle devices i systemet\\
+$\bullet$ Vis alle ledige devices\\[0.1in]
+Denne test har ser vi hvordan vores test person klarede sig med at bruge programmet og hele processen kan ses her: \url{https://youtu.be/AfRhZRkiG4A}
 \section{Projektsamarbejdet}
 \subsection{Kunden}
 Når vi ser på samarbejdet mellem gruppen og kunden har vi haft en del problemer i forstanden at vi ikke har haft mulighed for at få et møde i før for ret langt inde i projektet. Dette fik vi løst efter at formåede at presse på og få stablet et møde på benene. Efter det første møde 4/5 fik vi få langt støre klarhed omkring projektet. Før dette havde vi blot en email at arbejde ud fra dog gav den også godt udgangspunkt for hvad vi kunne starte med at arbejde med.\\

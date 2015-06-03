@@ -17,12 +17,15 @@
 \contentsline {subsection}{\numberline {4.4}Udest\IeC {\r a}ende implementering i programmet}{16}{subsection.4.4}
 \contentsline {section}{\numberline {5}Program- og systemtest}{18}{section.5}
 \contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{19}{section.6}
-\contentsline {section}{\numberline {7}Projektsamarbejdet}{23}{section.7}
-\contentsline {subsection}{\numberline {7.1}Kunden}{23}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Arbejdsstruktur}{23}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Refleksion over arbejdsmetoden}{23}{subsection.7.3}
-\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{25}{section.8}
-\contentsline {section}{\numberline {9}Referat af kundem\IeC {\o }de d. 4. maj 2015}{26}{section.9}
-\contentsline {section}{\numberline {10}Reviews}{27}{section.10}
-\contentsline {subsection}{\numberline {10.1}Programming as theory building}{27}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Extreme Programming}{28}{subsection.10.2}
+\contentsline {subsection}{\numberline {6.1}Gamle GUI}{19}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Nye GUI}{19}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Think out loud test:}{20}{subsection.6.3}
+\contentsline {section}{\numberline {7}Projektsamarbejdet}{20}{section.7}
+\contentsline {subsection}{\numberline {7.1}Kunden}{20}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Arbejdsstruktur}{21}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Refleksion over arbejdsmetoden}{21}{subsection.7.3}
+\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{22}{section.8}
+\contentsline {section}{\numberline {9}Referat af kundem\IeC {\o }de d. 4. maj 2015}{23}{section.9}
+\contentsline {section}{\numberline {10}Reviews}{24}{section.10}
+\contentsline {subsection}{\numberline {10.1}Programming as theory building}{24}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Extreme Programming}{25}{subsection.10.2}
