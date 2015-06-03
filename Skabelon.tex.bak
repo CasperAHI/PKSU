@@ -409,7 +409,7 @@ I gruppen er der omkring 3 der arbejder ad gangen, fordi der typisk er en som sk
 \pagebreak
 \subsection{Refleksion over arbejdsmetoden}
 Metoden vi arbejder efter ligner meget godt Scrum metoden. ~\cite{Scrum} Vi har struktureret det således at vi mødes to gange for at evaluere vores fremgang, disse møder ligner meget disse Scrum meetings. Forskellen er at vores møder er lidt en blanding af det vi kender som "daily scrum meetings" og de reelle møder. Møderne to gange om ugen sikrer en fremgang og en fælles enighed om hvordan vi går videre med projektet. Typisk bliver opgaverne delt op og derefter reflekteret til møderne. På denne måde sikrer vi os ikke at "spilde" arbejdskraft ved hele tiden at checke os, at det er de rigtige ting der bliver lavet og ikke eventuelt lave noget dobbelt.\\
-De nye krav fra kunden skabte en del problemer i projektet, disse løbende nye krav der kommer beskrives meget godt i P. Naurs artikel \cite{NaurProgramming}. Deri forklarer han hvordan disse nye krav kan være et stort problem for programmørende af programmet, blandt andet forklarer han hvordan samtalen mellem kunde og programmør er vigtig i forhold til en løbende samtale og konstant underrettelse. Problemt for os har været, at kontakten med kunden har været meget begrænset og i de få vi har haft, er der blevet stillet nye store krav.
+De nye krav fra kunden skabte en del problemer i projektet, disse løbende nye krav der kommer beskrives meget godt i P. Naurs artikel \cite{NaurProgramming}. Deri forklarer han hvordan disse nye krav kan være et stort problem for programmørerne af programmet, blandt andet forklarer han hvordan samtalen mellem kunde og programmør er vigtig i forhold til en løbende samtale og konstant underrettelse. Problemet for os har været, at kontakten med kunden har været meget begrænset og i de få vi har haft, er der blevet stillet nye store krav.
 \newpage
 \section{Commit Log}
 \includegraphics[page=1,scale=0.6]{Commit Log.pdf}
@@ -453,7 +453,7 @@ På nuværende tidspunkt har vores arbejde ikke været på selve programmet endn
 Vores timeline således ud:
 \begin{itemize}
 	\item Mail modtaget fra kunde 25/03/2015:
-Den 25. marts modtog vi mail fra kunden om hvad de ønskede sig af programmet. Kunden ønsker at få mere styr på deres proces og få elimineret deres nuværende papirseddel løsning. De ønsker, at systemet automatisk sender rykkere, men samtidig, at de også manuelt kan dette. Kunden vil gerne have, at systemet kan betjenes ved brug af en håndskanner.
+Den 25. marts modtog vi mail fra kunden om hvad de ønskede sig af programmet. Kunden ønsker at få mere styr på deres proces og få elimineret deres nuværende papirseddel løsning. De ønsker, at systemet automatisk sender rykkere, men samtidig, at de også manuelt kan dette. Kunden vil gerne have, at systemet kan betjenes ved brug af en hånd-skanner.
 	\item Afholdt gruppemøde 21/04/2015:\\
 Den 21. april har vi aftalt, at vi ønsker at have den første prototype klar inden den 3. maj. Vi har endvidere aftalt at have to faste dage om ugen, hvor vi vil arbejde på projektet. Dette valg er truffet for at sikre os, at vores egen deadline vil kunne blive overholdt.
 	\item Afholdt kundemøde 04/05/2015:\\
@@ -465,7 +465,7 @@ Den 4. maj holdt vi møde med kunden, hvor vi fik respons på eventuelle designs
 \pagebreak
 \section{Referat af kundemøde d. 4. maj 2015}
 \subsection*{Krav}
-$\bullet$ Udlån skal indholde et underskriftsfelt \\
+$\bullet$ Udlån skal indeholde et underskrifts-felt \\
 $\bullet$ Der skal være mulighed for udvidelse til mange computere, da systemet skal udvides i 2016. \\
 $\bullet$ Computere skal have et typefelt\\
 $\bullet$ Systemet må ikke kunne tilgås udefra. \\
@@ -478,10 +478,10 @@ $\bullet$ Computere skal indeholde sagsID/sagsnr. \\
 $\bullet$ En kvittering skal udstedes til begge parter (KEA/låner).\\
 \indent - Kan være i form af udskrift. \\
 \indent - Kan være i form af mail. \\
-$\bullet$ Løsningen skal indeholde et bemærkningsfelt. \\
+$\bullet$ Løsningen skal indeholde et bemærknings-felt. \\
 $\bullet$ BrugerID skal være lig med KEAlogin. \\
-$\bullet$ Indtastningsfelterne må ikke være case-sesitive (Store bogstaver = små bogstaver)\\
-$\bullet$ Indtastningsfelterne må ikke tage højde for mellemrum.
+$\bullet$ Indtastnings-felterne må ikke være case-sensitive (Store bogstaver = små bogstaver)\\
+$\bullet$ Indtastnings-felterne må ikke tage højde for mellemrum.
 \subsection*{Prioriteringer}
 $\bullet$ Både med drop-down-menu og hyperlinks er accepteret. \\
 $\bullet$ Både program og hjemmeside er accepteret så længe løsningen ikke kan tilgås udefra. \\
@@ -498,28 +498,28 @@ $\bullet$ Python bliver muligvis et problem, da sproget skal ligge på drevet.
 \textbf{Hovedpunkter}\\
 Den rationelle tankegang efterstræbes i artiklen, men ikke den traditionelle form af slagsen som titlen giver udtryk for.
 Der henvises til en løbende udviklingsform som der ses indenfor matematikken.
-F. eks. bliver et matematikbevis ikke uddybbet på den måde i starten. Det starter med en ide som der derefter arbejdes videre på løbende. Indtil der i sidste ende står et "forhåbentligvis" meget skarpere og kortere bevis end den oprindelige ide var.
-Denne form for tankegang kan der draves direkte paralleller til i forhold til programmering.\\
+F. eks. bliver et matematikbevis ikke uddybet på den måde i starten. Det starter med en ide som der derefter arbejdes videre på løbende. Indtil der i sidste ende står et "forhåbentligt" meget skarpere og kortere bevis end den oprindelige ide var.
+Denne form for tankegang kan der drages direkte paralleller til i forhold til programmering.\\
 Den rationelle metode vil aldrig kunne blive hundrede procent realiseret indenfor programmeringens verden da usikkerheder og uforudsete problemer ikke kendes på forhånd. Dertil hører mange argumenter som omhandler menneskelige fejl, mangel på specifikke/ændrende krav fra kunde, dele af ældre projekter ville måske kunne kobles på det nye osv.\\
 Længere fremme i artiklen kommer det store spørgsmål på, hvorfor denne dokumentation er nødvendig før, under og efter projektet. God dokumentation for det igangværende projekt kan være altafgørende for programmøre der kommer til undervejs i et projekt og fungere som dokumentation af processen så kunde/observatører kan se fremgangen.\\\\
 \textbf{Relationer og Tanker}\\
-Måden som artiklen beskriver et udviklingsforløb af et projekt ligner meget Scrum metoden.~\cite{Scrum} Især i forhold til den løbende udvikling af produktet. De runs de foregår hvorved løbende prototyper/opgaver skal nåes giver god mening i forhold til denne refleksive/løbende proces af projektet.\\
-Kontra bogen~\cite{OOSE} bliver der i denne artikel reflekteret meget over hvad der bliver sagt, vi vil gå så langt som at sige, at teksten er direkte kritisk overfor sig selv. Forstået i den forstand at to sider af en sag bliver taget op. Det ser man for eksempel i artiklen da den fortæller om hvorfor vi skal bruge denne rationelle desgin process, men så alligevel ikke. Bogen er meget "one-sided" i forhold til mange ting, blandt andet denne design process hvor man ikke ser denne reflektion over processen men i stedet fokuserer på at forklare de forskellige metoder.\\
+Måden som artiklen beskriver et udviklingsforløb af et projekt ligner meget Scrum metoden.~\cite{Scrum} Især i forhold til den løbende udvikling af produktet. De runs de foregår hvorved løbende prototyper/opgaver skal nås giver god mening i forhold til denne refleksive/løbende proces af projektet.\\
+Kontra bogen~\cite{OOSE} bliver der i denne artikel reflekteret meget over hvad der bliver sagt, vi vil gå så langt som at sige, at teksten er direkte kritisk overfor sig selv. Forstået i den forstand at to sider af en sag bliver taget op. Det ser man for eksempel i artiklen da den fortæller om hvorfor vi skal bruge denne rationelle desgin process, men så alligevel ikke. Bogen er meget "one-sided" i forhold til mange ting, blandt andet denne design process hvor man ikke ser denne refleksion over processen men i stedet fokuserer på at forklare de forskellige metoder.\\
 \pagebreak
 \subsection{Designing for Usability: Key Principles and What Designers Think}
 \textbf{Hovedpunkter}\\
 Artiklen sætter fokus på selve bruger-testingen. Der indikeres at for lidt energi bliver lagt i flade udtryk såsom "brugervenlighed", "nemt interface" osv. Mens det der i virkeligheden er brug for er specifik testing af de personer som skal bruge programmet, f. eks. klienten. Artiklen omtaler dette som en meget overset aspekt af udviklingen af et projekt. Der menes at man ville kunne slippe for mange "dumme fejl". Fejl som brugere vil kunne komme ud for som måske ikke så intuitive for en programmør eller designer. Man kan sige, at selve brugervenligheden kan være udsat i større projekter fordi de anses som en udgift i stedet for en nødvendighed.\\
 Her starter der en sektion om hvordan man eventuelt ville kunne teste før en eneste linje kode til selve programmet overhovedet er startet.\\\\
 \textbf{Relationer og Tanker}\\
-Som i den anden artikel~\cite{UseDesign} er der mange antagelser og forudanselser som grundlag for mange af argumenterne. I denne kommer det for eksempel gennem generaliseringen af af hvordan diverse projekter håndteres og hvorledes deres fokuspunkter bliver prioriteret.\\
-Artiklen lægger fokus på iterativt design, brugervenlighed og funktonalitet som en vigtig del af et projekts start. Dette spænder godt overens med Scrum metoden~\cite{Scrum} fordi metoden er meget iterativ igennem sine runs hvori man udbygger sit program bid for bid. Undervejs i sådan et forløb får man prototyper/versioner af sit program man kan bruge som:\\
-$\bullet$Præsentation til kunder af hvor langt i projektet man er nået og hvilken funkionalitet der er nået/mangler.\\
+Som i den anden artikel~\cite{UseDesign} er der mange antagelser og forudanelser som grundlag for mange af argumenterne. I denne kommer det for eksempel gennem generaliseringen af af hvordan diverse projekter håndteres og hvorledes deres fokuspunkter bliver prioriteret.\\
+Artiklen lægger fokus på iterativt design, brugervenlighed og funktionalitet som en vigtig del af et projekts start. Dette spænder godt overens med Scrum metoden~\cite{Scrum} fordi metoden er meget iterativ igennem sine runs hvori man udbygger sit program bid for bid. Undervejs i sådan et forløb får man prototyper/versioner af sit program man kan bruge som:\\
+$\bullet$Præsentation til kunder af hvor langt i projektet man er nået og hvilken funktionalitet der er nået/mangler.\\
 $\bullet$Løbende versioner som kan testes på brugervenlighed og funktionalitet.\\
 $\bullet$Sidst men ikke mindst sikrer man sig at have tidligere versioner af programmet man kan gå tilbage til hvis noget skulle gå galt fra version til version.
 \newpage
 \subsection{No Silver Bullet}
 \textbf{Hovedpunkter}\\
-Artiklen No Silver Bullet beskriver hvordan der ikke er nogen gylden metode med hensyn til produktivitet, pålidelighed eller enkelhed, hverken inden for systemudvikling eller ledelsesstil. Al software konstruktion indebærer væsentlige opgaver, om det er at skabe komplekse strukturer, der udgør de abstrakte softwareenheder, og utilsigtede opgaver, repræsentation af disse abstrakte enheder i programmeringssprog og kortlægning af disse på maskinens sprog inden for plads og hastighedsbegrænsninger. Mange store tidligere gennembrud indenfor softwareproduktivitet har kommet fra at fjerne de virtuelle barrierer, såsom hardwarebegrænsninger, svære programmeringssprog, og mangel på maskintid. Dette kan for eksempel gøres ved at udnytte markedet til at købe moduler, der kan købes, fremfor at konstruere det, brug af rapid prototyping, som en del af en tidlig iteration i processen. Andre metoder er at tilføje funktioner til et kørende system, som de bruges og testes, eller at finde nye gode programmører. Efterhånden som fokus på programmering øges, øges fokus på uddannelser herom også, hvilket betyder at hyring af nye hot-shot-programmører er en essentiel del af systemudvikling.\\\\
+Artiklen No Silver Bullet beskriver hvordan der ikke er nogen gylden metode med hensyn til produktivitet, pålidelighed eller enkelhed, hverken inden for systemudvikling eller ledelsesstil. Al software konstruktion indebærer væsentlige opgaver, om det er at skabe komplekse strukturer, der udgør de abstrakte softwareenheder, og utilsigtede opgaver, repræsentation af disse abstrakte enheder i programmeringssprog og kortlægning af disse på maskinens sprog inden for plads og hastighedsbegrænsninger. Mange store tidligere gennembrud indenfor softwareproduktivitet har kommet fra at fjerne de virtuelle barrierer, såsom hardware-begrænsninger, svære programmeringssprog, og mangel på maskintid. Dette kan for eksempel gøres ved at udnytte markedet til at købe moduler, der kan købes, fremfor at konstruere det, brug af rapid prototyping, som en del af en tidlig iteration i processen. Andre metoder er at tilføje funktioner til et kørende system, som de bruges og testes, eller at finde nye gode programmører. Efterhånden som fokus på programmering øges, øges fokus på uddannelser herom også, hvilket betyder at hyring af nye hot-shot-programmører er en essentiel del af systemudvikling.\\\\
 \textbf{Relationer og tanker}\\
 Brooks identificerer fire essentielle problemer ved softwareudvikling: Kompleksitet, overensstemmelse, foranderlighed og usynlighed.\\
 Bud på hvorfor der ikke findes en "Silver Bullet" kan være: \\
@@ -541,13 +541,13 @@ Ligeledes kan metoden også ligne Scrum metoden\cite{Scrum} da disse sprints hel
 \newpage
 \subsection{Extreme Programming}
 \textbf{Hovedpunkter}\\
-Extreme programming er en metode, der minder meget om den agile arbejdsmetode, inden for systemudvikling. Brugerenes krav har forsæde, og udviklerne skal altid have disse i mente i udviklingsprocessen. Undervejs i processen skal der afholdes møder mellem brugeren og udvikleren, der giver mulighed for at brugeren tilføjer nye krav, eller ændrer i gamle krav. Under disse møder skal brugeren også godkende eventuelle tilføjelser til proggrammet.\\
+Extreme programming er en metode, der minder meget om den agile arbejdsmetode, inden for systemudvikling. Brugerenes krav har forsæde, og udviklerne skal altid have disse i mente i udviklingsprocessen. Undervejs i processen skal der afholdes møder mellem brugeren og udvikleren, der giver mulighed for at brugeren tilføjer nye krav, eller ændrer i gamle krav. Under disse møder skal brugeren også godkende eventuelle tilføjelser til programmet.\\
 Extreme programming har 4 hovedprincipper:
 \begin{itemize}
 	\item Kommunikation: Der holdes møder mellem brugere og udviklere, omkring systemet, der er under udvikling.
 	\item Simpelhed: Udviklerne skal ikke prøve at forudse problemer, men kun fokusere på de problemer, givet af brugeren.
 	\item Feedback: Systemet skal løbende testes, for at give udviklerne af systemet en idé om, om hvad de laver er korrekt.
-	\item Mod: Extreme programming handler om at bryde med traditionelle tankemåder. Dette kan indebære at der kræves meget grundige kravspecifikationer.
+	\item Mod: Extreme programming handler om at bryde med traditionelle tankemåder. Dette kan indebære at der kræves meget grundige kravsspecifikationer.
 \end{itemize}
 \textbf{Tanker og relationer}\\
 Extreme programming minder rigtig meget om den SCRUM\cite{Scrum}. På samme måde som i Extreme programming, holder vi i PSKU møder med kunden, hvor vi aftaler krav og tester, samt fremviser tilføjelser til programmet. Derudover er vi også i PKSU blevet introduceret for metoden Pair Programming, hvor to udviklere sidder sammen. Her programmerer den ene, hvor han tænker højt om alt, der vedrører programmeringen, imens den anden lytter. Denne metode drøftes der også i extreme programming, da den kan give udviklerne bedre forståelse for de problemer de støder på undervejs i processen. En anden pointe i Extreme programming er at en større udviklerstab betyder et større behov for at koordinere mellem gruppemedlemmer. Dette har ikke været et stort problem i vores udviklingsfase, da vi gennem hele processen har været 4 i gruppen. Som P. Naur nævner i sin artikel\cite{NaurProgramming} har man behov for konstant at skulle indstille på sit projekt og være klar på nye udfordringer/ændringer.\\
