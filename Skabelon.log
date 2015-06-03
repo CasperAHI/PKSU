@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.21)  3 JUN 2015 12:32
+=======
+<<<<<<< Updated upstream
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.21)  3 JUN 2015 12:25
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.12)  3 JUN 2015 12:32
+>>>>>>> Stashed changes
+>>>>>>> origin/master
 entering extended mode
 **Skabelon.tex
 (C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.tex
@@ -585,7 +593,16 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
  [5]
+<<<<<<< Updated upstream
 <UseCase.png, id=190, 366.36874pt x 356.33125pt>
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 83.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 83.
+
+<UseCase.png, id=192, 366.36874pt x 356.33125pt>
+>>>>>>> Stashed changes
 File: UseCase.png Graphic file (type png)
  <use UseCase.png>
 Package pdftex.def Info: UseCase.png used on input line 87.
@@ -625,35 +642,123 @@ Overfull \hbox (29.72298pt too wide) in paragraph at lines 147--157
 [][] 
  []
 
+<<<<<<< Updated upstream
 [9] <klassediagram.png, id=218, 643.40375pt x 347.2975pt>
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 159.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 159.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 159.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 159.
+[9]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 160.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 160.
+ <klassediagram.png, id=220, 643.40375pt x 347.2975pt>
+>>>>>>> Stashed changes
 File: klassediagram.png Graphic file (type png)
 
 <use klassediagram.png>
 Package pdftex.def Info: klassediagram.png used on input line 163.
 (pdftex.def)             Requested size: 310.4979pt x 167.60709pt.
+<<<<<<< Updated upstream
  [10 <C:/Users/Akuma/Documents/GitHub/PKSU/klassediagram.png>] [11] <SekvensLaa
 n.png, id=232, 689.57625pt x 403.5075pt>
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 169.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 169.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 169.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 169.
+ [10 <./klassediagram.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 170.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 170.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 199.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 199.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 199.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 199.
+ [11]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 200.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 200.
+
+<SekvensLaan.png, id=234, 689.57625pt x 403.5075pt>
+>>>>>>> Stashed changes
 File: SekvensLaan.png Graphic file (type png)
 
 <use SekvensLaan.png>
 Package pdftex.def Info: SekvensLaan.png used on input line 203.
 (pdftex.def)             Requested size: 310.4979pt x 181.68752pt.
+<<<<<<< Updated upstream
  [12 <C:/Users/Akuma/Documents/GitHub/PKSU/SekvensLaan.png>] <SekvensAflever.pn
 g, id=240, 799.98875pt x 402.50375pt>
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 209.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 209.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 209.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 209.
+
+[12 <./SekvensLaan.png>]
+<SekvensAflever.png, id=242, 799.98875pt x 402.50375pt>
+>>>>>>> Stashed changes
 File: SekvensAflever.png Graphic file (type png)
 
 <use SekvensAflever.png>
 Package pdftex.def Info: SekvensAflever.png used on input line 211.
 (pdftex.def)             Requested size: 310.4979pt x 156.2204pt.
+<<<<<<< Updated upstream
  <SekvensHistorik.png, id=242, 554.07pt x 263.98625pt>
+=======
+ <SekvensHistorik.png, id=244, 554.07pt x 263.98625pt>
+>>>>>>> Stashed changes
 File: SekvensHistorik.png Graphic file (type png)
 
 <use SekvensHistorik.png>
 Package pdftex.def Info: SekvensHistorik.png used on input line 218.
 (pdftex.def)             Requested size: 310.4979pt x 147.936pt.
+<<<<<<< Updated upstream
  [13 <C:/Users/Akuma/Documents/GitHub/PKSU/SekvensAflever.png> <C:/Users/Akuma/
 Documents/GitHub/PKSU/SekvensHistorik.png>]
 <deploymentdiagram.png, id=255, 537.00626pt x 348.30125pt>
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 224.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 224.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 224.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 224.
+ [13 <./SekvensAflever.png> <./SekvensHistorik.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 225.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 225.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 226.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 226.
+
+<deploymentdiagram.png, id=257, 537.00626pt x 348.30125pt>
+>>>>>>> Stashed changes
 File: deploymentdiagram.png Graphic file (type png)
 
 <use deploymentdiagram.png>
@@ -664,7 +769,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--236
 
  []
 
+<<<<<<< Updated upstream
 <EERDiagram.png, id=257, 424.58624pt x 370.38374pt>
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 236.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 236.
+<EERDiagram.png, id=259, 424.58624pt x 370.38374pt>
+>>>>>>> Stashed changes
 File: EERDiagram.png Graphic file (type png)
  <use EERDiagram.png>
 Package pdftex.def Info: EERDiagram.png used on input line 238.
@@ -694,7 +807,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
+<<<<<<< Updated upstream
 [18] <1min.jpg, id=284, 2999.205pt x 5331.92pt>
+=======
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
+
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 276.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 276.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 276.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 276.
+[18]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 282.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 282.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 283.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 283.
+ <1min.jpg, id=286, 2999.205pt x 5331.92pt>
+>>>>>>> Stashed changes
 File: 1min.jpg Graphic file (type jpg)
  <use 1min.jpg>
 Package pdftex.def Info: 1min.jpg used on input line 288.
@@ -703,31 +842,51 @@ Package pdftex.def Info: 1min.jpg used on input line 288.
 
 LaTeX Warning: Float too large for page by 39.2244pt on input line 291.
 
+<<<<<<< Updated upstream
 <2min.jpg, id=286, 5331.92pt x 2999.205pt>
+=======
+<2min.jpg, id=288, 5331.92pt x 2999.205pt>
+>>>>>>> Stashed changes
 File: 2min.jpg Graphic file (type jpg)
  <use 2min.jpg>
 Package pdftex.def Info: 2min.jpg used on input line 296.
 (pdftex.def)             Requested size: 345.0pt x 194.03989pt.
 
+<<<<<<< Updated upstream
 <3min.jpg, id=288, 5331.92pt x 2999.205pt>
+=======
+<3min.jpg, id=290, 5331.92pt x 2999.205pt>
+>>>>>>> Stashed changes
 File: 3min.jpg Graphic file (type jpg)
  <use 3min.jpg>
 Package pdftex.def Info: 3min.jpg used on input line 304.
 (pdftex.def)             Requested size: 345.0pt x 194.03989pt.
 
+<<<<<<< Updated upstream
 <4min.jpg, id=290, 5331.92pt x 2999.205pt>
+=======
+<4min.jpg, id=292, 5331.92pt x 2999.205pt>
+>>>>>>> Stashed changes
 File: 4min.jpg Graphic file (type jpg)
  <use 4min.jpg>
 Package pdftex.def Info: 4min.jpg used on input line 312.
 (pdftex.def)             Requested size: 345.0pt x 194.03989pt.
 
+<<<<<<< Updated upstream
 <5min.jpg, id=292, 5331.92pt x 2999.205pt>
+=======
+<5min.jpg, id=294, 5331.92pt x 2999.205pt>
+>>>>>>> Stashed changes
 File: 5min.jpg Graphic file (type jpg)
  <use 5min.jpg>
 Package pdftex.def Info: 5min.jpg used on input line 320.
 (pdftex.def)             Requested size: 345.0pt x 194.03989pt.
 
+<<<<<<< Updated upstream
 <6min.jpg, id=294, 5331.92pt x 2999.205pt>
+=======
+<6min.jpg, id=296, 5331.92pt x 2999.205pt>
+>>>>>>> Stashed changes
 File: 6min.jpg Graphic file (type jpg)
  <use 6min.jpg>
 Package pdftex.def Info: 6min.jpg used on input line 328.
@@ -751,25 +910,45 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<<<<<<< Updated upstream
 <Tilfojbruger.png, id=305, 422.32782pt x 441.14813pt>
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 343.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 343.
+<Tilfojbruger.png, id=307, 422.32782pt x 441.14813pt>
+>>>>>>> Stashed changes
 File: Tilfojbruger.png Graphic file (type png)
  <use Tilfojbruger.png>
 Package pdftex.def Info: Tilfojbruger.png used on input line 348.
 (pdftex.def)             Requested size: 345.0pt x 360.38406pt.
 
+<<<<<<< Updated upstream
 <Tilfojcomputer.png, id=307, 424.58624pt x 440.39531pt>
+=======
+<Tilfojcomputer.png, id=309, 424.58624pt x 440.39531pt>
+>>>>>>> Stashed changes
 File: Tilfojcomputer.png Graphic file (type png)
 
 <use Tilfojcomputer.png>
 Package pdftex.def Info: Tilfojcomputer.png used on input line 358.
 (pdftex.def)             Requested size: 345.0pt x 357.86063pt.
+<<<<<<< Updated upstream
  <Udlan.png, id=309, 384.6872pt x 125.71968pt>
+=======
+ <Udlan.png, id=311, 384.6872pt x 125.71968pt>
+>>>>>>> Stashed changes
 File: Udlan.png Graphic file (type png)
 
 <use Udlan.png>
 Package pdftex.def Info: Udlan.png used on input line 368.
 (pdftex.def)             Requested size: 345.0pt x 112.75723pt.
+<<<<<<< Updated upstream
  <mainGUI.png, id=311, 384.6872pt x 383.18156pt>
+=======
+ <mainGUI.png, id=313, 384.6872pt x 383.18156pt>
+>>>>>>> Stashed changes
 File: mainGUI.png Graphic file (type png)
 
 <use mainGUI.png>
@@ -808,7 +987,41 @@ LaTeX Warning: Citation `NaurProgramming' on page 22 undefined on input line 41
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 415.
 
+<<<<<<< Updated upstream
 <Commit Log.pdf, id=344, page=1, 597.23125pt x 845.1575pt>
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 408.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 408.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 410.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 410.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 410.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 410.
+[21]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 410.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 410.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 410.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 410.
+ [22]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 411.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 411.
+
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 412.
+
+<Commit Log.pdf, id=347, page=1, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 1>
@@ -819,11 +1032,50 @@ Overfull \hbox (50.14717pt too wide) in paragraph at lines 415--416
 [] 
  []
 
+<<<<<<< Updated upstream
 [23 <C:/Users/Akuma/Documents/GitHub/PKSU/Commit Log.pdf>]
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 417.
 
 <Commit Log.pdf, id=366, page=2, 597.23125pt x 845.1575pt>
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 413.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 413.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 413.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 413.
+[23 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 414.
+
+<Commit Log.pdf, id=369, page=2, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 2>
+Package pdftex.def Info: Commit Log.pdf, page2 used on input line 414.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 414--415
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 415.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 415.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 415.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 415.
+[24 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 416.
+
+<Commit Log.pdf, id=391, page=3, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 2>
@@ -838,7 +1090,11 @@ Overfull \hbox (65.14717pt too wide) in paragraph at lines 417--418
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 419.
 
+<<<<<<< Updated upstream
 <Commit Log.pdf, id=388, page=3, 597.23125pt x 845.1575pt>
+=======
+<Commit Log.pdf, id=414, page=4, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 3>
@@ -853,7 +1109,11 @@ Overfull \hbox (65.14717pt too wide) in paragraph at lines 419--420
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 421.
 
+<<<<<<< Updated upstream
 <Commit Log.pdf, id=411, page=4, 597.23125pt x 845.1575pt>
+=======
+<Commit Log.pdf, id=437, page=5, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 4>
@@ -868,7 +1128,11 @@ Overfull \hbox (65.14717pt too wide) in paragraph at lines 421--422
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 423.
 
+<<<<<<< Updated upstream
 <Commit Log.pdf, id=433, page=5, 597.23125pt x 845.1575pt>
+=======
+<Commit Log.pdf, id=459, page=6, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 5>
@@ -883,7 +1147,11 @@ Overfull \hbox (65.14717pt too wide) in paragraph at lines 423--424
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 425.
 
+<<<<<<< Updated upstream
 <Commit Log.pdf, id=455, page=6, 597.23125pt x 845.1575pt>
+=======
+<Commit Log.pdf, id=481, page=7, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 6>
@@ -898,7 +1166,11 @@ Overfull \hbox (65.14717pt too wide) in paragraph at lines 425--426
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 427.
 
+<<<<<<< Updated upstream
 <Commit Log.pdf, id=477, page=7, 597.23125pt x 845.1575pt>
+=======
+<Commit Log.pdf, id=503, page=8, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 7>
@@ -913,7 +1185,11 @@ Overfull \hbox (65.14717pt too wide) in paragraph at lines 427--428
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 429.
 
+<<<<<<< Updated upstream
 <Commit Log.pdf, id=499, page=8, 597.23125pt x 845.1575pt>
+=======
+<Commit Log.pdf, id=525, page=9, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 8>
@@ -928,7 +1204,11 @@ Overfull \hbox (65.14717pt too wide) in paragraph at lines 429--430
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 431.
 
+<<<<<<< Updated upstream
 <Commit Log.pdf, id=521, page=9, 597.23125pt x 845.1575pt>
+=======
+<Commit Log.pdf, id=548, page=10, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 9>
@@ -943,7 +1223,11 @@ Overfull \hbox (65.14717pt too wide) in paragraph at lines 431--432
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 433.
 
+<<<<<<< Updated upstream
 <Commit Log.pdf, id=544, page=10, 597.23125pt x 845.1575pt>
+=======
+<Commit Log.pdf, id=571, page=11, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 10>
@@ -958,7 +1242,11 @@ Overfull \hbox (65.14717pt too wide) in paragraph at lines 433--434
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 435.
 
+<<<<<<< Updated upstream
 <Commit Log.pdf, id=566, page=11, 597.23125pt x 845.1575pt>
+=======
+<Commit Log.pdf, id=593, page=12, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 11>
@@ -973,7 +1261,11 @@ Overfull \hbox (65.14717pt too wide) in paragraph at lines 435--436
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 437.
 
+<<<<<<< Updated upstream
 <Commit Log.pdf, id=588, page=12, 597.23125pt x 845.1575pt>
+=======
+<Commit Log.pdf, id=615, page=13, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 12>
@@ -988,7 +1280,11 @@ Overfull \hbox (65.14717pt too wide) in paragraph at lines 437--438
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 439.
 
+<<<<<<< Updated upstream
 <Commit Log.pdf, id=610, page=13, 597.23125pt x 845.1575pt>
+=======
+<Commit Log.pdf, id=637, page=14, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 13>
@@ -1003,7 +1299,11 @@ Overfull \hbox (65.14717pt too wide) in paragraph at lines 439--440
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 441.
 
+<<<<<<< Updated upstream
 <Commit Log.pdf, id=632, page=14, 597.23125pt x 845.1575pt>
+=======
+<Commit Log.pdf, id=659, page=15, 597.23125pt x 845.1575pt>
+>>>>>>> Stashed changes
 File: Commit Log.pdf Graphic file (type pdf)
 
 <use Commit Log.pdf, page 14>
@@ -1014,6 +1314,7 @@ Overfull \hbox (65.14717pt too wide) in paragraph at lines 441--442
 [][] 
  []
 
+<<<<<<< Updated upstream
 [36 <C:/Users/Akuma/Documents/GitHub/PKSU/Commit Log.pdf>]
 
 LaTeX Warning: File `Commit Log.pdf' not found on input line 443.
@@ -1084,6 +1385,193 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on Skabelon.pdf (49 pages, 7383493 bytes).
 PDF statistics:
  787 PDF objects out of 1000 (max. 8388607)
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 441.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 441.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 441.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 441.
+[37 <./Commit Log.pdf>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 442.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 442.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 463.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 463.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 463.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 463.
+ [38]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 463.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 463.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 491.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 491.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 491.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 491.
+ [39]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 492.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 492.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 532.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 532.
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--538
+
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 538.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 538.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 538.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 538.
+[40]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 539.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 539.
+
+
+LaTeX Warning: Citation `NaurProgramming' on page 41 undefined on input line 55
+0.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--551
+
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 551.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 551.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 551.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 551.
+[41] (./Skabelon.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 555.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+ [42]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+ [43 <./1min.jpg>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+ [44 <./2min.jpg> <./3min.jpg>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+
+[45 <./4min.jpg> <./5min.jpg>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+ [46 <./6min.jpg>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+ [47 <./Tilfojbruger.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+
+[48 <./Tilfojcomputer.png> <./Udlan.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 555.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 555.
+ [49 <./mainGUI.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 555.
+ (./Skabelon.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 555.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 555.
+Package rerunfilecheck Info: File `Skabelon.out' has not changed.
+(rerunfilecheck)             Checksum: FA865DD78E7B19D71F5EAB1763149797;1966.
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 555.
+ ) 
+Here is how much of TeX's memory you used:
+ 7085 strings out of 493117
+ 99744 string characters out of 6135433
+ 192419 words of memory out of 5000000
+ 10324 multiletter control sequences out of 15000+600000
+ 11671 words of font info for 46 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,12n,43p,1229b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Skabelon.pdf (49 pages, 7314128 bytes).
+PDF statistics:
+ 795 PDF objects out of 1000 (max. 8388607)
+ 647 compressed objects within 7 object streams
+>>>>>>> Stashed changes
  112 named destinations out of 1000 (max. 500000)
  409 words of extra memory for PDF output out of 10000 (max. 10000000)
 
