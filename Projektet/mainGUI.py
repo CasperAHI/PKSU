@@ -37,10 +37,10 @@ class Application(Frame):
         self.ShowAllButton = Button(self, text = "Vis alle laante", command = self.vislaante)
         self.ShowAllButton.grid(row = 2, column = 1, sticky = W)
         
-        self.ShowOldButton = Button(self, text = "Vis alle udlaaninger", command = self.visGammle)
+        self.ShowOldButton = Button(self, text = "Vis alle udlaante", command = self.visGammle)
         self.ShowOldButton.grid(row = 2, column = 2, sticky = W)
         
-        self.showButton = Button(self, text = "Vis alle devices", command = self.showingD)
+        self.showButton = Button(self, text = "Vis alle computere", command = self.showingD)
         self.showButton.grid(row = 2, column = 3, sticky = W)
         
         

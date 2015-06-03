@@ -72,10 +72,10 @@ class Application(Frame):
         self.text = Text(self, width = 60, height = 5, wrap = WORD)
         self.text.grid(row = 1, column = 0, columnspan = 5, sticky = W)
         
-        self.LoanButton = Button(self, text = "Laan Computer", command = self.udlaaner)
+        self.LoanButton = Button(self, text = "Udlaan Computer", command = self.udlaaner)
         self.LoanButton.grid(row = 2, column = 1, sticky = W)
         
-        self.ReturnButton = Button(self, text = "Afflever Compueter", command = self.affleverCom)
+        self.ReturnButton = Button(self, text = "Aflever Compueter", command = self.affleverCom)
         self.ReturnButton.grid(row = 2, column = 3, sticky = W)
         
     def somthing(self):
@@ -102,7 +102,7 @@ class Application(Frame):
         if (len(brugerID) >= 1) and (len(computerID) >= 1):
             if muligAff(brugerID, computerID):
                 afflevering(brugerID, computerID)
-                message = brugerID + " har nu affleveret computer: " + computerID
+                message = brugerID + " har nu afleveret computer: " + computerID
             else:
                 message = "Der er ingen computere der er laant af denne person"
             self.text.delete(0.0, END)
@@ -110,7 +110,7 @@ class Application(Frame):
 
 
 root = Tk()
-root.title("Computer Udlaan og Afflevering")
+root.title("Computer Udlaan og Aflevering")
 root.geometry("500x135")
 app = Application(root)
 
