@@ -23,7 +23,7 @@
 \contentsline {section}{\numberline {7}Projektsamarbejdet}{21}{section.7}
 \contentsline {subsection}{\numberline {7.1}Kunden}{21}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}Arbejdsstruktur}{21}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Refleksion over arbejdsmetoden}{21}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.3}Refleksion over arbejdsmetoden}{22}{subsection.7.3}
 \contentsline {section}{\numberline {8}Commit Log}{23}{section.8}
 \contentsline {section}{\numberline {9}Bilag 3 - Timeline}{38}{section.9}
 \contentsline {section}{\numberline {10}Referat af kundem\IeC {\o }de d. 4. maj 2015}{39}{section.10}
