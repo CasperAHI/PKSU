@@ -20,12 +20,13 @@
 \contentsline {subsection}{\numberline {6.1}Gamle GUI}{19}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Nye GUI}{19}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Think out loud test:}{20}{subsection.6.3}
-\contentsline {section}{\numberline {7}Projektsamarbejdet}{20}{section.7}
-\contentsline {subsection}{\numberline {7.1}Kunden}{20}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Arbejdsstruktur}{21}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Refleksion over arbejdsmetoden}{21}{subsection.7.3}
-\contentsline {section}{\numberline {8}Bilag 3 - Timeline}{22}{section.8}
-\contentsline {section}{\numberline {9}Referat af kundem\IeC {\o }de d. 4. maj 2015}{23}{section.9}
-\contentsline {section}{\numberline {10}Reviews}{24}{section.10}
-\contentsline {subsection}{\numberline {10.1}Programming as theory building}{24}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Extreme Programming}{25}{subsection.10.2}
+\contentsline {section}{\numberline {7}Projektsamarbejdet}{21}{section.7}
+\contentsline {section}{\numberline {8}Commit Log}{21}{section.8}
+\contentsline {subsection}{\numberline {8.1}Kunden}{36}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Arbejdsstruktur}{36}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Refleksion over arbejdsmetoden}{36}{subsection.8.3}
+\contentsline {section}{\numberline {9}Bilag 3 - Timeline}{38}{section.9}
+\contentsline {section}{\numberline {10}Referat af kundem\IeC {\o }de d. 4. maj 2015}{39}{section.10}
+\contentsline {section}{\numberline {11}Reviews}{40}{section.11}
+\contentsline {subsection}{\numberline {11.1}Programming as theory building}{40}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Extreme Programming}{41}{subsection.11.2}

@@ -49,10 +49,10 @@ Måden vi vil gøre dette på er at lave en database der skal stå for opmagasin
 Udover dette skal lave vi et program til at administrere data’en fra databasen og formidle den på en fornuftig måde overfor brugeren.\\
 Vi skal til slut lave et program der fremviser dette på en nem forståelig måde til brugeren, så de kan indtaste hvilke computere der er udlånt til hvem og hvilke computere der er klar til udlån eller hvilke computere der bliver afleveret.\\ \\
 \subsection{FACTOR Analyse}
-FACTOR kan anvendes på to måder. Det kan bruges til at støtte system-definitions udviklingen, hvor det omhyggeligt overvejes, hvordan hver af de seks elementer bør formuleres. Ellers, kan der startes med en definition ved at beskrive systemet, og derefter bruge kriterene for at se, hvordan system-definitionen opfylder hver af de seks kriterier. Vi har valgt at anvende FACTOR på den først nævnte måde. \\
+FACTOR kan anvendes på to måder. Det kan bruges til at støtte system-definitionsudviklingen, hvor det omhyggeligt overvejes, hvordan hver af de seks elementer bør formuleres. Ellers, kan der startes med en definition ved at beskrive systemet, og derefter bruge kriterene for at se, hvordan system-definitionen opfylder hver af de seks kriterier. Vi har valgt at anvende FACTOR på den først nævnte måde. \\
 \textbf{Functionality:} Programmet administrerer udlån af computere i form af hvem har en computer, er en computer udlånt, og om en computer er klar til udlån samt hvor længe en person har haft en given computer.\\
 \textbf{Application domain:} Anvendelsesområdet er Københavns Erhvervsakademis IT-afdeling. Dette er grundet, at det er de ansatte i afdelingen som er brugerne af systemet.\\
-\textbf{Conditions:} Der er to conditions. Den ene er, at systemet skal køre på en VDI (Virtual desktop infrastructure).\\
+\textbf{Conditions:} En condition i vores system er, at systemet skal køre på en VDI (Virtual desktop infrastructure). Derudover udvikler vi løsningen, i forbindelse med PKSU, hvilket ofte kan volde problemer, i form af tidspres, da mange af vores ressourcer har gået til rapportskrivning, frem for systemudvikling.
 \textbf{Technology:} Systemet vil blive kodet i Python og vil køre over python driveren ligeledes.\\
 Systemet skal være tilgængeligt til at køre på  Windows, og vil komme til at have en database som vil ligge på kundens drev som bliver delt ud til kundens ansatte således at alle vil kunne bruge det derfra.\\
 \textbf{Objects:} Udlåner og låner. computere og måske andre elektroniske devices.\\
@@ -160,7 +160,7 @@ I Use-case 4 vises hvordan proceduren for at se historikken for en computer elle
 \subsection{Klassediagram}
 Klassediagrammer bruges til at beskrive strukturen af systemet. Klasser er abstraktioner, der angiver struktur og adfærd af et sæt objekter. Objekter er instanser af klasser, der oprettes, ændres og ødelægges under udførelsen af systemet. Klassediagrammer beskriver systemet i form af objekter, klasser, attributter, operationer, og deres sammenslutninger. \cite[p~30]{OOSE} 
 \begin{figure}[h!]
-\includegraphics[width=0.9\textwidth]{Klassediagram}
+\includegraphics[width=0.9\textwidth]{klassediagram}
   \caption{Klassediagram}
     \label{fig:KLS}
   \centering
@@ -251,12 +251,10 @@ Vi har ikke lavet brugerfladen endnu. Dette vil blive gjort i enten Python som e
 En af fordelene ved at lave et Python program er, at vi ikke har behov for at lære hvordan en hjemmeside i Django skal opbygges. Det er altså nemmere for os at lave et fungerende program, som vil leve op til kundens krav. \\
 Vi har valgt at lave programmet i Python for at vi hurtigere har kunne få lavet en prototype.
 \subsection{Udestående implementering i programmet}
-<<<<<<< Updated upstream
 Vores kunde har meget sent i forløbet stillet os det krav, at vi skal sikre os, at der kan indsættes en underskrift i systemet. Vi har endnu ikke bestemt os for hvordan dette skal gøres. Vi skal enten få underskriften fra en touchpad/mus på en computer, eller koble en tablet til computeren og få brugeren til at skrive sin underskrift på denne. Vi har da tænkt os at opbevare billedet med underskriften i en mappe på et fællesdrev, hvor vi tilknytte de enkelte underskrifter til de der tilhørende udlån. \\
 $\bullet$ Fuld implementation af Front-end - Vi mangler at få udarbejdet nogen af de ønskede funktioner i programmet. \\
 $\bullet$ Implementation af underskrift. - Vi mangler i gruppen, at diskutere hvordan vi vil udvide programmet til at tage imod en underskrift, samt hvordan denne underskrift skal opbevares i systemet.\\
 $\bullet$ Program som udskriver kvittering, når en computer afleveres - Vi mangler i gruppen at diskutere, hvordan vi vil udvide programmet til enten automatisk at sende en kvittering til print, eller til at lave kvittering, som brugeren selv manuelt kan sende til print. Kunden ønsker at kvittering skal indeholde følgende: Computerens mærke, model, serie nummer, tyveri ID, lånerens initialer, lånerens underskrift, tilhørende sagsnummer, dato for udlevering og dato for indlevering.
-=======
 Vores kunde har derudover også stillet os det krav, at vi skal sikre os at der kan indsættes en underskrift i systemet. Vi har endnu ikke bestemt os for hvordan dette skal gøres. Vi skal enten få underskriften fra en touchpad/mus på en computer, eller koble en tablet til computeren og få brugeren til at skrive sin underskrift på denne. Vi har da tænkt os at opbevare billedet med underskriften i en mappe på et fællesdrev, hvor vi tilknytte de enkelte underskrifter til de der tilhørende udlån.
 \begin{itemize}
 	\item Fuld implementation af Front-end - Vi mangler at få udarbejdet nogle af de ønskede funktioner i programmet.
@@ -380,18 +378,52 @@ På figur \ref{fig:GUI4} ser vi vores hoved GUI som åbner alle de andre sektion
 \subsection{Think out loud test:}
 Her vil vi lave en think out loud test for at finde ud af hvor bruger venlig vores system er og om det er til at forholde sig til for en udefra kommende.\\
 I testen her vil vores person få følgende spørgsmål stillet for at udføre dem i systemet:\\[0.2in]
-$\bullet$ Start Main GUI'en\\
-$\bullet$ Tilføj en ny person til systemet (Et KEA ID er bare et navn for nu)\\
-$\bullet$ Tilføj en ny device til databasen\\
-$\bullet$ Lån en device\\
-$\bullet$ vis udlånte devices\\
-$\bullet$ Aflever devicen\\
-$\bullet$ Vis gamle udlåninger\\
-$\bullet$ Vis alle brugere i systemet\\
-$\bullet$ Vis alle devices i systemet\\
-$\bullet$ Vis alle ledige devices\\[0.1in]
+\begin{itemize}
+\item Start Main GUI'en
+\item Tilføj en ny person til systemet (Et KEA ID er bare et navn for nu)
+\item Tilføj en ny device til databasen
+\item Lån en device
+\item vis udlånte devices
+\item Aflever devicen
+\item Vis gamle udlåninger
+\item Vis alle brugere i systemet
+\item Vis alle devices i systemet
+\item Vis alle ledige devices
+\end{itemize}
 Denne test har ser vi hvordan vores test person klarede sig med at bruge programmet og hele processen kan ses her: \url{https://youtu.be/AfRhZRkiG4A}
+\newpage
 \section{Projektsamarbejdet}
+\section{Commit Log}
+\includegraphics[page=1,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=2,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=3,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=4,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=5,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=6,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=7,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=8,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=9,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=10,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=11,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=12,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=13,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=14,scale=0.6]{Commit Log.pdf}
+\newpage
+\includegraphics[page=15,scale=0.6]{Commit Log.pdf}
+\newpage
 \subsection{Kunden}
 Når vi ser på samarbejdet mellem gruppen og kunden har vi haft en del problemer i forstanden at vi ikke har haft mulighed for at få et møde i før for ret langt inde i projektet. Dette fik vi løst efter at formåede at presse på og få stablet et møde på benene. Efter det første møde 4/5 fik vi få langt støre klarhed omkring projektet. Før dette havde vi blot en email at arbejde ud fra dog gav den også godt udgangspunkt for hvad vi kunne starte med at arbejde med.\\
 Vi har efter dette bedre kunne håndtere arbejdet da vi har fået langt større klarhed omkring projektet. Dog har kunden til dette mødet kommet med et meget pludseligt krav til projektet som vil tilføre en større mængde arbejde til projektet end forventet. Kravet var at vi skulle tilføje et underskrift system til, som skulle implementeres i programmet som sikkerhed for at de respektive personer havde lånt det respektive ting.\\
@@ -436,7 +468,7 @@ $\bullet$ Løsningen skal indeholde et bemærkningsfelt. \\
 $\bullet$ BrugerID skal være lig med KEAlogin. \\
 $\bullet$ Indtastningsfelterne må ikke være case-sesitive (Store bogstaver = små bogstaver)\\
 $\bullet$ Indtastningsfelterne må ikke tage højde for mellemrum.
-\subsection*{Prioriterninger}
+\subsection*{Prioriteringer}
 $\bullet$ Både med drop-down-menu og hyperlinks er accepteret. \\
 $\bullet$ Både program og hjemmeside er accepteret så længe løsningen ikke kan tilgås udefra. \\
 $\bullet$ Computerudlån er førsteprioritet - eventuelle features kan tilføjes senere. \\

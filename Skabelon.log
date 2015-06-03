@@ -1,21 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.21)  3 JUN 2015 05:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.12)  3 JUN 2015 11:28
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **Skabelon.tex
-(C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+(./Skabelon.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -30,19 +23,19 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -192,7 +185,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -223,7 +216,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -247,35 +240,29 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\danish.ldf"
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-danish/danish.ldf
 Language: danish 2009/09/19 v1.3r Danish support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
 Package babel Info: Making " an active character on input line 82.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -306,7 +293,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -314,31 +301,31 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen104
 \Hy@linkcounter=\count88
 \Hy@pagecounter=\count89
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count90
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -350,7 +337,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count91
 
-(C:\Users\Akuma\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -375,36 +362,36 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count96
 \c@bookmark@seq@number=\count97
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen108
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen109
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count98
@@ -445,38 +432,38 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count110
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-(C:\Users\Akuma\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip47
 \f@ncyO@elh=\skip48
 \f@ncyO@erh=\skip49
@@ -487,10 +474,10 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \f@ncyO@olf=\skip54
 \f@ncyO@orf=\skip55
 )
-(C:\Users\Akuma\AppData\Roaming\MiKTeX\2.9\tex\latex\moreverb\moreverb.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/moreverb/moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks22
 \verbatim@line=\toks23
@@ -500,7 +487,9 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \tab@size=\count112
 \listing@line=\count113
 )
-(C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.aux)
+(./Skabelon.aux)
+\openout1 = `Skabelon.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
@@ -518,10 +507,10 @@ LaTeX Font Info:    ... okay on input line 33.
 \AtBeginShipoutBox=\box28
 Package hyperref Info: Link coloring OFF on input line 33.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count114
@@ -530,11 +519,12 @@ LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
 
-(C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.out)
-(C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.out)
+(./Skabelon.out) (./Skabelon.out)
 \@outlinefile=\write3
+\openout3 = `Skabelon.out'.
 
-(C:\Users\Akuma\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen119
@@ -547,21 +537,74 @@ LaTeX Info: Redefining \nameref on input line 33.
 \MPnumerator=\count119
 \makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks25
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    Try loading font information for U+msa on input line 36.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 38.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 38.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 38.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 38.
+ [1
 
-{C:/Users/Akuma/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.toc)
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Skab
+elon.toc)
 \tf@toc=\write4
- [2] [3]
+\openout4 = `Skabelon.toc'.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 41.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 41.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 41.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 41.
+
+[2]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 43.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 43.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 46.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 46.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 46.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 46.
+ [3]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 46.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 46.
+
 Underfull \hbox (badness 10000) in paragraph at lines 47--51
 
  []
@@ -571,21 +614,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--51
 
  []
 
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 51.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 51.
 
 Overfull \hbox (22.45872pt too wide) in paragraph at lines 52--60
 \OT1/cmr/bx/n/10 Responsibility: \OT1/cmr/m/n/10 Sy-ste-mets an-svar lig-ger i,
- at den skal ud-skif-te skrift-li-ge udlanssedler,
+ at den skal ud-skif-te skrift-li-ge udl^^Wanssedler,
  []
 
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 60.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 60.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 60.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 60.
 [4]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 61.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 61.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 62.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 62.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 65.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 73.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 73.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 82.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 82.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 82.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 82.
  [5]
-<UseCase.png, id=185, 366.36874pt x 356.33125pt>
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 83.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 83.
+
+<UseCase.png, id=187, 366.36874pt x 356.33125pt>
 File: UseCase.png Graphic file (type png)
  <use UseCase.png>
 Package pdftex.def Info: UseCase.png used on input line 87.
@@ -605,7 +685,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--93
 
  []
 
-[6 <C:/Users/Akuma/Documents/GitHub/PKSU/UseCase.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 93.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 93.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 93.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 93.
+[6 <./UseCase.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 94.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 94.
+
 Overfull \hbox (36.97292pt too wide) in paragraph at lines 98--110
 [][] 
  []
@@ -615,7 +708,24 @@ Overfull \hbox (20.47289pt too wide) in paragraph at lines 114--126
 [][] 
  []
 
-[7] [8]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 128.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 128.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 128.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 128.
+[7]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 128.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 128.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 128.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 128.
+ [8]
 Overfull \hbox (48.86183pt too wide) in paragraph at lines 131--143
 [][] 
  []
@@ -625,35 +735,98 @@ Overfull \hbox (29.72298pt too wide) in paragraph at lines 147--157
 [][] 
  []
 
-[9] <Klassediagram.png, id=213, 643.40375pt x 347.2975pt>
-File: Klassediagram.png Graphic file (type png)
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 159.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 159.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 159.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 159.
+[9]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 160.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 160.
+ <klassediagram.png, id=215, 643.40375pt x 347.2975pt>
+File: klassediagram.png Graphic file (type png)
 
-<use Klassediagram.png>
-Package pdftex.def Info: Klassediagram.png used on input line 163.
+<use klassediagram.png>
+Package pdftex.def Info: klassediagram.png used on input line 163.
 (pdftex.def)             Requested size: 310.4979pt x 167.60709pt.
- [10 <C:/Users/Akuma/Documents/GitHub/PKSU/Klassediagram.png>] [11] <SekvensLaa
-n.png, id=227, 689.57625pt x 403.5075pt>
-File: SekvensLaan.png Graphic file (type png)
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 169.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 169.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 169.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 169.
+ [10 <./klassediagram.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 170.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 170.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 199.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 199.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 199.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 199.
+ [11]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 200.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 200.
 
-<use SekvensLaan.png>
+<SekvensLaan.png, id=229, 689.57625pt x 403.5075pt>
+File: SekvensLaan.png Graphic file (type png)
+ <use SekvensLaan.png>
 Package pdftex.def Info: SekvensLaan.png used on input line 203.
 (pdftex.def)             Requested size: 310.4979pt x 181.68752pt.
- [12 <C:/Users/Akuma/Documents/GitHub/PKSU/SekvensLaan.png>] <SekvensAflever.pn
-g, id=235, 799.98875pt x 402.50375pt>
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 209.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 209.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 209.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 209.
+
+[12 <./SekvensLaan.png>]
+<SekvensAflever.png, id=237, 799.98875pt x 402.50375pt>
 File: SekvensAflever.png Graphic file (type png)
 
 <use SekvensAflever.png>
 Package pdftex.def Info: SekvensAflever.png used on input line 211.
 (pdftex.def)             Requested size: 310.4979pt x 156.2204pt.
- <SekvensHistorik.png, id=237, 554.07pt x 263.98625pt>
+ <SekvensHistorik.png, id=239, 554.07pt x 263.98625pt>
 File: SekvensHistorik.png Graphic file (type png)
 
 <use SekvensHistorik.png>
 Package pdftex.def Info: SekvensHistorik.png used on input line 218.
 (pdftex.def)             Requested size: 310.4979pt x 147.936pt.
- [13 <C:/Users/Akuma/Documents/GitHub/PKSU/SekvensAflever.png> <C:/Users/Akuma/
-Documents/GitHub/PKSU/SekvensHistorik.png>]
-<deploymentdiagram.png, id=250, 537.00626pt x 348.30125pt>
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 224.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 224.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 224.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 224.
+ [13 <./SekvensAflever.png> <./SekvensHistorik.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 225.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 225.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 226.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 226.
+
+<deploymentdiagram.png, id=252, 537.00626pt x 348.30125pt>
 File: deploymentdiagram.png Graphic file (type png)
 
 <use deploymentdiagram.png>
@@ -664,7 +837,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--236
 
  []
 
-<EERDiagram.png, id=252, 424.58624pt x 370.38374pt>
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 236.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 236.
+<EERDiagram.png, id=254, 424.58624pt x 370.38374pt>
 File: EERDiagram.png Graphic file (type png)
  <use EERDiagram.png>
 Package pdftex.def Info: EERDiagram.png used on input line 238.
@@ -673,6 +850,10 @@ Package pdftex.def Info: EERDiagram.png used on input line 238.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 244.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 244.
 
 Underfull \hbox (badness 10000) in paragraph at lines 245--253
 
@@ -688,45 +869,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--253
 
  []
 
-[14 <C:/Users/Akuma/Documents/GitHub/PKSU/deploymentdiagram.png>] [15 <C:/Users
-/Akuma/Documents/GitHub/PKSU/EERDiagram.png>] [16] [17] [18]
-<1min.jpg, id=279, 2999.205pt x 5331.92pt>
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 253.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 253.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 253.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 253.
+[14 <./deploymentdiagram.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 253.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 253.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 253.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 253.
+ [15 <./EERDiagram.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 253.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 253.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 263.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 263.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 263.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 263.
+ [16]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 264.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 264.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 264.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 264.
+ [17]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 265.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 265.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 274.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 274.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 274.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 274.
+ [18]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 280.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 280.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 281.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 281.
+
+<1min.jpg, id=281, 2999.205pt x 5331.92pt>
 File: 1min.jpg Graphic file (type jpg)
  <use 1min.jpg>
-Package pdftex.def Info: 1min.jpg used on input line 287.
+Package pdftex.def Info: 1min.jpg used on input line 285.
 (pdftex.def)             Requested size: 345.0pt x 613.27995pt.
 
 
-LaTeX Warning: Float too large for page by 39.2244pt on input line 290.
+LaTeX Warning: Float too large for page by 39.2244pt on input line 288.
 
-<2min.jpg, id=281, 5331.92pt x 2999.205pt>
+<2min.jpg, id=283, 5331.92pt x 2999.205pt>
 File: 2min.jpg Graphic file (type jpg)
  <use 2min.jpg>
-Package pdftex.def Info: 2min.jpg used on input line 295.
+Package pdftex.def Info: 2min.jpg used on input line 293.
 (pdftex.def)             Requested size: 345.0pt x 194.03989pt.
 
-<3min.jpg, id=283, 5331.92pt x 2999.205pt>
+<3min.jpg, id=285, 5331.92pt x 2999.205pt>
 File: 3min.jpg Graphic file (type jpg)
  <use 3min.jpg>
-Package pdftex.def Info: 3min.jpg used on input line 303.
+Package pdftex.def Info: 3min.jpg used on input line 301.
 (pdftex.def)             Requested size: 345.0pt x 194.03989pt.
 
-<4min.jpg, id=285, 5331.92pt x 2999.205pt>
+<4min.jpg, id=287, 5331.92pt x 2999.205pt>
 File: 4min.jpg Graphic file (type jpg)
  <use 4min.jpg>
-Package pdftex.def Info: 4min.jpg used on input line 311.
+Package pdftex.def Info: 4min.jpg used on input line 309.
 (pdftex.def)             Requested size: 345.0pt x 194.03989pt.
 
-<5min.jpg, id=287, 5331.92pt x 2999.205pt>
+<5min.jpg, id=289, 5331.92pt x 2999.205pt>
 File: 5min.jpg Graphic file (type jpg)
  <use 5min.jpg>
-Package pdftex.def Info: 5min.jpg used on input line 319.
+Package pdftex.def Info: 5min.jpg used on input line 317.
 (pdftex.def)             Requested size: 345.0pt x 194.03989pt.
 
-<6min.jpg, id=289, 5331.92pt x 2999.205pt>
+<6min.jpg, id=291, 5331.92pt x 2999.205pt>
 File: 6min.jpg Graphic file (type jpg)
  <use 6min.jpg>
-Package pdftex.def Info: 6min.jpg used on input line 327.
+Package pdftex.def Info: 6min.jpg used on input line 325.
 (pdftex.def)             Requested size: 345.0pt x 194.03989pt.
 
 
@@ -747,29 +988,33 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Tilfojbruger.png, id=300, 422.32782pt x 441.14813pt>
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 341.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 341.
+<Tilfojbruger.png, id=302, 422.32782pt x 441.14813pt>
 File: Tilfojbruger.png Graphic file (type png)
  <use Tilfojbruger.png>
-Package pdftex.def Info: Tilfojbruger.png used on input line 347.
+Package pdftex.def Info: Tilfojbruger.png used on input line 345.
 (pdftex.def)             Requested size: 345.0pt x 360.38406pt.
 
-<Tilfojcomputer.png, id=302, 424.58624pt x 440.39531pt>
+<Tilfojcomputer.png, id=304, 424.58624pt x 440.39531pt>
 File: Tilfojcomputer.png Graphic file (type png)
 
 <use Tilfojcomputer.png>
-Package pdftex.def Info: Tilfojcomputer.png used on input line 357.
+Package pdftex.def Info: Tilfojcomputer.png used on input line 355.
 (pdftex.def)             Requested size: 345.0pt x 357.86063pt.
- <Udlan.png, id=304, 384.6872pt x 125.71968pt>
+ <Udlan.png, id=306, 384.6872pt x 125.71968pt>
 File: Udlan.png Graphic file (type png)
 
 <use Udlan.png>
-Package pdftex.def Info: Udlan.png used on input line 367.
+Package pdftex.def Info: Udlan.png used on input line 365.
 (pdftex.def)             Requested size: 345.0pt x 112.75723pt.
- <mainGUI.png, id=306, 384.6872pt x 383.18156pt>
+ <mainGUI.png, id=308, 384.6872pt x 383.18156pt>
 File: mainGUI.png Graphic file (type png)
 
 <use mainGUI.png>
-Package pdftex.def Info: mainGUI.png used on input line 375.
+Package pdftex.def Info: mainGUI.png used on input line 373.
 (pdftex.def)             Requested size: 345.0pt x 343.6733pt.
 
 
@@ -778,6 +1023,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 378.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 378.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 378.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 378.
 [19]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -785,58 +1038,601 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 378.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 378.
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--399
+Underfull \hbox (badness 10000) in paragraph at lines 379--381
 
  []
 
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 394.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 394.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 394.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 394.
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 400--405
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 395.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 395.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 396.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 396.
+
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 397.
+
+<Commit Log.pdf, id=332, page=1, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 1>
+Package pdftex.def Info: Commit Log.pdf, page1 used on input line 397.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (50.14717pt too wide) in paragraph at lines 397--398
+[] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 398.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 398.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 398.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 398.
+[21 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 399.
+
+<Commit Log.pdf, id=354, page=2, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 2>
+Package pdftex.def Info: Commit Log.pdf, page2 used on input line 399.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 399--400
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 400.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 400.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 400.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 400.
+[22 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 401.
+
+<Commit Log.pdf, id=376, page=3, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 3>
+Package pdftex.def Info: Commit Log.pdf, page3 used on input line 401.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 401--402
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 402.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 402.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 402.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 402.
+[23 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 403.
+
+<Commit Log.pdf, id=398, page=4, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 4>
+Package pdftex.def Info: Commit Log.pdf, page4 used on input line 403.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 403--404
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 404.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 404.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 404.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 404.
+[24 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 405.
+
+<Commit Log.pdf, id=420, page=5, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 5>
+Package pdftex.def Info: Commit Log.pdf, page5 used on input line 405.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 405--406
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 406.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 406.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 406.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 406.
+[25 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 407.
+
+<Commit Log.pdf, id=444, page=6, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 6>
+Package pdftex.def Info: Commit Log.pdf, page6 used on input line 407.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 407--408
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 408.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 408.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 408.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 408.
+[26 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 409.
+
+<Commit Log.pdf, id=466, page=7, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 7>
+Package pdftex.def Info: Commit Log.pdf, page7 used on input line 409.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 409--410
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 410.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 410.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 410.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 410.
+[27 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 411.
+
+<Commit Log.pdf, id=488, page=8, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 8>
+Package pdftex.def Info: Commit Log.pdf, page8 used on input line 411.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 411--412
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 412.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 412.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 412.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 412.
+[28 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 413.
+
+<Commit Log.pdf, id=510, page=9, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 9>
+Package pdftex.def Info: Commit Log.pdf, page9 used on input line 413.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 413--414
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 414.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 414.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 414.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 414.
+[29 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 415.
+
+<Commit Log.pdf, id=532, page=10, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 10>
+Package pdftex.def Info: Commit Log.pdf, page10 used on input line 415.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 415--416
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 416.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 416.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 416.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 416.
+[30 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 417.
+
+<Commit Log.pdf, id=554, page=11, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 11>
+Package pdftex.def Info: Commit Log.pdf, page11 used on input line 417.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 417--418
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 418.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 418.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 418.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 418.
+[31 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 419.
+
+<Commit Log.pdf, id=578, page=12, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 12>
+Package pdftex.def Info: Commit Log.pdf, page12 used on input line 419.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 419--420
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 420.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 420.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 420.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 420.
+[32 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 421.
+
+<Commit Log.pdf, id=600, page=13, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 13>
+Package pdftex.def Info: Commit Log.pdf, page13 used on input line 421.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 421--422
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 422.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 422.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 422.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 422.
+[33 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 423.
+
+<Commit Log.pdf, id=622, page=14, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 14>
+Package pdftex.def Info: Commit Log.pdf, page14 used on input line 423.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 423--424
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 424.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 424.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 424.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 424.
+[34 <./Commit Log.pdf>]
+
+LaTeX Warning: File `Commit Log.pdf' not found on input line 425.
+
+<Commit Log.pdf, id=644, page=15, 597.23125pt x 845.1575pt>
+File: Commit Log.pdf Graphic file (type pdf)
+
+<use Commit Log.pdf, page 15>
+Package pdftex.def Info: Commit Log.pdf, page15 used on input line 425.
+(pdftex.def)             Requested size: 358.3415pt x 507.09842pt.
+
+Overfull \hbox (65.14717pt too wide) in paragraph at lines 425--426
+[][] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 426.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 426.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 426.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 426.
+[35 <./Commit Log.pdf>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 427.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 427.
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--431
 
  []
 
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 431.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 431.
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 432--437
 
  []
 
-[21] [22] [23] [24] [25] (C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 509.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 437.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 437.
 
-[26] [27 <C:/Users/Akuma/Documents/GitHub/PKSU/1min.jpg>] [28 <C:/Users/Akuma/D
-ocuments/GitHub/PKSU/2min.jpg> <C:/Users/Akuma/Documents/GitHub/PKSU/3min.jpg>]
-[29 <C:/Users/Akuma/Documents/GitHub/PKSU/4min.jpg> <C:/Users/Akuma/Documents/G
-itHub/PKSU/5min.jpg>] [30 <C:/Users/Akuma/Documents/GitHub/PKSU/6min.jpg>]
-[31 <C:/Users/Akuma/Documents/GitHub/PKSU/Tilfojbruger.png>] [32 <C:/Users/Akum
-a/Documents/GitHub/PKSU/Tilfojcomputer.png> <C:/Users/Akuma/Documents/GitHub/PK
-SU/Udlan.png>] [33 <C:/Users/Akuma/Documents/GitHub/PKSU/mainGUI.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 509.
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 
-(C:\Users\Akuma\Documents\GitHub\PKSU\Skabelon.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 509.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 509.
-Package rerunfilecheck Info: File `Skabelon.out' has not changed.
-(rerunfilecheck)             Checksum: 9228EBF75E83E82BD3A8EDC9B72C6564;1949.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 509.
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 439.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 439.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 439.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 439.
+[36]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 439.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 439.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 439.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 439.
+ [37]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 440.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 440.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 452.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 452.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 452.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 452.
+ [38]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 452.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 452.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 480.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 480.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 480.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 480.
+ [39]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 481.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 481.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 521.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 521.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 524.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 524.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 524.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 524.
+ [40]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 525.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 525.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 537.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 537.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 537.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 537.
+ [41] (./Skabelon.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 541.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+ [42]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+ [43 <./1min.jpg>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+ [44 <./2min.jpg> <./3min.jpg>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+ [45 <./4min.jpg> <./5min.jpg>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+ [46 <./6min.jpg>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+ [47 <./Tilfojbruger.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+ [48 <./Tilfojcomputer.png> <./Udlan.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language append on input line 541.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language append on input line 541.
+ [49 <./mainGUI.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 541.
+ (./Skabelon.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 541.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 541.
+
+
+Package rerunfilecheck Warning: File `Skabelon.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Skabelon.out':
+(rerunfilecheck)             Before: 2B6D113A1F465EE724485FC0A51D3A49;1919
+(rerunfilecheck)             After:  D10119C9C4793FE825A7148F41EE0550;1966.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 541.
  ) 
 Here is how much of TeX's memory you used:
- 6807 strings out of 493921
- 95404 string characters out of 3144875
- 178806 words of memory out of 3000000
- 9904 multiletter control sequences out of 15000+200000
- 11671 words of font info for 46 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 29i,12n,43p,1230b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Skabelon.pdf (33 pages, 7092390 bytes).
+ 7086 strings out of 493117
+ 99759 string characters out of 6135433
+ 191419 words of memory out of 5000000
+ 10320 multiletter control sequences out of 15000+600000
+ 11671 words of font info for 46 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,12n,43p,1229b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{subsection.10.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.10.1} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.7.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.7.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.7.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Skabelon.pdf (49 pages, 7312389 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 795 PDF objects out of 1000 (max. 8388607)
+ 647 compressed objects within 7 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 401 words of extra memory for PDF output out of 10000 (max. 10000000)
 
